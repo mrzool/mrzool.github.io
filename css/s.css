@@ -1,0 +1,9 @@
+body {
+  background-color: grey;
+  text-align: center;
+}
+.ascii {
+  font-family: Courier;
+  color: white;
+  font-size: 6pt;
+}

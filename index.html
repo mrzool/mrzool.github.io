@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<main>
+  <h1>Hello World</h1>
+</main>
+
+{% if site.posts %}
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}" title="{{post.title}}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

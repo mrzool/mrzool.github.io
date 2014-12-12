@@ -2,6 +2,7 @@ name: "mrzool test / designer &amp; developer / berlin"
 description: "Personal website of Mattia Tezzele, designer/developer based in Berlin"
 author: "mrzool"
 url: "http://mrzool.github.io"
+baseurl: "/"
 future: true
 exclude: [README.md, Rakefile, node_modules]
 permalink: pretty

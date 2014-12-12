@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'search', 'basscss' ]
+2 info using npm@2.1.12
+3 info using node@v0.10.32
+4 silly mapToRegistry name -/all
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/-/all
+8 info updateIndex /root/.npm/registry.npmjs.org/-/all/.cache.json
+9 warn Building the local index for the first time, please be patient
+10 verbose request uri https://registry.npmjs.org/-/all
+11 verbose request no auth needed
+12 info attempt registry request try #1 at 19:26:02
+13 verbose request id 343e30db2b5b0784
+14 http request GET https://registry.npmjs.org/-/all
+15 http 200 https://registry.npmjs.org/-/all
+16 verbose headers { date: 'Fri, 12 Dec 2014 18:26:02 GMT',
+16 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+16 verbose headers   etag: '"5V3P7OA3ZOQK5HQ2R5BV36CHJ"',
+16 verbose headers   'content-type': 'application/json',
+16 verbose headers   'cache-control': 'max-age=60',
+16 verbose headers   'accept-ranges': 'bytes',
+16 verbose headers   via: '1.1 varnish',
+16 verbose headers   'x-served-by': 'cache-fra1234-FRA',
+16 verbose headers   'x-cache': 'MISS',
+16 verbose headers   'x-cache-hits': '0',
+16 verbose headers   'x-timer': 'S1418408762.842577,VS0,VE103',
+16 verbose headers   vary: 'Accept',
+16 verbose headers   'keep-alive': 'timeout=10, max=50',
+16 verbose headers   connection: 'Keep-Alive',
+16 verbose headers   'transfer-encoding': 'chunked' }
+17 verbose stack Error: [object Object] [object Object]: -/all
+17 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+17 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+17 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:373:22)
+17 verbose stack     at Request.emit (events.js:98:17)
+17 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1318:14)
+17 verbose stack     at Request.emit (events.js:117:20)
+17 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1266:12)
+17 verbose stack     at IncomingMessage.emit (events.js:117:20)
+17 verbose stack     at _stream_readable.js:943:16
+17 verbose stack     at process._tickCallback (node.js:419:13)
+18 verbose statusCode 200
+19 verbose cwd /home/zool/repos/mrzool
+20 error Linux 3.2.0-4-amd64
+21 error argv "node" "/usr/local/bin/npm" "search" "basscss"
+22 error node v0.10.32
+23 error npm  v2.1.12
+24 error code E200
+25 error [object Object] [object Object]: -/all
+26 error If you need help, you may report this error at:
+26 error     <http://github.com/npm/npm/issues>
+27 verbose exit [ 1, true ]

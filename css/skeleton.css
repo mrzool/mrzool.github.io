@@ -108,6 +108,9 @@ body {
   background-color: #FFF8E7;
   color: #222; }
 
+p, ul {
+  color: #666;
+}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

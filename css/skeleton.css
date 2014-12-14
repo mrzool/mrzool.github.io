@@ -137,11 +137,18 @@ p {
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a { 
-  color: #1EAEDB; }
-a:hover { 
-  color: #0FA0CE; }
+a { color: #1EAEDB; }
 
+a:hover { color: #0FA0CE; }
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: inherit;
+}
 
 /* Buttons 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -365,6 +372,12 @@ hr {
   display: table;
   clear: both; }
 
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.m0 { margin: 0; } 
+
+.italic { font-style: italic; }
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

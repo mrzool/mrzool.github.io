@@ -2,16 +2,9 @@
 layout: default
 ---
 
-Colophon
---------
+#### Colophon
 
-Hand-coded in Vim on various &#42;nix platforms.
+This website is coded in Vim, built with [Jekyll](http://jekyllrb.com/) and hosted over at [Github](https://github.com/).
 
-Built with [Jekyll](http://jekyllrb.com/) and the help of [Skeleton](http://getskeleton.com/).
-
-The typeface is a classic Georgia.
-
-The background color is [Cosmic
-Latte](http://en.wikipedia.org/wiki/Cosmic_latte).
-
-Go back to the [Homepage]({{site.baseurl}}).
+Basic styling provided by [Skeleton](http://getskeleton.com/).  The typeface is Georgia on [Cosmic
+Latte](http://en.wikipedia.org/wiki/Cosmic_latte) background.

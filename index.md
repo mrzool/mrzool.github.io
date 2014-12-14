@@ -2,7 +2,11 @@
 layout: default
 ---
 
-Working on it, come back soon.
+Mattia is an Italian designer and developer based in Berlin.
 
-- [The readings page](readings)
-- [The colophon page](colophon)
+Read more about him in the [about](about) section, or take a look at the [reading](readings) section.
+
+There is also a [colophon](colophon) and, in compliance with the German law, an [impressum](impressum).
+
+Here you can find some [contact](contact) information.
+

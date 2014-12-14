@@ -2,11 +2,9 @@
 layout: default
 ---
 
-Recommended Readings
-====================
+###Recommended Readings
 
-Fundamentals
-------------
+#####Fundamentals
 
 -   Matthew Butterick's [Practical Typography](http://practicaltypography.com/)
 -   Brent Jackson's [Principles of Web Design](http://jxnblk.com/principles/)

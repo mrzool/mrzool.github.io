@@ -100,8 +100,8 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html { 
   font-size: 62.5%; } 
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.8;
   font-weight: 400;
   font-family: "Georgia", serif;
   background-color: #FFF8E7;
@@ -377,6 +377,10 @@ hr {
 .m0 { margin: 0; } 
 
 .italic { font-style: italic; }
+
+.monospace { font-family: monospace; }
+
+.display-none { display: none; }
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

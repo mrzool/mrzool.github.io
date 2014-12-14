@@ -25,12 +25,11 @@
 - Media Queries
 */
 
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
   position: relative; 
-  width: 80%; 
+  /* width: 80%;  */
   max-width: 44em; 
   margin: 2em;
   padding: 0; }

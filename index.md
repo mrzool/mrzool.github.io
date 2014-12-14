@@ -8,5 +8,5 @@ Read more about him in the [about](about) section, or take a look at the [readin
 
 There is also a [colophon](colophon) and, in compliance with the German law, an [impressum](impressum).
 
-Here you can find some [contact](contact) information.
+Here you can find his [contact](contact) information.
 

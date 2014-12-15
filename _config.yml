@@ -1,6 +1,11 @@
 name: "Mattia Tezzele / Designer + Developer / Berlin"
+
 description: "Personal website of Mattia Tezzele, designer/developer based in Berlin"
+  
 author: "mrzool"
+
+email: '<span>mattia.<span class="display-none">CRAWLERS</span>tezzele@<span class="display-none">GONNA</span>gmail<span class="display-none">CRAWL</span>.com</span>'
+
 # url: "http://mrzool.github.io"
 url: "http://localhost:4000"
 # baseurl: "/"

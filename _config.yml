@@ -1,8 +1,9 @@
-name: "mrzool test / designer &amp; developer / berlin"
+name: "Mattia Tezzele / Designer + Developer / Berlin"
 description: "Personal website of Mattia Tezzele, designer/developer based in Berlin"
 author: "mrzool"
-url: "http://mrzool.github.io"
-baseurl: "/"
+# url: "http://mrzool.github.io"
+url: "http://localhost:4000"
+# baseurl: "/"
 future: true
 exclude: [README.md, Rakefile, node_modules]
 permalink: pretty

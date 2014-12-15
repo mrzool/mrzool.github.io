@@ -1,5 +1,6 @@
 ---
 layout: default
+title: 'Contact'
 key: '<span class="monospace" style="font-size: 1.3em">[1CDC2EEB92A78B7A](https://keybase.io/zool/key.asc)</span>'
 ---
 

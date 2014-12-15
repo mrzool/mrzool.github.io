@@ -1,5 +1,6 @@
 ---
 layout: default
+title: 'Readings'
 ---
 
 #### Recommended Readings

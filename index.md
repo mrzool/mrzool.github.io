@@ -1,5 +1,6 @@
 ---
 layout: default
+title: 'Home'
 ---
 
 Mattia is an Italian designer and developer based in Berlin.

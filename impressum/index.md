@@ -6,6 +6,29 @@ layout: default
 
 This page is required by law in Germany. Follows legal mumbo-jumbo. In German, of course.
 
+<table>
+  <tr>
+    <td> Name: </td>
+    <td> Mattia Tezzele </td>
+  </tr>
+  <tr>
+    <td> Straße / Nr.: </td>
+    <td> Herthastr. 5 </td>
+  </tr>
+  <tr>
+    <td>PLZ / Ort:</td>
+    <td>13189 Berlin</td>
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td>{{ site.email }}</td>
+  </tr>
+  <tr>
+    <td>Handy:</td>
+    <td>+49 152 2294 5955</td>
+  </tr>
+</table>
+
 #### Haftungsbeschränkung
 
 Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Der Anbieter übernimmt jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte.

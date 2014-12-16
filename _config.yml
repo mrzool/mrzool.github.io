@@ -7,7 +7,7 @@ author: "mrzool"
 email: '<span>mattia.<span class="display-none">CRAWLERS</span>tezzele@<span class="display-none">GONNA</span>gmail<span class="display-none">CRAWL</span>.com</span>'
 
 # url: "http://mrzool.github.io"
-url: "http://localhost:4000"
+url: "http://localhost:3000"
 # baseurl: "/"
 future: true
 exclude: [README.md, Rakefile, node_modules]

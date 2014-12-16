@@ -27,7 +27,7 @@ Fluent in Italian, English and German.
 - Web Technologies, CTE @ *RedOddity*, Bolzano (2014)
 - International Studies, BA @ *University of Trento* (2011)
 
-Looks like I got what you need? Then [get in touch]({{site.url}}/contact). I'm looking to pick up new projects for 2015.
+Looks like I got what you need? Then I'd love you to [get in touch]({{site.url}}/contact) with me. I'm looking to pick up some new projects for 2015.
 
 * * * * *
 

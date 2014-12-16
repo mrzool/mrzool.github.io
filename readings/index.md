@@ -31,4 +31,4 @@ title: 'Readings'
 - Nassim N. Taleb, *Fooled by Randomness*
 
 
-Go back [home]({{site.baseurl}})
+Go back [home](/)

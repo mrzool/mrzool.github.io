@@ -11,4 +11,6 @@ The layout is built using standards-compliant HTML5 and valid CSS. All content i
 
 Basic styling is provided by [Skeleton](http://getskeleton.com/) and by some utilities borrowed from [Basscss](http://www.basscss.com/).  The body text is displayed in Georgia --- a classic, reliable and pretty much ubiquitous typeface. Headlines are typeset in all caps, manually-kerned Futura. The morbid white you see filling the background is known as [Cosmic Latte](http://en.wikipedia.org/wiki/Cosmic_latte).
 
+* * * * *
+
 Go back [home](/).

@@ -13,4 +13,4 @@ Basic styling is provided by [Skeleton](http://getskeleton.com/) and by some uti
 
 * * * * *
 
-Go back [home](/).
+Go back [home]({{site.url}}).

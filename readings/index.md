@@ -33,4 +33,4 @@ title: 'Readings'
 
 * * * * *
 
-Go back [home](/)
+Go back [home]({{site.url}})

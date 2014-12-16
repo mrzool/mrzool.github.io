@@ -31,4 +31,4 @@ Looks like I got what you need? Then I'd love you to [get in touch]({{site.url}}
 
 * * * * *
 
-Go back [home](/).
+Go back [home]({{site.url}}).

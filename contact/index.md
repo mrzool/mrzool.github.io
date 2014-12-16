@@ -16,4 +16,4 @@ Mattia, zool and mrzool are the same person.
 
 * * * * *
 
-Go back [home](/).
+Go back [home]({{site.url}}).

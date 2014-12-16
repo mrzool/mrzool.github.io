@@ -3,7 +3,7 @@ layout: default
 title: "Colophon"
 ---
 
-#### Colophon
+# {{page.title}}
 
 This website was written in Vim on a tough 11&Prime; Thinkpad laptop running [Crunchbang](http://crunchbang.org/), a nimble Linux distro.
 

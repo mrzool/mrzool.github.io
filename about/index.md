@@ -3,11 +3,13 @@ layout: default
 title: "About"
 ---
 
-#### About
+# {{page.title}}
 
-Technologies:
+Born 01.12.1983 in Bolzano (Italy).
 
-- HTML/CSS/Javascript, SASS, Unix bash scripting, other shit
-- some other crazy shit
+**Technologies** | HTML/CSS/Javascript, SASS, Unix bash scripting, LaTeX 
+**Languages**    | Italian, English, German
+
+
 
 Go back [home](/).

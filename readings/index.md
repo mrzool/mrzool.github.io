@@ -3,9 +3,9 @@ layout: default
 title: 'Readings'
 ---
 
-#### Recommended Readings
+# {{page.title}}
 
-###### Web
+## Web
 
 - Matthew Butterick's [Practical Typography](http://practicaltypography.com/)
 - Brent Jackson's [Principles of Web Design](http://jxnblk.com/principles/)
@@ -21,7 +21,7 @@ title: 'Readings'
 
 * * * * *
 
-#### Books
+## Books
 
 - John Maeda, *The Laws of Simplicity*
 - Bruno Munari, *Arte come mestiere*

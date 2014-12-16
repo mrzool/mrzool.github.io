@@ -13,6 +13,4 @@ This page is required by law in Germany.
 | Email         | {{site.email}}    |
 | Handy         | +40 152 2294 5955 |
 
-* * * * *
-
 Go back [home](/).

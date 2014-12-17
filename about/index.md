@@ -7,7 +7,7 @@ title: "About"
 
 Well-versed in screen typography, responsive/adaptive design, UI/UX design, fluid layouts, information architecture.
 
-Academic background in social sciences. Planning to pick up interactive data visualizing as next project.
+Academic background in social sciences.
 
 Currently freelancing and residing (mostly) in Berlin.
 
@@ -33,7 +33,7 @@ Fluent in Italian, English and German.
 
 * * * * *
 
-Looks like I got what you need? Then I'd love you to [get in touch]({{site.url}}/contact) with me. I'm looking to pick up some new projects for 2015.
+I'm looking to pick up some new projects for 2015. If you're interested in working together, [get in touch]({{site.url}}/contact). 
 
 * * * * *
 

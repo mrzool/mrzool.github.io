@@ -27,12 +27,21 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .container {
   position: relative; 
   /* width: 80%;  */
   max-width: 44em; 
   margin: 5em 2em;
-  padding: 0; }
+  padding: 0;
+  flex: 1;
+}
+
 .container .column,        
 .container .columns { 
   float: left; 

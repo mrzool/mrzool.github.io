@@ -18,23 +18,24 @@ Fluent in Italian, English and German.
 ### Technologies
 
 - Proficient in both Mac OS X and Linux environment
-- HTML, CSS, Sass, JS
-- A bunch of libraries/web frameworks
 - Vim, Git, Unix Bash scripting
-- apt, homebrew, NPM, and others
-- HTTP/FTP/SSH, Apache Web Server 
+- HTML, CSS, Sass, JS
+- APT, Homebrew, NPM, and others
 - Some experience with data analysis (SPSS, R)
-- Adobe InDesign &amp; Illustrator
+- Adobe InDesign, Illustrator
 
 ### Education
 
-- Web Technologies, CTE @ *RedOddity*, Bolzano (2014)
-- International Studies, BA @ *University of Trento* (2011)
+- Web Technologies, CTE, *RedOddity*, Bolzano (2013--2014)
+- International Studies, BA, *University of Trento* (2006--2011)
+
+### Others
+
+- Former chef ([Bierhof Rüdersdorf](http://bierhof.info/), [Radial System](http://www.radialsystem.de/))
+- Saxophonist/jazz student
 
 * * * * *
 
 I'm looking to pick up some new projects for 2015. If you're interested in working together, [get in touch]({{site.url}}/contact). 
-
-* * * * *
 
 Go back [home]({{site.url}}).

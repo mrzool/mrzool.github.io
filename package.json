@@ -1,0 +1,23 @@
+{
+  "name": "mrzool.cc",
+  "version": "1.0.0",
+  "description": "mrzool's home",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrzool/mrzool.github.io.git"
+  },
+  "author": "mrzool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrzool/mrzool.github.io/issues"
+  },
+  "homepage": "http://mrzool.github.io",
+  "devDependencies": {
+    "browser-sync": "^1.7.2",
+    "gulp": "^3.8.10"
+  }
+}

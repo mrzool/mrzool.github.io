@@ -5,7 +5,7 @@ title: "About"
 
 # {{page.title}}
 
-Well-versed in screen typography, responsive/adaptive design, UI/UX design, fluid layouts, information architecture.
+Well-versed in screen typography, responsive/adaptive design, UI/UX design, fluid layouts, information architecture. Working mainly with web technologies.
 
 Academic background in social sciences.
 
@@ -18,8 +18,8 @@ Fluent in Italian, English and German.
 ### Technologies
 
 - Proficient in both Mac OS X and Linux environment
-- Vim, Git, Unix Bash scripting
-- HTML, CSS, Sass, JS
+- Vim, Git, Bash, Unix-based scripting
+- HTML, CSS, Sass, JS, various libraries/frameworks
 - APT, Homebrew, NPM, and others
 - Some experience with data analysis (SPSS, R)
 - Adobe InDesign, Illustrator
@@ -31,7 +31,7 @@ Fluent in Italian, English and German.
 
 ### Others
 
-- Former chef ([Bierhof Rüdersdorf](http://bierhof.info/), [Radial System](http://www.radialsystem.de/))
+- Former chef ([Bierhof Rüdersdorf](http://bierhof.info/) and [Radial System](http://www.radialsystem.de/) among others)
 - Saxophonist/jazz student
 
 * * * * *

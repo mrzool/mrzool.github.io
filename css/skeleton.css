@@ -147,8 +147,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: .2em;
   font-weight: 300;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
   margin-top: 0;
-  margin-bottom: 2rem;
 }
 
 
@@ -169,8 +174,7 @@ h6 { font-size: 1.1rem; line-height: 1.6; }
   h6 { font-size: 1.1rem; }
 }
 
-p {
-  margin-top: 0; }
+p { margin-top: 0; }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -411,18 +415,11 @@ hr {
 .m0 { margin: 0; } 
 .mt0 { margin-top: 0; } 
 
-.italic { font-style: italic; }
-
 .monospace { font-family: monospace; }
 
 .display-none { display: none; }
 
 .center { text-align: center; }
-
-.caps {
-  text-transform: uppercase;
-  letter-spacing: .2em;
-}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

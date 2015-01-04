@@ -1,0 +1,17 @@
+name: "mrzool test / designer &amp; developer / berlin"
+description: "Personal website of Mattia Tezzele, designer/developer based in Berlin"
+author: "mrzool"
+url: "http://mrzool.github.io"
+future: true
+exclude: [README.md, Rakefile, node_modules]
+permalink: pretty
+
+# Variable format options for URL styles below
+# ============================================================
+# pretty                                          => /2009/04/29/slap-chop/index.html
+# /:month-:day-:year/:title.html/                 => 04-29-2009/slap-chop.html
+# /blog/:year/:month/:day/:title                  => /blog/2009/04/29/slap-chop/index.html
+
+# Uncomment if you have pygments installed. Used for code syntax highlighting.
+# If you're not doing syntax highlighting you can delete this.
+#pygments: true

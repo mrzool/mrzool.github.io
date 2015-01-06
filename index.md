@@ -1,15 +1,13 @@
 ---
 layout: default
+title: 'Home'
 ---
 
-# Hello.
+Mattia (aka zool) is an Italian designer and developer based in Berlin.
 
-### You reached the personal website of {{site.author}}, a freelance designer and developer based in Berlin.
+While he's busy expanding this website, you can read more about him in the [about](about) section.
 
-#### He believes in good typography, generous whitespace and device-agnosticism.
+There is also a [colophon](colophon) and, in compliance with the German law, an [impressum](impressum).
 
-##### He also thinks that websites should be as fast as possible, 100% responsive and built around your content.
+Here you can find his [contact](contact) information.
 
-###### You should probably [hire him](mailto:mattia.tezzele@gmail.com).
-
-###### No? Then check out his [essential readings](readings).

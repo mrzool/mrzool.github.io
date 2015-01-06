@@ -39,7 +39,7 @@ Fluent in Italian, English and German.
 
 - Former chef ([Berghain](http://www.berghain.de/), [Radial System](http://www.radialsystem.de)), still occasionally accepting cooking gigs
 - Amateur saxophonist and jazz student
-- Compulsive reader on a variety of subjects
+- Compulsive reader 
 
 * * * * *
 

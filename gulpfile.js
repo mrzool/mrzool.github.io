@@ -24,7 +24,10 @@ gulp.task('styles', function() {
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('default', ['styles', 'browser-sync'], function() {
+gulp.task('default', ['browser-sync'], function() {
+  gulp.watch("css/*.css", function(){
+    gulp.run('styles');
+  })
   gulp.watch("./_site/*.html", ['bs-reload']);
   gulp.watch("./_site/css/*.css", ['bs-reload']);
 });

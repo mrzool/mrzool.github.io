@@ -29,8 +29,3 @@ And as little code as possible.
 * * * * *
 
 Original concept by [jxnblk](http://jxnblk.com/principles/).
-
-* * * * *
-
-Go back [home]({{site.url}}).
-

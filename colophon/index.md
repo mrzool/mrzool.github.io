@@ -10,7 +10,3 @@ This website was written on a super tough 11'' Thinkpad laptop running [Crunchba
 The layout is built using standards-compliant HTML5 and valid CSS. All content is written in Markdown, while [Jekyll](http://jekyllrb.com/) and a couple of custom [Gulp](http://gulpjs.com/) tasks take care of the build process. The resulting code is hosted over at [Github](https://github.com/).
 
 Basic styling is provided by [Skeleton](http://getskeleton.com/) and by a couple of single-purpose utilities borrowed from [Basscss](http://www.basscss.com/).  The body text is displayed in Georgia --- a classic, reliable and pretty much ubiquitous typeface. Titles are typeset in all caps, manually-kerned Futura. The morbid white you see filling the background is known as [Cosmic Latte](http://en.wikipedia.org/wiki/Cosmic_latte).
-
-* * * * *
-
-Go back [home]({{site.url}}).

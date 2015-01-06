@@ -44,7 +44,3 @@ Fluent in Italian, English and German.
 * * * * *
 
 I'm looking to pick up some new projects for 2015. If you're interested in working together, [get in touch]({{site.url}}/contact). 
-
-* * * * *
-
-Go back [home]({{site.url}}).

@@ -57,7 +57,3 @@ Distrust all claims for “one true way”.
 
 ## Rule of Extensibility
 Design for the future, because it will be here sooner than you think.
-
-* * * * * 
-
-Go back [home]({{site.url}}).

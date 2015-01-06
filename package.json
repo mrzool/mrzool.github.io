@@ -18,6 +18,9 @@
   "homepage": "http://mrzool.github.io",
   "devDependencies": {
     "browser-sync": "^1.7.2",
-    "gulp": "^3.8.10"
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-rename": "^1.2.0"
   }
 }

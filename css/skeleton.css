@@ -25,15 +25,23 @@
 - Media Queries
 */
 
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .container {
   position: relative; 
-  width: 80%; 
+  /* width: 80%;  */
   max-width: 44em; 
-  margin: 2em;
-  padding: 0; }
+  margin: 5em 2em;
+  padding: 0;
+  flex: 1;
+}
+
 .container .column,        
 .container .columns { 
   float: left; 
@@ -101,48 +109,87 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html { 
   font-size: 62.5%; } 
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Georgia", serif;
   background-color: #FFF8E7;
-  color: #222; }
+  color: #666; }
 
+header {
+  padding: 2em;
+  background-color: #666;
+  color: #FFF8E7;
+}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+header h1 {
+  font-size: 4.4rem;
+  font-family: inherit;
+  text-transform: none;
+  letter-spacing: -.01em;
+}
+
+@media (min-width: 550px){
+  header h1 {
+    font-size: 5.0rem;
+  }
+}
+
+header h2 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
 h1, h2, h3, h4, h5, h6 { 
+  font-family: 'Futura', Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .2em;
   font-weight: 300;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
   margin-top: 0;
-  margin-bottom: 2rem; }
-h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
-h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+}
+
+
+h1 { font-size: 3.0rem; line-height: 1.2; }
+h2 { font-size: 2.4rem; line-height: 1.25; }
+h3 { font-size: 1.8rem; line-height: 1.3; }
+h4 { font-size: 1.5rem; line-height: 1.35; }
+h5 { font-size: 1.3rem; line-height: 1.5; }
+h6 { font-size: 1.1rem; line-height: 1.6; }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 5.0rem; }
-  h2 { font-size: 4.2rem; }
-  h3 { font-size: 3.6rem; }
-  h4 { font-size: 3.0rem; }
-  h5 { font-size: 2.4rem; }
-  h6 { font-size: 1.5rem; }
+  h1 { font-size: 3.6rem; }
+  h2 { font-size: 3.0rem; }
+  h3 { font-size: 2.4rem; }
+  h4 { font-size: 1.5rem; }
+  h5 { font-size: 1.3rem; }
+  h6 { font-size: 1.1rem; }
 }
 
-p {
-  margin-top: 0; }
-
+p { margin-top: 0; }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a { 
-  color: #1EAEDB; }
-a:hover { 
-  color: #0FA0CE; }
+a { color: #1EAEDB; }
 
+a:hover { color: #0FA0CE; }
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: inherit;
+}
 
 /* Buttons 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -259,7 +306,7 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul { 
-  list-style: circle inside; }
+  list-style: disc inside; }
 ol { 
   list-style: decimal inside; }
 ol, ul {
@@ -330,27 +377,11 @@ form {
 p {
   margin-top: 0; }
 
-
-
-/* Utilities
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-full-width {
-  width: 100%;
-  box-sizing: border-box; }
-.u-max-full-width {
-  max-width: 100%;
-  box-sizing: border-box; }
-.u-pull-right {
-  float: right; }
-.u-pull-left {
-  float: left; }
-
-
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
   margin-top: 3rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 4rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1;
 }
@@ -366,6 +397,29 @@ hr {
   display: table;
   clear: both; }
 
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+
+.u-pull-right { float: right; }
+
+.u-pull-left { float: left; }
+
+.m0 { margin: 0; } 
+.mt0 { margin-top: 0; } 
+
+.monospace { font-family: monospace; }
+
+.display-none { display: none; }
+
+.center { text-align: center; }
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

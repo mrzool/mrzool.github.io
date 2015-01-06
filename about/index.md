@@ -22,11 +22,11 @@ Fluent in Italian, English and German.
 ### Technologies
 
 - Proficient in both Mac OS X and Linux environment
-- Vim, Git, Bash, Unix-based scripting and sysadmin
+- Vim, Git, Bash, Unix-based scripting
 - HTML, CSS, Sass, JavaScript, plus various libraries and frameworks
 - APT, Homebrew, NPM, and others
 - Text-based assets optimization (minification, GZIP compression)
-- On-Page SEO through XML sitemaps, optimized URLs and semantic markup
+- On-Page SEO through XML sitemaps, structured URLs, robots.txt and semantic markup
 - Some experience with data analysis/visualization (SPSS, R, D3.js)
 - Adobe InDesign, Illustrator
 

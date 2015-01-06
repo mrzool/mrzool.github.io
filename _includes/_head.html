@@ -6,9 +6,13 @@
   <meta name="description" content="{{site.description}}">
   <meta name="author" content="{{site.author}}">
 
-  <title>{{page.title}} / {{site.name}}</title>
 
+  {% if page.title == 'Home' %}
+    <title> {{site.name}} </title>
+  {% else %}
+    <title>{{page.title}} / {{site.name}}</title>
+  {% endif %}
   <!-- <link rel="icon" type="image/png" href="img/favicon.png"> -->
-  <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
-  <link rel="stylesheet" href="{{site.baseurl}}/css/skeleton.min.css">
+  <link rel="stylesheet" href="{{site.url}}/css/normalize.css">
+  <link rel="stylesheet" href="{{site.url}}/css/skeleton.min.css">
 </head>

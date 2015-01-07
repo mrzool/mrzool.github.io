@@ -8,11 +8,7 @@ var concat        = require('gulp-concat');
 var glob          = require("glob");
 
 gulp.task('browser-sync', function() {
-    browserSync({
-        server: {
-            baseDir: "./_site"
-        }
-    });
+    browserSync({ server: { baseDir: "./_site" } });
 });
 
 gulp.task('bs-reload', function() {
@@ -20,17 +16,17 @@ gulp.task('bs-reload', function() {
 });
 
 gulp.task('styles', function() {
-  gulp.src('css/*.css')
+  return gulp.src('css/*.css')
   .pipe(concat('s.css'))
   .pipe(uncss({ html: glob.sync('_site/**/*.html') }))
   .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
   .pipe(rename({suffix: '.min'}))
   .pipe(minifycss())
-  .pipe(gulp.dest('css/production'));
+  .pipe(gulp.dest('css'));
 });
 
-gulp.task('default', ['browser-sync'], function() {
-  gulp.watch("css/*.css", function(){ gulp.run('styles'); })
+gulp.task('default', ['styles', 'browser-sync'], function() {
+  gulp.watch("css/*.css", ['styles'])
   gulp.watch("./_site/*.html", ['bs-reload']);
   gulp.watch("./_site/css/*.css", ['bs-reload']);
 });

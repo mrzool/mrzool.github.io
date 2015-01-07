@@ -25,7 +25,7 @@ Fluent in Italian, English and German.
 - Vim, Git, Bash, Unix-based scripting
 - HTML, CSS, Sass, JavaScript, plus various libraries and frameworks
 - APT, Homebrew, NPM, and others
-- Text-based assets optimization (minification, GZIP compression)
+- Text assets optimization (concatenation, minification, GZIP compression)
 - On-Page SEO through XML sitemaps, structured URLs, robots.txt and semantic markup
 - Some experience with data analysis/visualization (SPSS, R, D3.js)
 - Adobe InDesign, Illustrator
@@ -43,4 +43,4 @@ Fluent in Italian, English and German.
 
 * * * * *
 
-I'm looking to pick up some new projects for 2015. If you're interested in working together, [get in touch]({{site.url}}/contact). 
+I'm looking to pick up some new projects for 2015. If you're interested in working together, [get in touch]({{site.url}}/contact).

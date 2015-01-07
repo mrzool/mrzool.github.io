@@ -4,7 +4,7 @@ title: 'Home'
 ---
 
 <p class="h2">
-Mattia (aka zool) is an Italian designer and developer based in Berlin.
+Mattia is an Italian designer and developer based in Berlin.
 </p>
 
 While he's busy expanding this website, you can read more about him in the [about](about) section.

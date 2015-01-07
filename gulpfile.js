@@ -3,6 +3,9 @@ var browserSync   = require('browser-sync');
 var autoprefixer  = require('gulp-autoprefixer');
 var minifycss     = require('gulp-minify-css');
 var rename        = require('gulp-rename');
+var uncss         = require('gulp-uncss');
+var concat        = require('gulp-concat');
+var glob          = require("glob");
 
 gulp.task('browser-sync', function() {
     browserSync({
@@ -17,17 +20,17 @@ gulp.task('bs-reload', function() {
 });
 
 gulp.task('styles', function() {
-  return gulp.src('css/skeleton.css')
-    .pipe(rename({suffix: '.min'}))
-    .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
-    .pipe(minifycss())
-    .pipe(gulp.dest('css'));
+  gulp.src('css/*.css')
+  .pipe(concat('s.css'))
+  .pipe(uncss({ html: glob.sync('_site/**/*.html') }))
+  .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
+  .pipe(rename({suffix: '.min'}))
+  .pipe(minifycss())
+  .pipe(gulp.dest('css/production'));
 });
 
 gulp.task('default', ['browser-sync'], function() {
-  gulp.watch("css/*.css", function(){
-    gulp.run('styles');
-  })
+  gulp.watch("css/*.css", function(){ gulp.run('styles'); })
   gulp.watch("./_site/*.html", ['bs-reload']);
   gulp.watch("./_site/css/*.css", ['bs-reload']);
 });

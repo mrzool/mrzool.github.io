@@ -1,4 +1,4 @@
 mrzool.github.io
 ================
 
-Personal homepage. WIP.
+Personal homepage: http://mrzool.cc

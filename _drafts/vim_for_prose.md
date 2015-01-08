@@ -1,1 +1,1 @@
-The title says it all
+Considering Vim as a code-only editor doesn't make Vim justice.

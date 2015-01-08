@@ -28,4 +28,4 @@ And as little code as possible.
 
 * * * * *
 
-Original concept by [Brent Jackson](http://jxnblk.com/principles/).
+Original concept by [Brent Jackson](http://jxnblk.com/principles/ "jxnblk.com").

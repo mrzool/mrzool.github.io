@@ -5,9 +5,9 @@ title: "About"
 
 # {{page.title}}
 
-Well-versed in screen typography, responsive/adaptive design, information architecture, UI/UX design, fluid layouts, and mobile optimization.
+Well-versed information architecture, mobile optimization, responsive/adaptive design, UI/UX design, gestaltung, screen typography, fluid layouts.
 
-Firm believer in the [principles of web design]({{site.url}}/principles "Principles of web design") and in the [Unix philosophy]({{site.url}}/unix "The Unix philosophy").
+Inspired by the [principles of web design]({{site.url}}/principles "Principles of web design") and by the [Unix philosophy]({{site.url}}/unix "The Unix philosophy").
 
 Working mainly with web and open-source technologies.
 
@@ -21,14 +21,14 @@ Fluent in Italian, English and German.
 
 ### Technologies
 
-- Proficient in both Mac OS X and Linux environment
-- Vim, Git, Bash, Unix-based scripting
-- HTML, CSS, Sass, JavaScript, plus various libraries and frameworks
+- HTML, CSS & Sass, JavaScript
+- Unix toolkit, Bash scripting, Vim, Git
+- Text-based assets optimization (concatenation, minification, GZIP compression)
+- On-Page SEO (XML sitemaps, structured URLs, semantic markup)
+- Data analysis/visualization (SPSS, R, D3.js)
 - APT, Homebrew, NPM, and others
-- Text assets optimization (concatenation, minification, GZIP compression)
-- On-Page SEO through XML sitemaps, structured URLs, robots.txt and semantic markup
-- Some experience with data analysis/visualization (SPSS, R, D3.js)
-- Adobe InDesign, Illustrator
+- Adobe InDesign, Illustrator, Sketch 3
+- Proficient in both Mac OS X and Linux environment
 
 ### Education
 

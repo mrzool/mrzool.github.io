@@ -28,7 +28,6 @@ Fluent in Italian, English and German.
 - Data analysis/visualization (SPSS, R, D3.js)
 - Adobe InDesign, Illustrator, Sketch 3
 - Proficient in both Mac OS X and Linux environment
-- - I &hearts; [NPM](https://www.npmjs.com), [Gulp](http://gulpjs.com/) and [Jekyll](http://jekyllrb.com/)
 
 ### Education
 

@@ -4,7 +4,7 @@
   "description": "mrzool's home",
   "main": "index.html",
   "scripts": {
-    "start": "gulp"
+    "start": " gulp & jekyll build -w"
   },
   "repository": {
     "type": "git",

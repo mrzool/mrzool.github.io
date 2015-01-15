@@ -5,7 +5,7 @@ title: "The Unix Philosophy"
 
 # {{page.title}}
 
-As summarized by Eric S. Raymond in [*The Art of Unix Programming*](http://homepage.cs.uri.edu/~thenry/resources/unix_art/index.html) (2003). I find that a lot of these principles can be also applied to web design:
+As summarized by Eric S. Raymond in [*The Art of Unix Programming*](http://homepage.cs.uri.edu/~thenry/resources/unix_art/index.html) (2003). I find that a lot of these principles can be also applied to design and frontend development:
 
 ## Rule of Modularity
 Write simple parts connected by clean interfaces.

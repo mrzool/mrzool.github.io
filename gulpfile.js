@@ -26,7 +26,7 @@ gulp.task('styles', function() {
 });
 
 gulp.task('default', ['styles', 'browser-sync'], function() {
-  gulp.watch("css/*.css", ['styles'])
+  gulp.watch("css/skeleton.css", ['styles']);
   gulp.watch("./_site/*.html", ['bs-reload']);
   gulp.watch("./_site/css/*.css", ['bs-reload']);
 });

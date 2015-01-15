@@ -25,10 +25,10 @@ Fluent in Italian, English and German.
 - Unix toolkit, Bash scripting, Vim, Git
 - Text-based assets optimization (concatenation, minification, GZIP compression)
 - On-Page SEO (XML sitemaps, structured URLs, semantic markup)
-- I &hearts; [NPM](https://www.npmjs.com), [Gulp](http://gulpjs.com/) and [Jekyll](http://jekyllrb.com/)
 - Data analysis/visualization (SPSS, R, D3.js)
 - Adobe InDesign, Illustrator, Sketch 3
 - Proficient in both Mac OS X and Linux environment
+- - I &hearts; [NPM](https://www.npmjs.com), [Gulp](http://gulpjs.com/) and [Jekyll](http://jekyllrb.com/)
 
 ### Education
 

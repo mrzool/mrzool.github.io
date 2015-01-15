@@ -421,6 +421,13 @@ hr {
 
 .center { text-align: center; }
 
+.flip {
+  display: inline-block;
+  text-align: right;
+  margin: 0;
+  transform: scaleX(-1);
+  filter: FlipH;
+}
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*

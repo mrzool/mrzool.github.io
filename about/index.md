@@ -5,7 +5,7 @@ title: "About"
 
 # {{page.title}}
 
-Well-versed information architecture, mobile optimization, responsive/adaptive design, UI/UX design, gestaltung, screen typography, fluid layouts.
+Well-versed in information architecture, mobile optimization, responsive/adaptive design, UI/UX design, gestaltung, screen typography, fluid layouts.
 
 Inspired by the [principles of web design]({{site.url}}/principles "Principles of web design") and by the [Unix philosophy]({{site.url}}/unix "The Unix philosophy").
 

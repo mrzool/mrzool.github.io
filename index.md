@@ -7,9 +7,6 @@ title: 'Home'
 Mattia is an Italian designer and developer based in Berlin.
 </p>
 
-While he's busy expanding this website, you can read more about him in the [about](about "About page") section.
+You can read more about him in the [About](about "About page") section or jump straight to the [Contact](contact "Contact page") page.
 
-There is also a [colophon](colophon "Colophon page") and, in compliance with the German law, an [impressum](impressum "Impressum page").
-
-Here you can find his [contact](contact "Contact page") information.
-
+Or, you can read the [colophon](colophon "Colophon page").

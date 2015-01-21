@@ -13,3 +13,5 @@ You can also send an email to [{{site.email}}](mailto:mattia.tezzele@gmail.com "
 Here's his public key, if you're into that sort of thing: {{page.key}}
 
 Mattia, zool and mrzool are the same person.
+
+See the [impressum]({{site.url}}/impressum "Impressum page").

@@ -2,8 +2,8 @@ name: "mrzool / designer & developer / berlin"
 description: "Personal website of Mattia 'Zool' Tezzele, designer and developer based in Berlin"
 author: "mrzool"
 email: '<span>mattia.<span class="display-none">CRAWLERS</span>tezzele@<span class="display-none">GONNA</span>gmail<span class="display-none">CRAWL</span>.com</span>'
-url: "http://mrzool.cc"
-# url: "http://localhost:3000"
+# url: "http://mrzool.cc"
+url: "http://localhost:3000"
 future: true
 exclude: [README.md, Rakefile, node_modules]
 permalink: pretty

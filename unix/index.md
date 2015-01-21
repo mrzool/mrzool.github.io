@@ -5,7 +5,13 @@ title: "The Unix Philosophy"
 
 # {{page.title}}
 
-As summarized by Eric S. Raymond in [*The Art of Unix Programming*](http://homepage.cs.uri.edu/~thenry/resources/unix_art/index.html) (2003). I find that a lot of these principles can be also applied to design and frontend development:
+>*This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.*  
+>&mdash;<cite>Doug McIlroy</cite>
+
+
+Below an outline of the Unix philosophy, as summarized by Eric S. Raymond in [*The Art of Unix Programming*](http://homepage.cs.uri.edu/~thenry/resources/unix_art/index.html) (2003).
+
+I find that a lot of these principles can be seamlessly applied to design and frontend web development.
 
 ## Rule of Modularity
 Write simple parts connected by clean interfaces.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Readings'
+title: 'Recommended Readings'
 ---
 
 # {{page.title}}

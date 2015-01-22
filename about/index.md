@@ -38,7 +38,3 @@ Fluent in Italian, English and German.
 
 - Former chef ([Berghain](http://www.berghain.de/ "Berghain homepage"), [Radial System](http://www.radialsystem.de "Radial System homepage")), still occasionally accepting cooking gigs
 - Amateur saxophonist and jazz student
-
-* * * * *
-
-I'm looking to pick up some new projects for 2015. If you're interested in working together, [get in touch]({{site.url}}/contact "Contact page").

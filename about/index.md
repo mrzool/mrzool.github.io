@@ -5,11 +5,11 @@ title: "About"
 
 # {{page.title}}
 
-Well-versed in information architecture, mobile optimization, responsive/mobile-first design, UI/UX design, gestaltung, screen typography, fluid layouts.
+Well-versed in information architecture, mobile optimization, responsive/mobile-first design, UI/UX design, fluid layouts, gestaltung, and screen typography.
 
 Inspired by the [principles of web design]({{site.url}}/principles "Principles of web design") and by the [Unix philosophy]({{site.url}}/unix "The Unix philosophy").
 
-Working mainly with web and open-source technologies.
+Advocate for accessibility and good user experience.
 
 Academic background in social sciences.
 
@@ -21,12 +21,12 @@ Fluent in Italian, English and German.
 
 ### Technologies
 
-- HTML, CSS & Sass, JavaScript
+- HTML, CSS & Sass, JavaScript & jQuery
 - Unix toolkit, Bash scripting, Vim, Git
-- Favorite workflow tools: Gulp, Jekyll, NPM
-- Text assets optimization (concatenation, minification, GZIP compression)
+- Gulp, Jekyll, NPM, and lots of other command-line utilities
 - On-Page SEO (XML sitemaps, structured URLs, semantic markup)
-- Adobe InDesign, Illustrator, Sketch 3
+- Text assets optimization (concatenation, minification, GZIP compression)
+- Adobe InDesign, Sketch 3
 - Proficient in both Mac OS X and Linux environment
 
 ### Education
@@ -38,3 +38,4 @@ Fluent in Italian, English and German.
 
 - Former chef ([Berghain](http://www.berghain.de/ "Berghain homepage"), [Radial System](http://www.radialsystem.de "Radial System homepage")), still occasionally accepting cooking gigs
 - Amateur saxophonist and jazz student
+- Bibliophile

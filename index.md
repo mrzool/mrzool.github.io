@@ -9,8 +9,6 @@ Mattia is an Italian designer and developer based in Berlin.
 
 He likes websites that are lightweight, performant, readable, content-focused, and 100% responsive.
 
-You can read more about him in the [about](about "About page") section or jump straight to the [contact](contact "Contact page") page.
-
-Interested in what's going on under the hood? Then go read the [colophon](colophon "Colophon page") or figure everything out on your own by looking at the [source](https://github.com/mrzool/mrzool.github.io "See the source on Github"). 
+Read more about him in the [about](about "About page") section, jump straight to the [contact](contact "Contact page") page, or read the [colophon](colophon "Colophon page").
 
 Thanks for stopping by!

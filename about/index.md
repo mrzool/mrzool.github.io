@@ -23,9 +23,8 @@ Fluent in Italian, English and German.
 
 - HTML, CSS & Sass, JavaScript & jQuery
 - Unix toolkit, Bash scripting, Vim, Git
-- Other tools including: Gulp, NPM, Jekyll
-- On-Page SEO (XML sitemaps, structured URLs, semantic markup)
-- Text assets optimization (concatenation, minification, GZIP compression)
+- Automation tools: Gulp, NPM, Jekyll
+- On-Page SEO and performance optimization
 - Adobe InDesign, Sketch 3
 - Proficient in both Mac OS X and Linux environment
 

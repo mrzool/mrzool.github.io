@@ -7,7 +7,7 @@ title: "About"
 
 Well-versed in information architecture, mobile optimization, responsive/mobile-first design, UI/UX design, fluid layouts, gestaltung, and screen typography.
 
-Inspired by the [principles of web design]({{site.url}}/principles "Principles of web design") and by the [Unix philosophy]({{site.url}}/unix "The Unix philosophy").
+Inspired by the [principles of web design](principles "Principles of web design") and by the [Unix philosophy](unix "The Unix philosophy").
 
 Advocate for accessibility and good user experience.
 

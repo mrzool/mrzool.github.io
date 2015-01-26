@@ -9,10 +9,6 @@ title: "The Unix Philosophy"
 >&mdash;<cite>Doug McIlroy</cite>
 
 
-Below an outline of the Unix philosophy, as summarized by Eric S. Raymond in [*The Art of Unix Programming*](http://homepage.cs.uri.edu/~thenry/resources/unix_art/index.html) (2003).
-
-I find that a lot of these principles can be seamlessly applied to design and frontend web development.
-
 ## Rule of Modularity
 Write simple parts connected by clean interfaces.
 
@@ -63,3 +59,7 @@ Distrust all claims for “one true way”.
 
 ## Rule of Extensibility
 Design for the future, because it will be here sooner than you think.
+
+* * * * *
+
+This is just one among many alternative formulations of the Unix philosophy. Read more in the first Chapter of [*The Art of Unix Programming*](http://homepage.cs.uri.edu/~thenry/resources/unix_art/index.html).

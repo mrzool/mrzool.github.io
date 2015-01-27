@@ -36,5 +36,5 @@ Fluent in Italian, English and German.
 ### Others
 
 - Occasional chef ([Berghain](http://www.berghain.de/ "Berghain homepage"), [Radial System](http://www.radialsystem.de "Radial System homepage"))
-- Amateur saxophonist
+- Saxophonist
 - Bibliophile

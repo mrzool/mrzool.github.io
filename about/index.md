@@ -30,7 +30,7 @@ Fluent in Italian, English and German.
 
 ### Education
 
-- Web Technologies, *RedOddity*, Bolzano (2014)
+- Web Programming, *RedOddity*, Bolzano (2014)
 - International Studies (B.A.), *University of Trento* (2011)
 
 ### Others

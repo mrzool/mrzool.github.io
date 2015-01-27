@@ -23,8 +23,8 @@ Fluent in Italian, English and German.
 
 - HTML, CSS/Sass, JavaScript/jQuery
 - Vim, Git, Unix/Bash scripting
-- Apache HTTP Server, PHP
 - Node, Gulp, NPM, Jekyll
+- Apache HTTP Server, PHP
 - Adobe InDesign, Sketch 3
 - Proficient in Mac OS X and GNU/Linux
 

@@ -26,7 +26,7 @@ Fluent in Italian, English and German.
 - Apache HTTP Server, PHP
 - Node, Gulp, NPM, Jekyll
 - Adobe InDesign, Sketch 3
-- Proficient in Mac OS X and GNU/Linux environment
+- Proficient in Mac OS X and GNU/Linux
 
 ### Education
 

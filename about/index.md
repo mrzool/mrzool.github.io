@@ -21,10 +21,9 @@ Fluent in Italian, English and German.
 
 ### Technologies
 
-- HTML, CSS & Sass, JavaScript & jQuery
-- Unix toolkit, Bash scripting, Vim, Git
+- HTML, CSS/Sass, JavaScript/jQuery, PHP
+- Vim, Git, Unix toolkit, Bash scripting
 - Automation tools: Gulp, NPM, Jekyll
-- On-Page SEO and performance optimization
 - Adobe InDesign, Sketch 3
 - Proficient in both Mac OS X and Linux environment
 

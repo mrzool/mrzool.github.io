@@ -25,7 +25,7 @@ Fluent in Italian, English and German.
 - Vim, Git, Unix toolkit, Bash scripting
 - Automation tools: Gulp, NPM, Jekyll
 - Adobe InDesign, Sketch 3
-- Proficient in both Mac OS X and Linux environment
+- Proficient in Mac OS X & Linux environment
 
 ### Education
 

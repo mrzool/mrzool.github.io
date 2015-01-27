@@ -22,11 +22,11 @@ Fluent in Italian, English and German.
 ### Technologies
 
 - HTML, CSS/Sass, JavaScript/jQuery
-- Vim, Git, Unix & Bash scripting
+- Vim, Git, Unix/Bash scripting
 - Apache HTTP Server, PHP
 - Node, Gulp, NPM, Jekyll
 - Adobe InDesign, Sketch 3
-- Proficient in Mac OS X & Linux environment
+- Proficient in Mac OS X and GNU/Linux environment
 
 ### Education
 

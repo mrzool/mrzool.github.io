@@ -5,7 +5,7 @@ title: "About"
 
 # {{page.title}}
 
-Well-versed in information architecture, mobile optimization, responsive/mobile-first design, UI/UX design, fluid layouts, gestaltung, and screen typography.
+Well-versed in information architecture, mobile optimization, gestalt psychology, responsive/mobile-first design,  UI/UX design, fluid layouts, and screen typography.
 
 Inspired by the [principles of web design](principles "Principles of web design") and by the [Unix philosophy](unix "The Unix philosophy").
 

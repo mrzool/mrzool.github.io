@@ -5,15 +5,11 @@ title: "About"
 
 # {{page.title}}
 
-Architect and builder of clean, performant, no-nonsense websites.
+### Skills
 
-Academic background in social sciences.
-
-Currently freelancing and residing (mostly) in Berlin.
-
-Fluent in Italian, English and German.
-
-* * * * *
+- Mobile-first/responsive web design, fluid layouts
+- Information architecture, screen typography
+- Fluent in Italian, English and German.
 
 ### Technologies
 
@@ -33,4 +29,4 @@ Fluent in Italian, English and German.
 
 - Occasional chef ([Berghain](http://www.berghain.de/ "Berghain homepage"), [Radial System](http://www.radialsystem.de "Radial System homepage"))
 - Saxophone player
-- Heavy consumer of sencha, coffeine, nicotine and books.
+- Heavy consumer of: sencha, coffeine, nicotine, books.

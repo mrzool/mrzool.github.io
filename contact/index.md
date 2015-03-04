@@ -6,12 +6,15 @@ key: '<span class="monospace" style="font-size: 1.3em">[1CDC2EEB92A78B7A](https:
 
 # {{page.title}}
 
-You can find Mattia on [Twitter](https://twitter.com/__zool "My Twitter profile"),  glance over his [Tumblr](http://zoolnotes.tumblr.com/ "My Tumblr"), track his reading at [Instapaper](https://www.instapaper.com/p/__zool "My Instapaper account"), read his code on [Github](https://github.com/mrzool "My Github account") and verify his identity at [Keybase](https://keybase.io/zool "My Keybase account").
+- [Twitter](https://twitter.com/__zool "My Twitter profile")
+- [Github](https://github.com/mrzool "My Github account")
+- [Tumblr](http://zoolnotes.tumblr.com/ "My Tumblr")
+- [Instapaper](https://www.instapaper.com/p/__zool "My Instapaper account")
+- [Keybase](https://keybase.io/zool "My Keybase account")
 
-You can also send an email to [{{site.email}}](mailto:mattia.tezzele@gmail.com "Send me an email")
+You can also send an email to [{{site.email}}](mailto:mattia.tezzele@gmail.com "Send email") (PGP key: {{page.key}}).
 
-Here's his public key, if you're into that sort of thing: {{page.key}}
+See the [Impressum]({{site.url}}/impressum "Impressum page").
 
 Mattia, zool and mrzool are the same person.
 
-See the [impressum]({{site.url}}/impressum "Impressum page").

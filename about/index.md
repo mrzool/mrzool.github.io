@@ -5,11 +5,7 @@ title: "About"
 
 # {{page.title}}
 
-Well-versed in information architecture, mobile optimization, gestalt psychology, responsive/mobile-first design,  UI/UX design, fluid layouts, and screen typography.
-
-Inspired by the [principles of web design](principles "Principles of web design") and by the [Unix philosophy](unix "The Unix philosophy").
-
-Advocate for accessibility and good user experience.
+Planner and builder of clean, performant, no-nonsense websites.
 
 Academic background in social sciences.
 
@@ -37,4 +33,4 @@ Fluent in Italian, English and German.
 
 - Occasional chef ([Berghain](http://www.berghain.de/ "Berghain homepage"), [Radial System](http://www.radialsystem.de "Radial System homepage"))
 - Saxophonist
-- Bibliophile
+- Heavy consumer of sencha, coffee and books.

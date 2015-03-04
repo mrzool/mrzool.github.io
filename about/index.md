@@ -32,5 +32,5 @@ Fluent in Italian, English and German.
 ### Others
 
 - Occasional chef ([Berghain](http://www.berghain.de/ "Berghain homepage"), [Radial System](http://www.radialsystem.de "Radial System homepage"))
-- Saxophonist
+- Saxophone player
 - Heavy consumer of sencha, coffeine, nicotine and books.

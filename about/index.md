@@ -5,7 +5,7 @@ title: "About"
 
 # {{page.title}}
 
-Planner and builder of clean, performant, no-nonsense websites.
+Architect and manufacturer of clean, performant, no-nonsense websites.
 
 Academic background in social sciences.
 

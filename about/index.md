@@ -5,7 +5,7 @@ title: "About"
 
 # {{page.title}}
 
-Planner and builder of clean, performant, no-nonsense websites.
+Architect and manufacturer of clean, performant, no-nonsense websites.
 
 Academic background in social sciences.
 
@@ -33,4 +33,4 @@ Fluent in Italian, English and German.
 
 - Occasional chef ([Berghain](http://www.berghain.de/ "Berghain homepage"), [Radial System](http://www.radialsystem.de "Radial System homepage"))
 - Saxophonist
-- Heavy consumer of sencha, coffee and books.
+- Heavy consumer of sencha, coffeine, nicotine and books.

@@ -12,7 +12,7 @@ key: '<span class="monospace" style="font-size: 1.3em">[1CDC2EEB92A78B7A](https:
 - [Instapaper](https://www.instapaper.com/p/__zool "My Instapaper account")
 - [Keybase](https://keybase.io/zool "My Keybase account")
 
-Or send an email to [{{site.email}}](mailto:mattia.tezzele@gmail.com "Send email") (PGP key: {{page.key}}).
+Or send an email to [{{site.email}}](mailto:mattia.tezzele@gmail.com "Send email") (PGP key: {{page.key}})
 
 Mattia, zool and mrzool are the same person.
 

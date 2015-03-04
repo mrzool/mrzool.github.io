@@ -7,7 +7,7 @@ title: 'Contact'
 
 You can find Mattia on:
 
-- [Twitter](https://twitter.com/__zool "Twitter")
+- [Twitter](https://twitter.com/__zool)
 - [Github](https://github.com/mrzool "Github")
 - [Tumblr](http://zoolnotes.tumblr.com/ "Tumblr")
 - [Instapaper](https://www.instapaper.com/p/__zool "Instapaper")

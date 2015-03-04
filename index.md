@@ -7,18 +7,15 @@ title: 'Home'
 Mattia is an Italian designer and developer based in Berlin.
 </p>
 
-### About
+He architects and builds clean, performant, no-nonsense websites. Skills include:
 
-Architect and builder of clean, performant, no-nonsense websites.
+- Mobile-first/responsive web design
+- HTML5, CSS/Sass, JavaScript
+- Vim, Git, Unix/Bash scripting
+- PHP and CMS-backed websites
+- Node, Gulp, NPM, Jekyll/Liquid
+- Fluency in Italian, English and German
 
-Academic background in social sciences.
+He's currently freelancing and residing (mostly) in Berlin.
 
-Currently freelancing and residing (mostly) in Berlin.
-
-Fluent in Italian, English and German.
-
-Read more:
-
-- [About](about "About")
-- [Contact](contact "Contact")
-- [Colophon](colophon "Colophon")
+If you want to talk, feel free to [contact](contact "Contact") him.

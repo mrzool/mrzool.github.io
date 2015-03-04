@@ -9,11 +9,12 @@ title: "About"
 
 - Mobile-first/responsive web design, fluid layouts
 - Information architecture, screen typography
-- Fluent in Italian, English and German.
+- Academic background in social sciences
+- Fluent in Italian, English and German
 
 ### Technologies
 
-- HTML, CSS/Sass, JavaScript/jQuery
+- HTML5, CSS/Sass, JavaScript
 - Vim, Git, Unix/Bash scripting
 - Node, Gulp, NPM, Jekyll/Liquid
 - Apache HTTP Server, PHP

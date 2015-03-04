@@ -7,7 +7,7 @@ title: 'Contact'
 
 Send all your inquires to **[{{site.email}}](mailto:{{site.email}})** 
 
-You can also find Mattia on:
+You can find Mattia also on:
 
 - [Twitter](https://twitter.com/__zool)
 - [Github](https://github.com/mrzool "Github")
@@ -17,6 +17,7 @@ You can also find Mattia on:
 
 Mattia, zool and mrzool are the same person.
 
-PGP key: <span class="monospace" style="font-size: 1.3em">[1CDC2EEB92A78B7A](https://keybase.io/zool/key.asc)
+See also:
 
-See also: [impressum](../impressum "Impressum page").
+- PGP key: <span class="monospace" style="font-size: 1.3em">[1CDC2EEB92A78B7A](https://keybase.io/zool/key.asc)
+- [impressum](../impressum)

@@ -5,7 +5,7 @@ title: 'Contact'
 
 # {{page.title}}
 
-You can find Mattia on:
+Find Mattia on:
 
 - [Twitter](https://twitter.com/__zool)
 - [Github](https://github.com/mrzool "Github")

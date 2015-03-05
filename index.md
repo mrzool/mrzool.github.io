@@ -11,8 +11,8 @@ He architects and builds clean, performant, no-nonsense websites. Skills include
 
 - Mobile-first/responsive web design
 - HTML5, CSS/Sass, JavaScript
-- Vim, Git, Unix/Bash scripting
 - PHP and CMS-backed websites
+- Vim, Git, Unix/Bash scripting
 - Node, Gulp, NPM, Jekyll/Liquid
 - Fluency in Italian, English and German
 

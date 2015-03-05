@@ -7,6 +7,8 @@ title: 'Contact'
 
 Send all your inquires to **[{{site.email}}](mailto:{{site.email}})** 
 
+My PGP key: <span class="monospace" style="font-size: 1.3em; letter-spacing: .1em">[1CDC2EEB92A78B7A](https://keybase.io/zool/key.asc)
+
 You can find Mattia also on:
 
 - [Twitter](https://twitter.com/__zool)
@@ -15,9 +17,4 @@ You can find Mattia also on:
 - [Instapaper](https://www.instapaper.com/p/__zool "Instapaper")
 - [Keybase](https://keybase.io/zool "Keybase")
 
-Mattia, zool and mrzool are the same person.
-
-See also:
-
-- PGP key: <span class="monospace" style="font-size: 1.3em">[1CDC2EEB92A78B7A](https://keybase.io/zool/key.asc)
-- [impressum](../impressum)
+Mattia, zool and mrzool are the same person.  See the [impressum](../impressum).

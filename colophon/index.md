@@ -3,7 +3,7 @@ layout: default
 title: "Colophon"
 ---
 
-# {{page.title}}
+## {{page.title}}
 
 This website was hand-coded in [Vim](http://www.vim.org/ "Vim homepage") on a Thinkpad x100e running [Crunchbang](http://crunchbang.org/ "Crunchbang Linux homepage"), a nimble Linux distro.
 

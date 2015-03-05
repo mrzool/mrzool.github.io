@@ -3,7 +3,7 @@ layout: default
 title: 'Contact'
 ---
 
-# {{page.title}}
+## {{page.title}}
 
 Send all your inquires to **[{{site.email}}](mailto:{{site.email}})** 
 

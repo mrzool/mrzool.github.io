@@ -3,7 +3,7 @@ layout: default
 title: "Colophon"
 ---
 
-# {{page.title}}
+## {{page.title}}
 
 This website was written on a tiny Thinkpad x100e running [Crunchbang](http://crunchbang.org/ "Crunchbang Linux homepage"), a nimble Linux distro. The coding was performed in [Vim](http://www.vim.org/ "Vim homepage"), the best text editor on Earth.
 

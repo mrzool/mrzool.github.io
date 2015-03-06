@@ -15,6 +15,7 @@ He architects and builds clean, performant, no-nonsense websites. Skills include
 - Vim, Git, Bash, Node/NPM
 - All-around Unix-fu
 - Fluency in Italian, English and German
+- Academic background in social sciences
 
 He's currently freelancing and residing (mostly) in Berlin.
 

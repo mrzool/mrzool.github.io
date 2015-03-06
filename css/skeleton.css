@@ -28,6 +28,12 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .container {
   position: relative; 
   /* width: 80%;  */

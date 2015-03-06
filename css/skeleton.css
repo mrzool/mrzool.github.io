@@ -37,6 +37,12 @@
   flex: 1;
 }
 
+header {
+  padding: 2em 1em;
+  background-color: #666;
+  color: #FFF8E7;
+}
+
 footer {
   margin: 1em 1em 2em;
 }
@@ -114,12 +120,6 @@ body {
   font-family: "Georgia", serif;
   background-color: #FFF8E7;
   color: #666; }
-
-header {
-  padding: 2em;
-  background-color: #666;
-  color: #FFF8E7;
-}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

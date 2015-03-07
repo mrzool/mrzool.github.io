@@ -37,16 +37,18 @@ body {
 .container {
   position: relative; 
   /* width: 80%;  */
-  max-width: 44em; 
-  margin: 5em 1em 2em;
-  padding: 0;
-  flex: 1;
+  max-width: 40em; 
 }
 
 header {
   padding: 2em 1em;
   background-color: #666;
   color: #FFF8E7;
+}
+
+main {
+  margin: 5em 1em 2em;
+  flex: 1;
 }
 
 footer {

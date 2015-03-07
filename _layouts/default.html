@@ -7,19 +7,15 @@
 
     {% include _header.html %}
 
-    <main class="container">
+    <main>
 
-      {{ content }}
+      <div class="container">
+        {{ content }}
+      </div>
       
-      <!-- {% if page.title != 'Home' %} -->
-      <!--   <hr> -->
-      <!--   <p>Go back <a href="{{ site.url }}">home</a>.</p> -->
-      <!-- {% endif %} -->
-
     </main>
 
-    <hr>
-
+    <hr class="m0">
     {% include _footer.html %}
 
 

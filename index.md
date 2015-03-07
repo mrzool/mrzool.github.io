@@ -17,6 +17,6 @@ He architects and builds clean, performant, no-nonsense websites. Skills include
 - Fluency in Italian, English and German
 - Academic background in social sciences
 
-He's currently freelancing and residing (mostly) in Berlin.
+He's currently freelancing and living (mostly) in Berlin.
 
 If you want to talk, feel free to [contact](contact "Contact") him.

@@ -436,6 +436,12 @@ hr {
   transform: scaleX(-1);
   filter: FlipH;
 }
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*

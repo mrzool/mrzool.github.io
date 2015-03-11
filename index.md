@@ -13,9 +13,9 @@ Skills include:
 
 - Mobile-first and responsive web design
 - HTML5, CSS/Sass, JavaScript
-- Basic PHP for CMS-backed development
 - Vim, Git, Bash, Node/NPM
 - All-around Unix-fu
+- Basic PHP for CMS-backed development
 - Fluency in Italian, English and German
 - Academic background in social sciences
 

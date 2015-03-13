@@ -21,4 +21,4 @@ Skills include:
 
 He's currently freelancing and living (mostly) in Berlin.
 
-If you want to talk, feel free to [contact](contact "Contact") him.
+If you want to talk, feel free to [contact](contact "Contact page") him.

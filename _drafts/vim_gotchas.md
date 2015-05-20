@@ -1,38 +1,55 @@
-Vim Gotchas
-===========
+---
+layout: post
+title: Vim Gotchas
+---
 
-A small but growing collection of useful tips for Vim, the best text editor on Earth.
+## Vim Gotchas
 
-Normal mode
------------
+A small but growing collection of tips and tricks for the best text editor on Earth. This doesn't aim to be a comprehensive list of Vim commands, but only an opinionated collection of what leveled up my Vim game. Every tip is briefly explained and I tried to come up with a use case for every one of them. Aimed at the intermediate user.
 
-`d/{pattern}` Delete till `{pattern}` excluded. Power move.
+### General
+
+Vim is designed for the touch typist. You can't really take advantage of the power of Vim if you need to keep watching the keyboard while you type. There are two excellent command line utilities to help you improve this skill, `typespeed` and `gtypist`. Half an hour of practicing a day will go a long way.
+
+With Vim, Unix is your IDE. Learn how to pipe text in and out Vim and to work with external shell commands.
+
+### Configuration
+
+Map your `<Esc>` key to `jj`.
+
+Remap your Caps-lock to `<Ctrl>`.
+
+Recursive mappings are dangerous. Always use nonrecursive mappings instead (`noremap`, `nnoremap`, `vnoremap`, and `inoremap`).
+
+
+### Normal mode
+
+`d/{pattern}` `c/{pattern}` Delete or change till `{pattern}` excluded. Power move.
 
 `gi` go to last insertion place and switch to insert mode. Great little time saver.
 
 The text object `iw` (inner word) works better with the change command (ex: `ciw` to change the word under the cursor). 
 The text object `aw` (a word) works better with the delete command (ex: `daw` to delete the work under the cursor plus one space).
 
-`mA` creates a global mark that can be used to snap back to the present file and *persists between sessions*. Pretty rad.
+`mA` Setting a mark using a capital letter creates a *global mark* that can be used to snap back to the present file and *persists between sessions*. Super useful to mark files you keep coming back to and access them fast.
 
 `xp` Transpose the next two characters.
-`ddp` Transpose this line with the following one.
+`ddp` Transpose the current line with the following one.
 
-`"adaw` Inserts the current word into register `a`, overwriting it.
-`"Adaw` Appends the current word to register `a`.
+`"adaw` Inserts the current word into register `a`, overwriting it.  
+`"Adaw` Appends the current word to register `a`, leaving preexisting content alone.
 
-`H`/`M`/`L` Jump to top/bottom/middle of the screen.
+`H` `M` `L` Jump to the top, bottom, and middle of the screen.
 
-`%` Jump to matching parenthesis. Power move when used with `c` or `d`, for example `%d%` finds the next parenthesis/brace/quote, jumps to its matching one, and deletes everything between the two. Read more about this [here](http://thepugautomatic.com/2014/03/vims-life-changing-c-percent/).
+`%` Jump to matching parenthesis. Power move when used in conjunction with `c` or `d`. (for example `%d%` finds the next parenthesis/brace/quote, jumps to its matching one, and deletes everything between the two. Read more about how this works [here](http://thepugautomatic.com/2014/03/vims-life-changing-c-percent/))
 
-`Ctrl-z` suspends Vim and returns control to bash. `jobs` inspects the list of suspended jobs.  `fg` brings Vim back exactly as you left it.
+`Ctrl-z` suspends Vim and returns control to the shell. `jobs` inspects the list of suspended jobs from the shell.  `fg` brings Vim back exactly as you left it. I use it all the time to run git commands.
 
-Insert mode
------------
+### Insert mode
 
 `<C-a>` Insert last inserted text.
 
-`<C-h> <C-w> <C-u>` Deletes back one character, one word, one line. Works also in ex mode and in your bash shell.
+`<C-h>` `<C-w>` `<C-u>` Deletes back one character, one word, and one line respectively. Works also in ex mode and in the shell.
 
 `<C-x>` Switches to *completion mode*, which is a submode of insert mode. From there you can:
 
@@ -46,31 +63,91 @@ Insert mode
 
 `<C-k>` Activate digraph mode to insert unusual characters not found on the keyboard (ex: `<C-k>a:` inserts `ä`). Go to `:h digraph-table` for a list of possible combinations, search in it with `/`.
 
-Visual mode
------------
+### Visual mode
 
-`o` In Visual mode, toggle the free end of visual selected text. Useful to change the starting point of a visual selection without leaving Visual mode and starting afresh.
+`o` Toggle the free end of visual selected text. Useful to change the starting point of a visual selection without leaving Visual mode and starting afresh.
 
-Ex mode
--------
+`gv` It's actually a normal mode command, but visual mode related. It stands for "grab last visual selection".
+
+### Ex mode
 
 `:e!` Read the file from disk back into the buffer.
 
 `:lcd {path}` Set the working directory locally for the current window, so you can scope different windows or tabs to different projects.
 
-`:jumps` Inspect the jump list. `<C-o` and `<C-i>` jump back and forth in normal mode.
+`:jumps` Vim remembers every position your cursor has been, kind of like the NSA of text editors. With this command you can inspect the jump list. `<C-o` and `<C-i>` jump back and forth in normal mode.
 
 `:changes` Inspect the changes list. `g;` and `g,` traverse the change list in normal mode.
 
-Configuration
--------------
+---
 
-Recursive mappings are dangerous. Always use nonrecursive mappings instead (`noremap`, `nnoremap`, `vnoremap`, and `inoremap`).
+#### Resources
 
-General
--------
-
-Vim is optimized for the touch typist. First learn to touch type, then learn Vim. 
-
-With Vim, Unix is your IDE. Learn how to pipe text in and out Vim and to work with external shell commands.
+-   [Relative line numbers in Vim for super-fast
+    movement](http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/)
+-   [Vim Productivity Tips And
+    Tricks](http://ideasintosoftware.com/vim-productivity-tips/)
+-   [Why I can't stop using
+    Vim](http://www.kornerstoane.com/2014/06/why-i-cant-stop-using-vim/)
+-   [Vim tips: Working with external commands |
+    Linux.com](https://www.linux.com/learn/tutorials/442419-vim-tips-working-with-external-commands)
+-   [Vim Text Objects: The Definitive
+    Guide](http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/)
+-   [Timothée Poisot | Using Vim as a writing
+    environment](http://timotheepoisot.fr/2014/01/01/vim-writing-environment/)
+-   [How I boosted my Vim](http://nvie.com/posts/how-i-boosted-my-vim/)
+-   [Vim anti-patterns -
+    Arabesque](http://blog.sanctum.geek.nz/vim-anti-patterns/)
+-   [Vim misconceptions -
+    Arabesque](http://blog.sanctum.geek.nz/vim-misconceptions/)
+-   [Let Vim do the
+    typing](http://georgebrock.github.io/talks/vim-completion/)
+-   [Vim Koans - Arabesque](http://blog.sanctum.geek.nz/vim-koans/)
+-   [Zenclavier: Extreme Keyboarding - O'Reilly
+    Media](http://archive.oreilly.com/pub/a/oreilly//news/zenclavier_1299.html)
+-   [❺➠ How to switch to Vim - Naildrivin'
+    ❺](http://www.naildrivin5.com/blog/2013/04/24/how-to-switch-to-vim.html)
+-   [YBlog - Learn Vim
+    Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
+-   [Geoff's site: Why Neovim is Better than
+    Vim](http://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/)
+-   [Vim annoyances -
+    Arabesque](http://blog.sanctum.geek.nz/vim-annoyances/)
+-   [Anti-pattern of vimrc -
+    rbtnn雑記](http://rbtnn.hateblo.jp/entry/2014/12/28/010913)
+-   [Coming Home to Vim / Steve
+    Losh](http://stevelosh.com/blog/2010/09/coming-home-to-vim/)
+-   [Vim Introduction and Tutorial -
+    IMHO](http://blog.interlinked.org/tutorials/vim_tutorial.html)
+-   [10 Questions with Vim's creator, Bram
+    Moolenaar](http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/)
+-   [Vim's life-changing c% - The Pug
+    Automatic](http://thepugautomatic.com/2014/03/vims-life-changing-c-percent/)
+-   [Learning to use Vim
+    buffers.](http://www.patrickedelman.com/learning-to-use-vim-buffers/)
+-   [Ex Mode](http://usevim.com/2014/09/19/ex-mode/)
+-   [How to boost your Vim productivity ·
+    sheerun](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
+-   [Vim Splits - Move Faster and More
+    Naturally](http://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally)
+-   [Vim for people who think things like Vim are weird and hard – CSS
+    Wizardry – CSS, OOCSS, front-end architecture, performance and more,
+    by Harry
+    Roberts](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)
+-   [Why I use Vim · Pascal
+    Precht](http://pascalprecht.github.io/2014/03/18/why-i-use-vim/)
+-   [Why Atom Can’t Replace
+    Vim](https://medium.com/programming-ideas-tutorial-and-experience/why-atom-cant-replace-vim-433852f4b4d1)
+-   [Why, oh WHY, do those \#?@! nutheads use
+    vi?](http://www.viemu.com/a-why-vi-vim.html)
+-   [Vim: Seven habits of effective text
+    editing](http://www.moolenaar.net/habits.html)
+-   [In defense of vi - Naildrivin'
+    ❺](http://www.naildrivin5.com/blog/2010/06/14/in-defense-of-vi.html)
+-   [Why Atom Can’t Replace
+    Vim](https://medium.com/programming-ideas-tutorial-and-experience/433852f4b4d1)
+-   [☠☣ • How to Learn
+    Vim](http://xn--h4hg.ws/2013/12/19/how-to-learn-vim/)
+-   [The Vim Learning Curve is a
+    Myth](http://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth)
 

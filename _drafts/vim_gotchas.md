@@ -5,15 +5,19 @@ title: Vim Gotchas
 
 ## Vim Gotchas
 
-A small but growing collection of tips and tricks for the best text editor on Earth. This doesn't aim to be a comprehensive list of Vim commands, but only an opinionated collection of what leveled up my Vim game. Every tip is briefly explained and I tried to come up with a use case for every one of them. Aimed at the intermediate user.
+A small but growing collection of tips and tricks for the best text editor on Earth. This doesn't aim to be a comprehensive list of Vim commands, but only an opinionated collection of what leveled up my Vim game. Every tip is briefly explained and I tried to come up with a use case for every one of them. Mostly aimed at the intermediate user.
 
 ### General
 
-Vim is designed for the touch typist. You can't really take advantage of the power of Vim if you need to keep watching the keyboard while you type. There are two excellent command line utilities to help you improve this skill, `typespeed` and `gtypist`. Half an hour of practicing a day will go a long way.
+Become a touch-typist. It's not that hard. There are 
+
+A fact that doesn't seem to get enough attention is that, if you need to watch your keyboard  all the time while you type, you are missing out on a lot of what makes Vim so powerful. Drew Neil mentions this point at the very beginning of [Practical Vim](https://pragprog.com/book/dnvim/practical-vim): Vim is designed for the touch-typist. 
+
+There are two excellent command line utilities to help you improve this skill, `typespeed` and `gtypist`. Half an hour of practicing a day will go a long way.
 
 With Vim, Unix is your IDE. Learn how to pipe text in and out Vim and to work with external shell commands.
 
-### Configuration
+### Configuration tips
 
 Map your `<Esc>` key to `jj`.
 

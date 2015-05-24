@@ -30,7 +30,7 @@ Recursive mappings are dangerous. Always use nonrecursive mappings instead (`nor
 
 `d/{pattern}` `c/{pattern}` Delete or change till `{pattern}` excluded. Power move.
 
-`gi` go to last insertion place and switch to insert mode. Great little time saver.
+`gi` go to last insertion place and switch to insert mode after you moved around. Great little time saver.
 
 The text object `iw` (inner word) works better with the change command (ex: `ciw` to change the word under the cursor). 
 The text object `aw` (a word) works better with the delete command (ex: `daw` to delete the work under the cursor plus one space).
@@ -51,9 +51,15 @@ The text object `aw` (a word) works better with the delete command (ex: `daw` to
 
 ### Insert mode
 
-`<C-a>` Insert last inserted text.
+`<C-h>` `<C-w>` `<C-u>` Deletes back one character, one word, and one line respectively.
 
-`<C-h>` `<C-w>` `<C-u>` Deletes back one character, one word, and one line respectively. Works also in ex mode and in the shell.
+`<C-Left>` `<C-Right>` Go to one word to the left/to the right.
+
+`<Insert>` Toggles between inserting and replacing characters.
+
+(The above commands work in command mode and in most shells as well)
+
+`<C-a>` Insert last inserted text.
 
 `<C-x>` Switches to *completion mode*, which is a submode of insert mode. From there you can:
 
@@ -70,10 +76,11 @@ The text object `aw` (a word) works better with the delete command (ex: `daw` to
 ### Visual mode
 
 `o` Toggle the free end of visual selected text. Useful to change the starting point of a visual selection without leaving Visual mode and starting afresh.
+`O` Like above, but in visual block mode moves on the other corner on the same line.
 
 `gv` It's actually a normal mode command, but visual mode related. It stands for "grab last visual selection".
 
-### Ex mode
+### Command mode
 
 `:e!` Read the file from disk back into the buffer.
 

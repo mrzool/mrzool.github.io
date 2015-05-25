@@ -17,6 +17,8 @@ There are two excellent command line utilities to help you improve this skill, `
 
 With Vim, Unix is your IDE. Learn how to pipe text in and out Vim and to work with external shell commands.
 
+Vim creates a mark each time you exit Vim.  The last one is '0.  The position that '0 pointed to is made '1.  And '1 is made to '2, and so forth.  Mark '9 is lost.
+
 ### Configuration tips
 
 Map your `<Esc>` key to `jj`.
@@ -24,7 +26,6 @@ Map your `<Esc>` key to `jj`.
 Remap your Caps-lock to `<Ctrl>`.
 
 Recursive mappings are dangerous. Always use nonrecursive mappings instead (`noremap`, `nnoremap`, `vnoremap`, and `inoremap`).
-
 
 ### Normal mode
 

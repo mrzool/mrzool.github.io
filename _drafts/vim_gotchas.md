@@ -9,9 +9,7 @@ A small but growing collection of tips and tricks for the best text editor on Ea
 
 ### General
 
-Become a touch-typist. It's not that hard. There are 
-
-A fact that doesn't seem to get enough attention is that, if you need to watch your keyboard  all the time while you type, you are missing out on a lot of what makes Vim so powerful. Drew Neil mentions this point at the very beginning of [Practical Vim](https://pragprog.com/book/dnvim/practical-vim): Vim is designed for the touch-typist. 
+Become a touch-typist.
 
 There are two excellent command line utilities to help you improve this skill, `typespeed` and `gtypist`. Half an hour of practicing a day will go a long way.
 
@@ -62,13 +60,16 @@ The text object `aw` (a word) works better with the delete command (ex: `daw` to
 
 `<C-a>` Insert last inserted text.
 
+`<C-y>` Insert the character above the cursor
+`<C-e>` Insert the character below the cursor
+
 `<C-x>` Switches to *completion mode*, which is a submode of insert mode. From there you can:
 
-- `<C-f>` Auto-complete paths relative to the current working directory.
-- `<C-]>` Auto-complete using ctags (symbols in your code).
-- `<C-p>` or `<C-n>` Context-aware word completion.
-- `<C-l>` Context-aware line completion.
-- `<C-o>` Context-aware language completion.
+* `<C-f>` Auto-complete paths relative to the current working directory.
+* `<C-]>` Auto-complete using ctags (symbols in your code).
+* `<C-p>` or `<C-n>` Context-aware word completion.
+* `<C-l>` Context-aware line completion.
+* `<C-o>` Context-aware language completion.
 
 `<C-r>=` Access the expression register to do simple math on the fly.
 
@@ -95,71 +96,37 @@ The text object `aw` (a word) works better with the delete command (ex: `daw` to
 
 #### Resources
 
--   [Relative line numbers in Vim for super-fast
-    movement](http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/)
--   [Vim Productivity Tips And
-    Tricks](http://ideasintosoftware.com/vim-productivity-tips/)
--   [Why I can't stop using
-    Vim](http://www.kornerstoane.com/2014/06/why-i-cant-stop-using-vim/)
--   [Vim tips: Working with external commands |
-    Linux.com](https://www.linux.com/learn/tutorials/442419-vim-tips-working-with-external-commands)
--   [Vim Text Objects: The Definitive
-    Guide](http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/)
--   [Timothée Poisot | Using Vim as a writing
-    environment](http://timotheepoisot.fr/2014/01/01/vim-writing-environment/)
+-   [Relative line numbers in Vim for super-fast movement](http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/)
+-   [Vim Productivity Tips And Tricks](http://ideasintosoftware.com/vim-productivity-tips/)
+-   [Why I can't stop using Vim](http://www.kornerstoane.com/2014/06/why-i-cant-stop-using-vim/)
+-   [Vim tips: Working with external commands | Linux.com](https://www.linux.com/learn/tutorials/442419-vim-tips-working-with-external-commands)
+-   [Vim Text Objects: The Definitive Guide](http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/)
+-   [Timothée Poisot | Using Vim as a writing environment](http://timotheepoisot.fr/2014/01/01/vim-writing-environment/)
 -   [How I boosted my Vim](http://nvie.com/posts/how-i-boosted-my-vim/)
--   [Vim anti-patterns -
-    Arabesque](http://blog.sanctum.geek.nz/vim-anti-patterns/)
--   [Vim misconceptions -
-    Arabesque](http://blog.sanctum.geek.nz/vim-misconceptions/)
--   [Let Vim do the
-    typing](http://georgebrock.github.io/talks/vim-completion/)
+-   [Vim anti-patterns - Arabesque](http://blog.sanctum.geek.nz/vim-anti-patterns/)
+-   [Vim misconceptions - Arabesque](http://blog.sanctum.geek.nz/vim-misconceptions/)
+-   [Let Vim do the typing](http://georgebrock.github.io/talks/vim-completion/)
 -   [Vim Koans - Arabesque](http://blog.sanctum.geek.nz/vim-koans/)
--   [Zenclavier: Extreme Keyboarding - O'Reilly
-    Media](http://archive.oreilly.com/pub/a/oreilly//news/zenclavier_1299.html)
--   [❺➠ How to switch to Vim - Naildrivin'
-    ❺](http://www.naildrivin5.com/blog/2013/04/24/how-to-switch-to-vim.html)
--   [YBlog - Learn Vim
-    Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
--   [Geoff's site: Why Neovim is Better than
-    Vim](http://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/)
--   [Vim annoyances -
-    Arabesque](http://blog.sanctum.geek.nz/vim-annoyances/)
--   [Anti-pattern of vimrc -
-    rbtnn雑記](http://rbtnn.hateblo.jp/entry/2014/12/28/010913)
--   [Coming Home to Vim / Steve
-    Losh](http://stevelosh.com/blog/2010/09/coming-home-to-vim/)
--   [Vim Introduction and Tutorial -
-    IMHO](http://blog.interlinked.org/tutorials/vim_tutorial.html)
--   [10 Questions with Vim's creator, Bram
-    Moolenaar](http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/)
--   [Vim's life-changing c% - The Pug
-    Automatic](http://thepugautomatic.com/2014/03/vims-life-changing-c-percent/)
--   [Learning to use Vim
-    buffers.](http://www.patrickedelman.com/learning-to-use-vim-buffers/)
+-   [Zenclavier: Extreme Keyboarding - O'Reilly Media](http://archive.oreilly.com/pub/a/oreilly//news/zenclavier_1299.html)
+-   [❺➠ How to switch to Vim - Naildrivin' ❺](http://www.naildrivin5.com/blog/2013/04/24/how-to-switch-to-vim.html)
+-   [YBlog - Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
+-   [Geoff's site: Why Neovim is Better than Vim](http://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/)
+-   [Vim annoyances - Arabesque](http://blog.sanctum.geek.nz/vim-annoyances/)
+-   [Anti-pattern of vimrc - rbtnn雑記](http://rbtnn.hateblo.jp/entry/2014/12/28/010913)
+-   [Coming Home to Vim / Steve Losh](http://stevelosh.com/blog/2010/09/coming-home-to-vim/)
+-   [Vim Introduction and Tutorial - IMHO](http://blog.interlinked.org/tutorials/vim_tutorial.html)
+-   [10 Questions with Vim's creator, Bram Moolenaar](http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/)
+-   [Vim's life-changing c% - The Pug Automatic](http://thepugautomatic.com/2014/03/vims-life-changing-c-percent/)
+-   [Learning to use Vim buffers.](http://www.patrickedelman.com/learning-to-use-vim-buffers/)
 -   [Ex Mode](http://usevim.com/2014/09/19/ex-mode/)
--   [How to boost your Vim productivity ·
-    sheerun](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
--   [Vim Splits - Move Faster and More
-    Naturally](http://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally)
--   [Vim for people who think things like Vim are weird and hard – CSS
-    Wizardry – CSS, OOCSS, front-end architecture, performance and more,
-    by Harry
-    Roberts](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)
--   [Why I use Vim · Pascal
-    Precht](http://pascalprecht.github.io/2014/03/18/why-i-use-vim/)
--   [Why Atom Can’t Replace
-    Vim](https://medium.com/programming-ideas-tutorial-and-experience/why-atom-cant-replace-vim-433852f4b4d1)
--   [Why, oh WHY, do those \#?@! nutheads use
-    vi?](http://www.viemu.com/a-why-vi-vim.html)
--   [Vim: Seven habits of effective text
-    editing](http://www.moolenaar.net/habits.html)
--   [In defense of vi - Naildrivin'
-    ❺](http://www.naildrivin5.com/blog/2010/06/14/in-defense-of-vi.html)
--   [Why Atom Can’t Replace
-    Vim](https://medium.com/programming-ideas-tutorial-and-experience/433852f4b4d1)
--   [☠☣ • How to Learn
-    Vim](http://xn--h4hg.ws/2013/12/19/how-to-learn-vim/)
--   [The Vim Learning Curve is a
-    Myth](http://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth)
-
+-   [How to boost your Vim productivity · sheerun](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
+-   [Vim Splits - Move Faster and More Naturally](http://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally)
+-   [Vim for people who think things like Vim are weird and hard – CSS Wizardry – CSS, OOCSS, front-end architecture, performance and more, by Harry Roberts](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)
+-   [Why I use Vim · Pascal Precht](http://pascalprecht.github.io/2014/03/18/why-i-use-vim/)
+-   [Why Atom Can’t Replace Vim](https://medium.com/programming-ideas-tutorial-and-experience/why-atom-cant-replace-vim-433852f4b4d1)
+-   [Why, oh WHY, do those \#?@! nutheads use vi?](http://www.viemu.com/a-why-vi-vim.html)
+-   [Vim: Seven habits of effective text editing](http://www.moolenaar.net/habits.html)
+-   [In defense of vi - Naildrivin' ❺](http://www.naildrivin5.com/blog/2010/06/14/in-defense-of-vi.html)
+-   [Why Atom Can’t Replace Vim](https://medium.com/programming-ideas-tutorial-and-experience/433852f4b4d1)
+-   [☠☣ • How to Learn Vim](http://xn--h4hg.ws/2013/12/19/how-to-learn-vim/)
+-   [The Vim Learning Curve is a Myth](http://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth)

@@ -1,4 +1,4 @@
 ---
 layout: post
-title: Vim Gotchas
+title: Copy files with Netrw
 ---

@@ -7,4 +7,7 @@ url: "http://mrzool.cc"
 future: true
 exclude: [README.md, Rakefile, node_modules]
 permalink: pretty
+github:
+  repo: mrzool/mrzool.github.io
+  branch: master
 #pygments: true

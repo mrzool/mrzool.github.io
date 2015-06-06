@@ -1,34 +1,97 @@
-var gulp          = require('gulp');
-var browserSync   = require('browser-sync');
-var autoprefixer  = require('gulp-autoprefixer');
-var minifycss     = require('gulp-minify-css');
-var rename        = require('gulp-rename');
-var uncss         = require('gulp-uncss');
-var concat        = require('gulp-concat');
-var glob          = require("glob");
+// Gulp tasks for basscss
 
+// Load plugins
+var gulp = require('gulp'),
+    gutil = require('gulp-util'),
+    watch = require('gulp-watch'),
+    prefix = require('gulp-autoprefixer'),
+    size = require('gulp-size'),
+    rename = require('gulp-rename'),
+    imagemin = require('gulp-imagemin'),
+    minifyCSS = require('gulp-minify-css'),
+    sass = require('gulp-sass'),
+    csslint = require('gulp-csslint'),
+    browserSync = require('browser-sync').create('basscss'),
+    browserReload = browserSync.reload;
+
+
+// Minify all css files in the css directory
+// Run this in the root directory of the project with `gulp minify-css `
+gulp.task('minify-css', function(){
+  gulp.src('./css/basscss.css')
+    .pipe(minifyCSS())
+    .pipe(rename('basscss.min.css'))
+    .pipe(size({gzip:true, showFiles: true}))
+    .pipe(gulp.dest('./css/'));
+});
+
+gulp.task('minify-img', function(){
+  gulp.src('./img/*')
+    .pipe(imagemin({
+        progressive: true,
+        svgoPlugins: [{removeViewBox: false}],
+    }))
+    .pipe(gulp.dest('./img/'));
+});
+
+// Use csslint without box-sizing or compatible vendor prefixes (these
+// don't seem to be kept up to date on what to yell about)
+gulp.task('csslint', function(){
+  gulp.src('./css/basscss.css')
+    .pipe(csslint({
+          'compatible-vendor-prefixes': false,
+          'box-sizing': false,
+          'important': false,
+          'known-properties': false
+        }))
+    .pipe(csslint.reporter());
+});
+
+// Task that compiles scss files down to good old css
+gulp.task('pre-process', function(){
+    return gulp.src("./sass/basscss.scss")
+        .pipe(sass())
+        .on('error', swallowError)
+        .pipe(prefix())
+        .pipe(size({gzip: false, showFiles: true}))
+        .pipe(size({gzip: true, showFiles: true}))
+        .pipe(gulp.dest('css'))
+        .pipe(minifyCSS())
+        .pipe(rename('basscss.min.css'))
+        .pipe(size({gzip: false, showFiles: true}))
+        .pipe(size({gzip: true, showFiles: true}))
+        .pipe(gulp.dest('./css/'))
+        .pipe(browserSync.stream({match: '**/*.css'}));
+});
+
+// Initialize browser-sync which starts a static server also allows for
+// browsers to reload on filesave
 gulp.task('browser-sync', function() {
-    browserSync({ server: { baseDir: "./_site" } });
+    browserSync.init({
+    server: {
+    baseDir: "./_site"
+    }
+    });
 });
 
-gulp.task('bs-reload', function() {
-    browserSync.reload();
+// Allows gulp to not break after a sass error.
+// Spits error out to console
+function swallowError(error) {
+  console.log(error.toString());
+  this.emit('end');
+}
+
+/*
+   DEFAULT TASK
+
+ • Process sass then auto-prefixes and lints outputted css
+ • Starts a server on port 3000
+ • Reloads browsers when you change html or sass files
+
+*/
+gulp.task('default', ['pre-process', 'browser-sync'], function(){
+  gulp.start('pre-process', 'csslint', 'minify-img');
+  gulp.watch('sass/*', ['pre-process']);
+  gulp.watch('*.html', browserReload);
 });
 
-gulp.task('styles', function() {
-  return gulp.src('css/*.css')
-  .pipe(concat('s.css'))
-  .pipe(uncss({
-          html: glob.sync('_site/**/index.html')
-          }))
-  .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
-  .pipe(rename({suffix: '.min'}))
-  .pipe(minifycss())
-  .pipe(gulp.dest('css/prod'));
-});
-
-gulp.task('default', ['browser-sync'], function() {
-  gulp.watch("css/skeleton.css", ['styles']);
-  gulp.watch("./_site/*.html", ['bs-reload']);
-  gulp.watch("./_site/css/*.css", ['bs-reload']);
-});

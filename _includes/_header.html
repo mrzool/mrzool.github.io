@@ -1,6 +1,9 @@
-<header>
-  <h1 class="m0">
-    <a href="/" title="Home">Mattia Tezzele</a>
+<header class="p4">
+  <h1 class="m0 krn1">
+  {% if page.title == 'Home' %}
+    <a href="/" class="reset-link" title="Home">{{site.name}}</a>
+  {% else %}
+    <a href="/" class="reset-link" title="Home">{{site.name}}</a> / <a href="{{ page.url }}" class="lowercase reset-link" title="{{ page.title }}">{{page.title}}</a>
+  {% endif %}
   </h1>
-    <h2 class="m0">designer / developer</h2>
 </header>

@@ -1,24 +1,15 @@
 ---
 layout: default
 title: 'Home'
+visible: false
 ---
 
-<p class="h2">
-Mattia is an Italian designer and developer based in Berlin.
-</p>
-
-He architects and builds clean, performant, readable, no-nonsense websites.
-
-Skills include:
-
-- Mobile-first and responsive web design
-- HTML5, CSS/Sass, JavaScript
-- Vim, Git, Bash, Node/NPM
-- All-around Unix-fu
-- Basic PHP for CMS-backed development
-- Fluency in Italian, English and German
-- Academic background in social sciences
-
-He's currently freelancing and living (mostly) in Berlin.
-
-If you want to talk, feel free to [contact](contact "Contact page") him.
+<ul class="list-reset">
+  {% for p in site.pages  %}
+    {% if p.visible %}
+    <li>
+    <a href="{{ p.url }}"> {{ p.title }} </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -10,4 +10,5 @@ permalink: pretty
 github:
   repo: mrzool/mrzool.github.io
   branch: master
+github_username: mrzool
 #pygments: true

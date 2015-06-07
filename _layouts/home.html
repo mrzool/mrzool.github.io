@@ -7,7 +7,21 @@
 
     {% include _header.html %}
 
-    <main class="px4">{{ content }}</main>
+    <main class="px4">
+
+      <div class="container">
+        <ul class="list-reset">
+          {% for p in site.pages  %}
+            {% if p.visible %}
+              <li>
+                <a href="{{ p.url }}"> {{ p.title }} </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      
+    </main>
 
     <!-- {% include _footer.html %} -->
 

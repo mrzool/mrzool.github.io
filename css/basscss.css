@@ -554,9 +554,7 @@ h6, .h6 {
 */
 /* Basscss Grid */
 .container {
-  max-width: 64em;
-  margin-left: auto;
-  margin-right: auto; }
+  max-width: 40em; }
 
 .col {
   float: left;

@@ -1,9 +1,5 @@
 ---
 layout: writing
-title: 'Writing'
+title: 'writing'
 visible: true
 ---
-
-
-Hi there!
-

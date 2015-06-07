@@ -3,8 +3,6 @@ layout: default
 title: "Impressum"
 ---
 
-# {{page.title}}
-
 This page is required by law in Germany.
 
 | Name          | Mattia Tezzele    |

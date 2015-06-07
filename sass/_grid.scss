@@ -63,8 +63,8 @@ $breakpoint-lg: '(min-width: 64em)' !default;
 
 .container {
   max-width: $container-width;
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 .col {
   float: left;

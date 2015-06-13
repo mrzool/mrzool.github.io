@@ -4,3 +4,4 @@ node_modules
 _site/
 *.un~
 Gemfile.lock
+_drafts/

@@ -122,6 +122,10 @@ h6, .h6 { font-size: $h6 }
   padding-left: 0;
 }
 
+@media #{$breakpoint-sm} {
+  .sm-h1 { font-size: $h1 }
+}
+
 /* Basscss Defaults */
 
 /*

@@ -4,6 +4,6 @@ title: "about"
 visible: true
 ---
 
-Frontend, RWD, Unix, Vim, typography
+Frontend, RWD, Unix, Vim
 
 Berlin / Bozen

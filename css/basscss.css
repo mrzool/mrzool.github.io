@@ -218,6 +218,10 @@ h6, .h6 {
   list-style: none;
   padding-left: 0; }
 
+@media (min-width: 40em) {
+  .sm-h1 {
+    font-size: 2rem; } }
+
 /* Basscss Defaults */
 /*
 
@@ -2378,3 +2382,7 @@ input[type=range] {
 
 .lowercase {
   text-transform: lowercase; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* Prevent font scaling in landscape while allowing user zoom */ }

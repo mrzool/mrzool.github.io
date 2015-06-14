@@ -173,7 +173,9 @@ p, dl, ol, ul {
 
 pre, code, samp {
   font-family: "Source Code Pro", Consolas, monospace;
-  font-size: inherit; }
+  font-size: inherit;
+  color: #ff851b;
+  margin-right: 1em; }
 
 pre {
   margin-top: 0;
@@ -1328,201 +1330,6 @@ input[type=range] {
    - Gray Scale
 
 */
-/* Basscss Colors */
-/* Color */
-.black, .dark-gray {
-  color: #111; }
-
-.gray, .mid-gray {
-  color: #aaa; }
-
-.silver, .light-gray {
-  color: #ddd; }
-
-.white {
-  color: #fff; }
-
-.aqua {
-  color: #7fdbff; }
-
-.blue {
-  color: #0074d9; }
-
-.navy {
-  color: #001f3f; }
-
-.teal {
-  color: #39cccc; }
-
-.green {
-  color: #2ecc40; }
-
-.olive {
-  color: #3d9970; }
-
-.lime {
-  color: #01ff70; }
-
-.yellow {
-  color: #ffdc00; }
-
-.orange {
-  color: #ff851b; }
-
-.red {
-  color: #ff4136; }
-
-.fuchsia {
-  color: #f012be; }
-
-.purple {
-  color: #b10dc9; }
-
-.maroon {
-  color: #85144b; }
-
-/* Background Color */
-.bg-black, .bg-dark-gray {
-  background-color: #111; }
-
-.bg-gray, .bg-mid-gray {
-  background-color: #aaa; }
-
-.bg-silver, .bg-light-gray {
-  background-color: #ddd; }
-
-.bg-white {
-  background-color: #fff; }
-
-.bg-aqua {
-  background-color: #7fdbff; }
-
-.bg-blue {
-  background-color: #0074d9; }
-
-.bg-navy {
-  background-color: #001f3f; }
-
-.bg-teal {
-  background-color: #39cccc; }
-
-.bg-green {
-  background-color: #2ecc40; }
-
-.bg-olive {
-  background-color: #3d9970; }
-
-.bg-lime {
-  background-color: #01ff70; }
-
-.bg-yellow {
-  background-color: #ffdc00; }
-
-.bg-orange {
-  background-color: #ff851b; }
-
-.bg-red {
-  background-color: #ff4136; }
-
-.bg-fuchsia {
-  background-color: #f012be; }
-
-.bg-purple {
-  background-color: #b10dc9; }
-
-.bg-maroon {
-  background-color: #85144b; }
-
-.bg-darken-1 {
-  background-color: rgba(0, 0, 0, 0.0625); }
-
-.bg-darken-2 {
-  background-color: rgba(0, 0, 0, 0.125); }
-
-.bg-darken-3 {
-  background-color: rgba(0, 0, 0, 0.25); }
-
-.bg-darken-4 {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-/* Border Color */
-.border-aqua {
-  border-color: #7fdbff; }
-
-.border-blue {
-  border-color: #0074d9; }
-
-.border-navy {
-  border-color: #001f3f; }
-
-.border-teal {
-  border-color: #39cccc; }
-
-.border-green {
-  border-color: #2ecc40; }
-
-.border-olive {
-  border-color: #3d9970; }
-
-.border-lime {
-  border-color: #01ff70; }
-
-.border-yellow {
-  border-color: #ffdc00; }
-
-.border-orange {
-  border-color: #ff851b; }
-
-.border-red {
-  border-color: #ff4136; }
-
-.border-fuchsia {
-  border-color: #f012be; }
-
-.border-purple {
-  border-color: #b10dc9; }
-
-.border-maroon {
-  border-color: #85144b; }
-
-.border-black {
-  border-color: #111; }
-
-.border-gray {
-  border-color: #aaa; }
-
-.border-silver {
-  border-color: #ddd; }
-
-.border-white {
-  border-color: #fff; }
-
-.border-darken-1 {
-  border-color: rgba(0, 0, 0, 0.0625); }
-
-.border-darken-2 {
-  border-color: rgba(0, 0, 0, 0.125); }
-
-.border-darken-3 {
-  border-color: rgba(0, 0, 0, 0.25); }
-
-.border-darken-4 {
-  border-color: rgba(0, 0, 0, 0.5); }
-
-/* Opacity */
-.muted {
-  opacity: .5; }
-
-/* Basscss Defaults */
-/*
-
-   COLOR VARIABLES
-
-   - Cool
-   - Warm
-   - Gray Scale
-
-*/
 /* Basscss Responsive White Space */
 @media (min-width: 40em) {
   .sm-m0 {
@@ -2386,3 +2193,199 @@ input[type=range] {
 html {
   -webkit-text-size-adjust: 100%;
   /* Prevent font scaling in landscape while allowing user zoom */ }
+
+/* Basscss Colors */
+/* Color */
+.black, .dark-gray {
+  color: #111; }
+
+.gray, .mid-gray {
+  color: #aaa; }
+
+.silver, .light-gray {
+  color: #ddd; }
+
+.white {
+  color: #fff; }
+
+.aqua {
+  color: #7fdbff; }
+
+.blue {
+  color: #0074d9; }
+
+.navy {
+  color: #001f3f; }
+
+.teal {
+  color: #39cccc; }
+
+.green {
+  color: #2ecc40; }
+
+.olive {
+  color: #3d9970; }
+
+.lime {
+  color: #01ff70; }
+
+.yellow {
+  color: #ffdc00; }
+
+.orange {
+  color: #ff851b; }
+
+.red {
+  color: #ff4136; }
+
+.fuchsia {
+  color: #f012be; }
+
+.purple {
+  color: #b10dc9; }
+
+.maroon {
+  color: #85144b; }
+
+/* Background Color */
+.bg-black, .bg-dark-gray {
+  background-color: #111; }
+
+.bg-gray, .bg-mid-gray {
+  background-color: #aaa; }
+
+.bg-silver, .bg-light-gray {
+  background-color: #ddd; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-aqua {
+  background-color: #7fdbff; }
+
+.bg-blue {
+  background-color: #0074d9; }
+
+.bg-navy {
+  background-color: #001f3f; }
+
+.bg-teal {
+  background-color: #39cccc; }
+
+.bg-green {
+  background-color: #2ecc40; }
+
+.bg-olive {
+  background-color: #3d9970; }
+
+.bg-lime {
+  background-color: #01ff70; }
+
+.bg-yellow {
+  background-color: #ffdc00; }
+
+.bg-orange {
+  background-color: #ff851b; }
+
+.bg-red {
+  background-color: #ff4136; }
+
+.bg-fuchsia {
+  background-color: #f012be; }
+
+.bg-purple {
+  background-color: #b10dc9; }
+
+.bg-maroon {
+  background-color: #85144b; }
+
+.bg-darken-1 {
+  background-color: rgba(0, 0, 0, 0.0625); }
+
+.bg-darken-2 {
+  background-color: rgba(0, 0, 0, 0.125); }
+
+.bg-darken-3 {
+  background-color: rgba(0, 0, 0, 0.25); }
+
+.bg-darken-4 {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/* Border Color */
+.border-aqua {
+  border-color: #7fdbff; }
+
+.border-blue {
+  border-color: #0074d9; }
+
+.border-navy {
+  border-color: #001f3f; }
+
+.border-teal {
+  border-color: #39cccc; }
+
+.border-green {
+  border-color: #2ecc40; }
+
+.border-olive {
+  border-color: #3d9970; }
+
+.border-lime {
+  border-color: #01ff70; }
+
+.border-yellow {
+  border-color: #ffdc00; }
+
+.border-orange {
+  border-color: #ff851b; }
+
+.border-red {
+  border-color: #ff4136; }
+
+.border-fuchsia {
+  border-color: #f012be; }
+
+.border-purple {
+  border-color: #b10dc9; }
+
+.border-maroon {
+  border-color: #85144b; }
+
+.border-black {
+  border-color: #111; }
+
+.border-gray {
+  border-color: #aaa; }
+
+.border-silver {
+  border-color: #ddd; }
+
+.border-white {
+  border-color: #fff; }
+
+.border-darken-1 {
+  border-color: rgba(0, 0, 0, 0.0625); }
+
+.border-darken-2 {
+  border-color: rgba(0, 0, 0, 0.125); }
+
+.border-darken-3 {
+  border-color: rgba(0, 0, 0, 0.25); }
+
+.border-darken-4 {
+  border-color: rgba(0, 0, 0, 0.5); }
+
+/* Opacity */
+.muted {
+  opacity: .5; }
+
+/* Basscss Defaults */
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/

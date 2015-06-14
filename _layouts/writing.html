@@ -7,12 +7,12 @@
 
     {% include _header.html %}
 
-    <main>
+    <main  class="px4">
 
       <div class="container">
 
         {% if site.posts %}
-          <ul>
+          <ul class="list-reset">
             {% for post in site.posts %}
               <li>
                 <a href="{{ post.url }}" title="{{post.title}}">

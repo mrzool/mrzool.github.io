@@ -1,5 +1,5 @@
 ---
 layout: writing
 title: 'writing'
-visible: true
+visible: false
 ---

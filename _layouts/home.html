@@ -9,18 +9,7 @@
 
     <main class="px4 container">
 
-        <ul class="list-reset">
-          <li>
-            <a href="http://notes.mrzool.cc">notes</a>
-          </li>
-          {% for p in site.pages  %}
-            {% if p.visible %}
-              <li>
-                <a href="{{ p.url }}"> {{ p.title }} </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+    {% include _navigation.html %}
       
     </main>
 

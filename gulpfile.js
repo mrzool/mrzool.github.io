@@ -92,6 +92,6 @@ function swallowError(error) {
 gulp.task('default', ['pre-process', 'browser-sync'], function(){
   gulp.start('pre-process', 'csslint', 'minify-img');
   gulp.watch('sass/*', ['pre-process']);
-  gulp.watch('*.html', browserReload);
+  gulp.watch('_site/*.html', browserReload);
 });
 

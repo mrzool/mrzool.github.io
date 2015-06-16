@@ -4,7 +4,7 @@ title: "about"
 visible: true
 ---
 
-Frontend, design, IA, Unix, Vim
+Frontend, design, IA
 
 **[{{site.email}}](mailto:{{site.email}})** 
 

@@ -4,7 +4,11 @@ title: "about"
 visible: true
 ---
 
-Frontend, design, IA
+Keeping expectations low and standards high.
+
+Frontend, design, IA, Unix, Vim, typography.
+
+Part-time heavy-duty caterer.
 
 **[{{site.email}}](mailto:{{site.email}})** 
 

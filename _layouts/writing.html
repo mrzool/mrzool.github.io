@@ -14,10 +14,13 @@
         {% if site.posts %}
           <ul class="list-reset">
             {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url }}" title="{{post.title}}">
-                  {{ post.title }}
-                </a>
+              <li class="mb2">
+                <h5 class="m0 gray light">{{ post.date | date: '%d %B %Y'}}</h5>
+                <h3 class="mt1">
+                  <a href="{{ post.url }}" title="{{post.title}}" class="reset-link regular">
+                    {{ post.title }}
+                  </a>
+                </h3>
               </li>
             {% endfor %}
           </ul>
@@ -25,7 +28,6 @@
 
       </div>
       
-      <script type="text/javascript" src="http://zoolnotes.tumblr.com"></script>
     </main>
 
     <!-- {% include _footer.html %} -->

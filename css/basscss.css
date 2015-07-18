@@ -173,8 +173,7 @@ p, dl, ol, ul {
 
 pre, code, samp {
   font-family: "Source Code Pro", Consolas, monospace;
-  font-size: inherit;
-  margin-right: 1em; }
+  font-size: inherit; }
 
 pre {
   margin-top: 0;
@@ -849,7 +848,7 @@ a:hover {
   text-decoration: underline; }
 
 pre, code {
-  background-color: transparent;
+  background-color: #ddd;
   border-radius: 3px; }
 
 hr {

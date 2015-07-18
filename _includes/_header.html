@@ -15,12 +15,15 @@
         teal 
       {% when "writing" %}
         orange
+      {% else %}
+        orange
       {% endcase %}
         lowercase reset-link" title="{{ page.title }}">
-        {% if page.parent.title == 'writing' %}
-          {{ page.parent.title }}
+        {% if page.layout == 'post' %}
+          writing
+        {% else %}
+          {{page.title}}
         {% endif %}
-      {{page.title}}
     </a>
   {% endif %}
   </h1>

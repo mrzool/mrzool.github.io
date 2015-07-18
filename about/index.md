@@ -2,6 +2,7 @@
 layout: default
 title: "about"
 visible: true
+weight: 2
 ---
 
 Keeping expectations low and standards high.

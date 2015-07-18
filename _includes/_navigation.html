@@ -2,11 +2,16 @@
   <li>
     <a href="http://notes.mrzool.cc">notes</a>
   </li>
-  {% for p in site.pages  %}
+
+  {% assign pages = site.pages | sort:"weight"  %}
+  {% for p in pages %}
     {% if p.visible %}
       <li>
-        <a href="{{ p.url }}"> {{ p.title }} </a>
+        <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+          {{ p.title }}
+        </a>
       </li>
     {% endif %}
   {% endfor %}
+
 </ul>

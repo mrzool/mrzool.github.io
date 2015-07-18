@@ -1,5 +1,7 @@
 ---
 layout: writing
-title: 'writing'
-visible: false
+title: "writing"
+visible: true
+weight: 1
 ---
+

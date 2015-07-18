@@ -17,6 +17,9 @@
         orange
       {% endcase %}
         lowercase reset-link" title="{{ page.title }}">
+        {% if page.parent.title == 'writing' %}
+          {{ page.parent.title }}
+        {% endif %}
       {{page.title}}
     </a>
   {% endif %}

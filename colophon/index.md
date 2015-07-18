@@ -3,6 +3,7 @@ layout: default
 title: "colophon"
 visible: true
 weight: 3
+permalink: colophon/
 ---
 
 Built with [Jekyll](http://jekyllrb.com/) and [Basscss](http://www.basscss.com/)  

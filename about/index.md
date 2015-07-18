@@ -3,6 +3,7 @@ layout: default
 title: "about"
 visible: true
 weight: 2
+permalink: about/
 ---
 
 Keeping expectations low and standards high.

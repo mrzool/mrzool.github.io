@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "colophon"
-visible: true
+visible: false
 weight: 3
 permalink: colophon/
 ---

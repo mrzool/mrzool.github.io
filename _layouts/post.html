@@ -3,19 +3,17 @@
 
   {% include _head.html %}
 
-  <body>
+  <body class="py4 sm-px4 container white-bg">
 
     {% include _header.html %}
 
-    <main class="px3 sm-px4">
+    <main>
 
-      <div class="container">
 
-        <h1 class="h3 mb3 caps regular">{{ page.title }}</h1>
+        <article>
+          {{ content }}
+        </article>
 
-        {{ content }}
-
-      </div>
       
     </main>
 

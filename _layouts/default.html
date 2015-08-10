@@ -3,15 +3,25 @@
 
   {% include _head.html %}
 
-  <body>
+  <body class="py3 px1 sm-px0 container white-bg">
 
     {% include _header.html %}
 
-    <main class="px3 sm-px4 container">
+    <main>
+
+      {% if page.title != 'Home' %}
+        <h2> {{page.title}} </h2>
+      {% endif %}
 
       {{ content }}
 
+      {% if page.title == 'Home' %}
+        {% include _post-list.html %}
+      {% endif %}
+
     </main>
+
+    {% include _footer.html %}
 
     <script>
 

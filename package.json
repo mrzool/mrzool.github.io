@@ -4,7 +4,9 @@
   "description": "mrzool's home",
   "main": "index.html",
   "scripts": {
-    "start": "jekyll build -w && gulp"
+    "server": "gulp",
+    "build": "jekyll build -w --drafts",
+    "sync": "fswatch -o ~/repos/mrzool.github.io/_drafts | xargs -n1 -I{} rsync -arv --delete ~/repos/mrzool.github.io/_drafts/ ~/Dropbox/Apps/Byword/drafts" 
   },
   "repository": {
     "type": "git",

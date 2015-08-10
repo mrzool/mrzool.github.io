@@ -11,4 +11,7 @@ github:
   repo: mrzool/mrzool.github.io
   branch: master
 github_username: mrzool
+markdown: kramdown
+kramdown: 
+  parse_block_html: true
 #pygments: true

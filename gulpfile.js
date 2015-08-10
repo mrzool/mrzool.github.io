@@ -18,11 +18,11 @@ var gulp = require('gulp'),
 // Minify all css files in the css directory
 // Run this in the root directory of the project with `gulp minify-css `
 gulp.task('minify-css', function(){
-  gulp.src('./css/basscss.css')
+  gulp.src('./css/*.css')
     .pipe(minifyCSS())
-    .pipe(rename('basscss.min.css'))
+    .pipe(rename('s.min.css'))
     .pipe(size({gzip:true, showFiles: true}))
-    .pipe(gulp.dest('./css/'));
+    .pipe(gulp.dest('./css/prod/'));
 });
 
 gulp.task('minify-img', function(){
@@ -37,7 +37,7 @@ gulp.task('minify-img', function(){
 // Use csslint without box-sizing or compatible vendor prefixes (these
 // don't seem to be kept up to date on what to yell about)
 gulp.task('csslint', function(){
-  gulp.src('./css/basscss.css')
+  gulp.src('./css/*.css')
     .pipe(csslint({
           'compatible-vendor-prefixes': false,
           'box-sizing': false,
@@ -90,8 +90,8 @@ function swallowError(error) {
 
 */
 gulp.task('default', ['pre-process', 'browser-sync'], function(){
-  gulp.start('pre-process', 'csslint', 'minify-img');
-  gulp.watch('sass/*', ['pre-process']);
+  gulp.start('minify-css', 'csslint', 'minify-img');
+  gulp.watch('css/*', ['minify-css']);
   gulp.watch('_site/*.html', browserReload);
 });
 

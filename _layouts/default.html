@@ -13,7 +13,13 @@
         <h2> {{page.title}} </h2>
       {% endif %}
 
-      {{ content }}
+      {% capture colophon %}{% include _colophon.md %}{% endcapture %}
+
+      {% if page.title == 'Work' %}
+        <section>
+          {{ colophon | markdownify }}
+        </section>
+      {% endif %}
 
       {% if page.title == 'Home' %}
         {% include _post-list.html %}

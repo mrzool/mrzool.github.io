@@ -6,6 +6,8 @@ weight: 3
 permalink: work/
 ---
 
+## Work
+
 At this stage in my career, I'm making a living by architecting and building clean, performant, readable, and no-nonsense websites. As a consequence, I often find myself doing consultancy in the fields of marketing, brand identity and product design. Eventually I'd like to move on to the other, more research-y areas of data science and data journalism.
 
 I'm currently freelancing in Berlin and I'm [available for hire](/contact).

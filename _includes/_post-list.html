@@ -1,12 +1,11 @@
-<h2>Articles</h2>
 {% if site.posts %}
   <ul class="list-reset">
     {% for post in site.posts %}
-      <li class="mb2">
+      <li>
         <a href="{{ post.url }}" title="{{post.title}}" class="reset-link">
           {{ post.title }}
         </a>
-        <span>({{ post.date | date: '%d %B %Y'}})</span>
+        <span class="gray">({{ post.date | date: '%d %B %Y'}})</span>
       </li>
     {% endfor %}
   </ul>

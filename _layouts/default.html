@@ -3,26 +3,28 @@
 
   {% include _head.html %}
 
-  <body class="py3 px1 sm-px0 container white-bg">
+  <body class="container py3 px1 sm-px0 white-bg">
 
     {% include _header.html %}
 
     <main>
 
-      {% if page.title != 'Home' %}
-        <h2> {{page.title}} </h2>
-      {% endif %}
+      <section>
+        {{ content }}
+      </section>
 
-      {% capture colophon %}{% include _colophon.md %}{% endcapture %}
-
-      {% if page.title == 'Work' %}
+      {% if page.title == 'Home' or 'Writing' %}
         <section>
-          {{ colophon | markdownify }}
+          <h2>Writing</h2>
+          {% include _post-list.html %}
         </section>
       {% endif %}
 
-      {% if page.title == 'Home' %}
-        {% include _post-list.html %}
+      {% if page.title == 'Work' %}
+        {% capture colophon %}{% include _colophon.md %}{% endcapture %}
+        <section>
+          {{ colophon | markdownify }}
+        </section>
       {% endif %}
 
     </main>

@@ -10,7 +10,7 @@ Frontend, design, IA, Unix, Vim, typography.
 
 **[{{site.email}}](mailto:{{site.email}})** 
 
-Berlin / Bozen
+Berlin
 
 <!--Also on: [Twitter](https://twitter.com/__zool), [Github](https://github.com/mrzool "Github"), [Instapaper](https://www.instapaper.com/p/__zool "Instapaper") , [VSCO Grid](https://mrzool.vsco.co "Grid") , [Keybase](https://keybase.io/zool "Keybase"). -->
 

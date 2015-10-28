@@ -861,6 +861,8 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                             div.table-wrapper { border-right: 1px solid #efefef; }
                             img { width: 100%; } }
 
+body { background-color: #FFF8E7; }
+
 .h1 { font-size: 4rem }
 .h2 { font-size: 2.1rem }
 .h3 { font-size: 1.7rem }
@@ -873,3 +875,5 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   margin-left: auto;
   margin-right: auto;
 }
+
+

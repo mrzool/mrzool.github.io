@@ -1,0 +1,38 @@
+{
+  "name": "mrzool.github.io",
+  "version": "3.0.0",
+  "description": "mrzool's homepage",
+  "homepage": "http://mrzool.cc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrzool/mrzool.github.io.git"
+  },
+  "author": "mrzool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrzool/mrzool.github.io/issues",
+    "email": "info@mrzool.cc"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "browser-sync": "^2.9.6",
+    "gravitons": "^1.0.0",
+    "node-minify": "^1.2.1",
+    "parallelshell": "^2.0.0",
+    "postcss": "^5.0.8",
+    "postcss-browser-reporter": "^0.4.0",
+    "postcss-conditionals": "^2.0.0",
+    "postcss-css-variables": "^0.5.0",
+    "postcss-custom-media": "^5.0.0",
+    "postcss-import": "^7.0.0",
+    "watch": "^0.16.0"
+  },
+  "scripts": {
+    "prestart": "npm run clean",
+    "start": "parallelshell -v 'npm run build:css' 'npm run build:html' 'npm run server'",
+    "build:css": "watch --wait=2 'node index.js' src/",
+    "build:html": "jekyll build --watch --incremental",
+    "clean": "rm -rf _site",
+    "server": "browser-sync start --server _site --files '_site/css/mnml.css, _site/*.html'"
+  }
+}

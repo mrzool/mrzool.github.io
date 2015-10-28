@@ -1,8 +1,0 @@
-  {% assign pages = site.pages | sort:"weight"  %}
-  {% for p in pages %}
-    {% if p.visible %}
-        <a style="font-size: 1.2em" class="px2 reset-link border-hover{% if p.url == page.url %} active{% endif %}" href="{{ p.url }}">
-          {{ p.title }}
-        </a>
-    {% endif %}
-  {% endfor %}

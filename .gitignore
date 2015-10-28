@@ -5,3 +5,4 @@ _site/
 *.un~
 Gemfile.lock
 _drafts/
+.jekyll-metadata

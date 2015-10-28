@@ -1,36 +1,38 @@
 {
-  "name": "mrzool.cc",
-  "version": "1.0.0",
-  "description": "mrzool's home",
-  "main": "index.html",
-  "scripts": {
-    "start": "jekyll build -w && gulp"
-  },
+  "name": "mrzool.github.io",
+  "version": "3.0.0",
+  "description": "mrzool's homepage",
+  "homepage": "http://mrzool.cc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrzool/mrzool.github.io.git"
+    "url": "git://github.com/mrzool/mrzool.github.io.git"
   },
   "author": "mrzool",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrzool/mrzool.github.io/issues"
+    "url": "https://github.com/mrzool/mrzool.github.io/issues",
+    "email": "info@mrzool.cc"
   },
-  "homepage": "http://mrzool.github.io",
   "devDependencies": {
-    "basscss-sass": "^1.0.2",
-    "browser-sync": "^2.7.6",
-    "glob": "^4.3.2",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^2.3.1",
-    "gulp-concat": "^2.4.3",
-    "gulp-csslint": "^0.1.5",
-    "gulp-imagemin": "^2.2.1",
-    "gulp-minify-css": "^1.1.6",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.0.1",
-    "gulp-size": "^1.2.1",
-    "gulp-uncss": "^1.0.1",
-    "gulp-util": "^3.0.5",
-    "gulp-watch": "^4.2.4"
+    "autoprefixer": "^6.0.3",
+    "browser-sync": "^2.9.6",
+    "gravitons": "^1.0.0",
+    "node-minify": "^1.2.1",
+    "parallelshell": "^2.0.0",
+    "postcss": "^5.0.8",
+    "postcss-browser-reporter": "^0.4.0",
+    "postcss-conditionals": "^2.0.0",
+    "postcss-css-variables": "^0.5.0",
+    "postcss-custom-media": "^5.0.0",
+    "postcss-import": "^7.0.0",
+    "watch": "^0.16.0"
+  },
+  "scripts": {
+    "prestart": "npm run clean",
+    "start": "parallelshell -v 'npm run build:css' 'npm run build:html' 'npm run server'",
+    "build:css": "watch --wait=2 'node index.js' src/",
+    "build:html": "jekyll build --watch --incremental",
+    "clean": "rm -rf _site",
+    "server": "browser-sync start --server _site --files '_site/css/mnml.css, _site/*.html'"
   }
 }

@@ -1,14 +1,17 @@
-name: "mrzool"
-description: "mrzool's home"
+name: "mrzool.github.io"
+description: "mrzool's homepage"
 author: "mrzool"
 email: 'info@mrzool.cc'
 url: "http://mrzool.cc"
 # url: "http://localhost:3000"
 future: true
-exclude: [README.md, Rakefile, node_modules]
-permalink: pretty
+exclude: [README.md, package.json, index.js, Rakefile, node_modules, src]
+permalink: /writing/:title/
 github:
   repo: mrzool/mrzool.github.io
   branch: master
 github_username: mrzool
+# markdown: kramdown
+# kramdown: 
+#   parse_block_html: true
 #pygments: true

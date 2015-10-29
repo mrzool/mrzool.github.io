@@ -4,7 +4,7 @@ layout: default
 
 # Hello from Berlin.
 
-You've reached the website of Mattia Tezzele, a frontend web developer with background in sociology and economics.
+You've reached the website of Mattia Tezzele, a web developer with background in sociology and economics.
 
 I make things with code. Websites, data visualizations, and other cool stuff.
 

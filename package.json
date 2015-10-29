@@ -34,6 +34,6 @@
     "build:html": "jekyll build --watch --incremental",
     "minify:css": "uncss _site/index.html | cssnano > s.min.css",
     "clean": "rm -rf _site",
-    "server": "browser-sync start --server _site --files '_site/css/mnml.css, _site/*.html'"
+    "server": "browser-sync start --server _site --files '_site/s.css, _site/*.html'"
   }
 }

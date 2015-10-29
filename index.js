@@ -16,11 +16,11 @@ var output = postcss([autoprefixer])
   .use(customMedia())
   .process(css, {
     from: "./src/s.css",
-    to: "./css/s.css"
+    to: "./s.css"
   })
   .css
 
-fs.writeFile("css/s.css", output, 'utf-8')
+fs.writeFile("s.css", output, 'utf-8')
 
 // Using Sqwish for CSS
 // new compressor.minify({

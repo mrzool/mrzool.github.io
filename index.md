@@ -6,9 +6,7 @@ layout: default
 
 You've reached the website of Mattia Tezzele, a web developer with background in sociology and economics.
 
-I make things with code. Websites, data visualizations, and other cool stuff.
-
-My interests lie somewhere in between design, typography, statistic, music, and human language.
+I make things with code. Websites, data visualizations, and other cool stuff. My interests lie somewhere in between design, typography, statistic, music, and human language.
 
 I try to keep it simple.
 

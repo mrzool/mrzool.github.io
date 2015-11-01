@@ -30,7 +30,7 @@
   "scripts": {
     "prestart": "npm run clean",
     "start": "parallelshell -v 'npm run build:css' 'npm run build:html' 'npm run server'",
-    "build:css": "watch --wait=2 'node index.js' src/",
+    "build:css": "watch --wait=2 'node css.js' src/",
     "build:html": "jekyll build --watch --incremental",
     "minify:css": "uncss _site/index.html | cssnano > s.min.css",
     "clean": "rm -rf _site",

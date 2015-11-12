@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include _head.html %}
+  <body class="container">
+    <main class="pt4 px2 mb4">
+      <h1> {{ page.title }} </h1>
+
+      {{ content }}
+
+      {% for post in site.posts %}
+        <h3><a class="undecorate" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <strong>{{ post.date | date: "%B %e, %Y" }}</strong>
+      {% endfor %}
+
+      <div class="mt4">
+        <a href="/">mrzool</a>
+      </div>
+    </main>
+    <hr class="ml2 mr2" style="border-color: white">
+    <footer class="px2 py2 mt2">
+      <small class="block h4 mb1"> <i>This website was last updated on {{ 'now' | date: "%B %-d, %Y" }}.</i> </small>
+      <small class="block h4 mb3"><i>Built with <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://jxnblk.com/gravitons/">Gravitons</a>, and <a href="http://www.daveliepmann.com/tufte-css/">Tufte CSS</a>.</i></small>
+    </footer>
+    {% include _analytics.html %}
+  </body>
+</html>

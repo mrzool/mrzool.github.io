@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Impressum
+weight: 10
 ---
 
 # {{page.title}}
@@ -14,5 +15,3 @@ Angaben nach § 5 Abs. 1 Nr 1-2 TMG:
 | Tel.          | +49 1522 1580015  |
 
 Inhaltlich Verantwortlicher gemäß § 5 TMG: Mattia Tezzele (Anschrift wie oben).
-
-Zurück zur [Homepage]({{site.url}}).

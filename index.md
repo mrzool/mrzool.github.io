@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home
+exclude: true
 ---
 
 # Hello from Berlin.

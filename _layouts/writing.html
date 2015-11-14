@@ -8,7 +8,7 @@
       {{ content }}
 
       {% for post in site.posts %}
-        <h3><a class="undecorate" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h3><a class="normal" href="{{ post.url }}">{{ post.title }}</a></h3>
         <strong>{{ post.date | date: "%B %e, %Y" }}</strong>
       {% endfor %}
 
@@ -17,10 +17,7 @@
       </div>
     </main>
     <hr class="ml2 mr2" style="border-color: white">
-    <footer class="px2 py2 mt2">
-      <small class="block h4 mb1"> <i>This website was last updated on {{ 'now' | date: "%B %-d, %Y" }}.</i> </small>
-      <small class="block h4 mb3"><i>Built with <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://jxnblk.com/gravitons/">Gravitons</a>, and <a href="http://www.daveliepmann.com/tufte-css/">Tufte CSS</a>.</i></small>
-    </footer>
+    {% include _footer.html %}
     {% include _analytics.html %}
   </body>
 </html>

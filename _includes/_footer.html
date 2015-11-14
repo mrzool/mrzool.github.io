@@ -1,4 +1,13 @@
 <footer class="px2 py2 mt2">
+  <small class="block h4 mb2">
+    <a href="{{ site.url }}">Home</a>
+    {% assign pages = site.pages | sort:"weight"  %}
+    {% for p in pages %}
+      {% unless p.exclude %}
+        &middot; <a href="{{ p.url }}">{{ p.title }}</a>
+      {% endunless %}
+    {% endfor %}
+  </small>
   <small class="block h4 mb1"> <i>This website was last updated on {{ 'now' | date: "%B %-d, %Y" }}.</i> </small>
   <small class="block h4 mb3"><i>Built with <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://jxnblk.com/gravitons/">Gravitons</a>, and <a href="http://www.daveliepmann.com/tufte-css/">Tufte CSS</a>.</i></small>
 </footer>

@@ -4,14 +4,15 @@
   <body class="container">
     <main class="pt4 px2 mb4">
       <article>
-      <h1> {{ page.title }} </h1>
-      <h4> Written by <a href="/" title="Homepage">{{ site.author }}</a> </h4>
-      <h3 class="mb4"> {{ page.subtitle }} </h3>
+        <h1> {{ page.title }} </h1>
+        <h4> Written on {{ page.date | date: "%B %e, %Y" }} by <a href="/" title="Homepage">{{ site.author }}</a> </h4>
+        <h3 class="mt3 mb4"> {{ page.subtitle }} </h3>
 
         {{ content }}
 
       </article>
 
+      <p class="mt4 h4 italic">Thanks for reading so far! For comments and questions you can always reach me on <a href="http://twitter.com/mrzool_">Twitter</a>. Also, an <a href="#">RSS feed</a> is available.</p>
     </main>
     <hr class="ml2 mr2" style="border-color: white">
     {% include _footer.html %}

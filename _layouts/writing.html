@@ -9,12 +9,10 @@
 
       {% for post in site.posts %}
         <h3><a class="normal" href="{{ post.url }}">{{ post.title }}</a></h3>
-        <strong>{{ post.date | date: "%B %e, %Y" }}</strong>
+        <p class="mt0 mb0 h5 gray"> {{ post.date | date: "%B %e, %Y" }} </p>
+        <p class="italic mt0"> {{ post.subtitle }} </p>
       {% endfor %}
 
-      <div class="mt4">
-        <a href="/">mrzool</a>
-      </div>
     </main>
     <hr class="ml2 mr2" style="border-color: white">
     {% include _footer.html %}

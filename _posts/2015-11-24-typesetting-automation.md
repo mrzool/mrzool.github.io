@@ -11,9 +11,10 @@ I wanted a system that allowed me to produce perfectly typeset documents in an a
 
 The project [tex-boilerplates](http://mrzool.cc/tex-boilerplates/) is the result of my effort. At its core there's a simple system that provides you with a basic skeleton for painless and automated typesetting of three common types of documents: [letters](https://github.com/mrzool/letter-boilerplate), [invoices](https://github.com/mrzool/invoice-boilerplate) and [CVs/résumés](https://github.com/mrzool/cv-boilerplate).
 
-For this article, I've picked [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) to walk you through a typical workflow. The two other boilerplates use a different template, predictably enough, but have the same structure and work in the very same way. They all live on Github and provide a `README` that explains in detail dependencies, installation and usage, so refer to that for more info on how to get started.
+The three boilerplates have the same structure and work in a very similar way.
+They all live on Github and provide a `README` that explains in detail dependencies, installation and usage, so refer to that to learn about the individual differences.
 
-Let's look at the basic structure of [the repository](https://gist.github.com/1b6ea1f800c33a4fb848):
+For this article, I've picked [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) to walk you through a typical workflow. Let's look at the basic structure of the repository:
 
 {% highlight bash %}
 ├── README.md

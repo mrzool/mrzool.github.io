@@ -14,7 +14,7 @@ github_username: mrzool
 twitter_username: mrzool_
 markdown: kramdown
 kramdown:
-  input: GFM
+  # input: GFM
   syntax_highlighter: rouge
 #   parse_block_html: true
 gems:

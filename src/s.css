@@ -5,6 +5,7 @@
 @import "basscss-btn-outline";
 @import "./_latex.css";
 @import "./_tufte.css";
+@import "./_syntax.css";
 
 body { background-color: #FFF8E7; }
 article { padding: 0; }

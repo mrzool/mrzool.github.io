@@ -1,9 +1,21 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <title>{{ site.name }} &middot; Developer &middot; Berlin </title>
+  <title>
+    {% if page.layout == 'home' %}
+      {{ site.name }} &middot; Developer &middot; Berlin
+    {% else %}
+      {{ page.subtitle }}
+    {% endif %}
+  </title>
   <meta name="author" content="mrzool">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="
+    {% if page.layout == 'home' %}
+    {{ site.description }}
+    {% else %}
+      {{ page.subtitle | strip_html }}
+    {% endif %}
+    ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% comment %} <link rel="stylesheet" href="/s.min.css"> {% endcomment %}
   <link rel="stylesheet" href="/s.css">

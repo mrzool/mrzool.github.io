@@ -32,7 +32,7 @@
     "start": "parallelshell -v 'npm run build:css' 'npm run build:html' 'npm run server'",
     "build:css": "watch --wait=2 'node css.js' src/",
     "build:html": "jekyll build --watch --incremental --drafts",
-    "minify:css": "uncss _site/**/*.html | cssnano > s.min.css",
+    "minify:css": "uncss _site/**/**/*.html | cssnano > s.min.css",
     "clean": "rm -rf _site",
     "server": "browser-sync start --files '_site/css/s.css, _site/**/*.html' --server _site"
   },

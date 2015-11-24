@@ -533,6 +533,109 @@ th {
 .c10 { box-sizing: border-box; width: calc(10/12*100%) }
 .c11 { box-sizing: border-box; width: calc(11/12*100%) }
 .c12 { box-sizing: border-box; width: calc(12/12*100%) }
+/* Basscss Btn */
+
+.btn {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.125rem;
+  padding: .3em .5em;
+  margin: 0;
+  height: auto;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+  border-color: rgba(0,0,0,.125);
+  box-shadow: 0 0 0 3px rgba(0,0,0,.25);
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* Basscss Defaults */
+
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+
+:root {
+
+  /* Cool */
+
+
+  /* Warm */
+
+
+  /* Gray scale */
+
+}
+/* Basscss Btn Outline */
+
+.btn-outline,
+.btn-outline:hover {
+  border-color: currentcolor;
+}
+
+.btn-outline {
+  border-radius: 3px;
+}
+
+.btn-outline:hover {
+  box-shadow: inset 0 0 0 20rem rgba(0,0,0,.0625);
+}
+
+.btn-outline:active {
+  box-shadow: inset 0 0 0 20rem rgba(0,0,0,.125),
+    inset 0 3px 4px 0 rgba(0,0,0,.25),
+    0 0 1px rgba(0,0,0,.125);
+}
+
+.btn-outline:disabled,
+.btn-outline.is-disabled {
+  opacity: .5;
+}
+.latex {
+  letter-spacing: .01em;
+}
+
+.latex sup {
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  font-size: 0.85em;
+  vertical-align: -0.27em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+.latex sub {
+  text-transform: uppercase;
+  vertical-align: 0;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+  font-size: 1em;
+}
 /* Import ET Book styles
    adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
 
@@ -736,9 +839,9 @@ figcaption { float: right;
 figure.fullwidth figcaption { margin-right: 24%; }
 
 /* Links: replicate underline that clears descenders */
-a:link, a:visited { color: inherit; }
+a:link:not(.btn), a:visited:not(.btn) { color: inherit; }
 
-a:link { text-decoration: none;
+a:link:not(.btn) { text-decoration: none;
          background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#333, #333);
          background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#333, #333);
          -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
@@ -860,15 +963,95 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                             div.table-wrapper, table, table.booktabs { width: 85%; }
                             div.table-wrapper { border-right: 1px solid #efefef; }
                             img { width: 100%; } }
+/* Solarized Light 
+
+For use with Jekyll and Pygments
+
+http://ethanschoonover.com/solarized
+
+SOLARIZED HEX      ROLE
+--------- -------- ------------------------------------------
+base01    #586e75  body text / default code / primary content
+base1     #93a1a1  comments / secondary content
+base3     #fdf6e3  background
+orange    #cb4b16  constants
+red       #dc322f  regex, special keywords
+blue      #268bd2  reserved keywords
+cyan      #2aa198  strings, numbers
+green     #859900  operators, other keywords
+*/
+
+/* .highlight { background-color: #fdf6e3; color: #586e75 } */
+.highlight .c { color: #93a1a1 } /* Comment */
+.highlight .err { color: #586e75 } /* Error */
+.highlight .g { color: #586e75 } /* Generic */
+.highlight .k { color: #859900 } /* Keyword */
+.highlight .l { color: #586e75 } /* Literal */
+.highlight .n { color: #586e75 } /* Name */
+.highlight .o { color: #859900 } /* Operator */
+.highlight .x { color: #cb4b16 } /* Other */
+.highlight .p { color: #586e75 } /* Punctuation */
+.highlight .cm { color: #93a1a1 } /* Comment.Multiline */
+.highlight .cp { color: #859900 } /* Comment.Preproc */
+.highlight .c1 { color: #93a1a1 } /* Comment.Single */
+.highlight .cs { color: #859900 } /* Comment.Special */
+.highlight .gd { color: #2aa198 } /* Generic.Deleted */
+.highlight .ge { color: #586e75; font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #dc322f } /* Generic.Error */
+.highlight .gh { color: #cb4b16 } /* Generic.Heading */
+.highlight .gi { color: #859900 } /* Generic.Inserted */
+.highlight .go { color: #586e75 } /* Generic.Output */
+.highlight .gp { color: #586e75 } /* Generic.Prompt */
+.highlight .gs { color: #586e75; font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #cb4b16 } /* Generic.Subheading */
+.highlight .gt { color: #586e75 } /* Generic.Traceback */
+.highlight .kc { color: #cb4b16 } /* Keyword.Constant */
+.highlight .kd { color: #268bd2 } /* Keyword.Declaration */
+.highlight .kn { color: #859900 } /* Keyword.Namespace */
+.highlight .kp { color: #859900 } /* Keyword.Pseudo */
+.highlight .kr { color: #268bd2 } /* Keyword.Reserved */
+.highlight .kt { color: #dc322f } /* Keyword.Type */
+.highlight .ld { color: #586e75 } /* Literal.Date */
+.highlight .m { color: #2aa198 } /* Literal.Number */
+.highlight .s { color: #2aa198 } /* Literal.String */
+.highlight .na { color: #586e75 } /* Name.Attribute */
+.highlight .nb { color: #B58900 } /* Name.Builtin */
+.highlight .nc { color: #268bd2 } /* Name.Class */
+.highlight .no { color: #cb4b16 } /* Name.Constant */
+.highlight .nd { color: #268bd2 } /* Name.Decorator */
+.highlight .ni { color: #cb4b16 } /* Name.Entity */
+.highlight .ne { color: #cb4b16 } /* Name.Exception */
+.highlight .nf { color: #268bd2 } /* Name.Function */
+.highlight .nl { color: #586e75 } /* Name.Label */
+.highlight .nn { color: #586e75 } /* Name.Namespace */
+.highlight .nx { color: #586e75 } /* Name.Other */
+.highlight .py { color: #586e75 } /* Name.Property */
+.highlight .nt { color: #268bd2 } /* Name.Tag */
+.highlight .nv { color: #268bd2 } /* Name.Variable */
+.highlight .ow { color: #859900 } /* Operator.Word */
+.highlight .w { color: #586e75 } /* Text.Whitespace */
+.highlight .mf { color: #2aa198 } /* Literal.Number.Float */
+.highlight .mh { color: #2aa198 } /* Literal.Number.Hex */
+.highlight .mi { color: #2aa198 } /* Literal.Number.Integer */
+.highlight .mo { color: #2aa198 } /* Literal.Number.Oct */
+.highlight .sb { color: #93a1a1 } /* Literal.String.Backtick */
+.highlight .sc { color: #2aa198 } /* Literal.String.Char */
+.highlight .sd { color: #586e75 } /* Literal.String.Doc */
+.highlight .s2 { color: #2aa198 } /* Literal.String.Double */
+.highlight .se { color: #cb4b16 } /* Literal.String.Escape */
+.highlight .sh { color: #586e75 } /* Literal.String.Heredoc */
+.highlight .si { color: #2aa198 } /* Literal.String.Interpol */
+.highlight .sx { color: #2aa198 } /* Literal.String.Other */
+.highlight .sr { color: #dc322f } /* Literal.String.Regex */
+.highlight .s1 { color: #2aa198 } /* Literal.String.Single */
+.highlight .ss { color: #2aa198 } /* Literal.String.Symbol */
+.highlight .bp { color: #268bd2 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #268bd2 } /* Name.Variable.Class */
+.highlight .vg { color: #268bd2 } /* Name.Variable.Global */
+.highlight .vi { color: #268bd2 } /* Name.Variable.Instance */
+.highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
 
 body { background-color: #FFF8E7; }
-
-.h1 { font-size: 4rem }
-.h2 { font-size: 2.1rem }
-.h3 { font-size: 1.7rem }
-.h4 { font-size: 1rem }
-
-.block { display: block; }
 
 .container {
   max-width: 45em;
@@ -876,6 +1059,43 @@ body { background-color: #FFF8E7; }
   margin-right: auto;
 }
 
-a:link {
+.h1 { font-size: 3.2rem }
+.h2 { font-size: 2.2rem }
+.h3 { font-size: 1.7rem }
+.h4 { font-size: 1.4rem }
+.h5 { font-size: 1rem }
+
+.normal { font-style: normal; }
+.italic { font-style: italic; }
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: bottom;
+}
+
+.block { display: block; }
+
+.gray { color: #424C55; }
+.blue { color: #506FB3; }
+
+.border-double {
+  border-style: double;
+  border-width: 3px;
+}
+
+pre, code { font-size: 1.1rem;}
+pre {
+  overflow-x: scroll;
+  padding: .5em 1em;
+  border-left: 3px double #A2A7A5;
+}
+
+article { padding: 0; }
+figure { margin: 0; }
+ul, ol { width: 70%; }
+/* ul { list-style: circle outside none; } */
+
+/* Reset link colors */
+a:link:not(.btn) {
   text-shadow: 0.03em 0 #FFF8E7, -0.03em 0 #FFF8E7, 0 0.03em #FFF8E7, 0 -0.03em #FFF8E7, 0.06em 0 #FFF8E7, -0.06em 0 #FFF8E7, 0.09em 0 #FFF8E7, -0.09em 0 #FFF8E7, 0.12em 0 #FFF8E7, -0.12em 0 #FFF8E7, 0.15em 0 #FFF8E7, -0.15em 0 #FFF8E7;
 }

@@ -35,5 +35,10 @@
     "minify:css": "uncss _site/**/*.html | cssnano > s.min.css",
     "clean": "rm -rf _site",
     "server": "browser-sync start --files '_site/css/s.css, _site/**/*.html' --server _site"
+  },
+  "dependencies": {
+    "basscss-btn": "^1.0.1",
+    "basscss-btn-outline": "^1.0.0",
+    "basscss-defaults": "^2.1.1"
   }
 }

@@ -49,16 +49,14 @@ cp ~/Dropbox/signature.pdf .
 
 That's it. I'm all set. Now I can open `letter.md` in Vim and write my letter in markdown (let's pretend that it's 1867 and I'm Friedrich Nietzsche writing to his pen pal Carl Freiherr von Gersdorff):
 
-{% highlight markdown %}
-Dear Friend,
+    Dear Friend,
 
-I am a bombardier in the second mounted division
-of the Fourth Horse Artillery.
+    I am a bombardier in the second mounted division
+    of the Fourth Horse Artillery.
 
-[...]
+    [...]
 
-Your devoted friend,
-{% endhighlight %}
+    Your devoted friend,
 
 When I'm done writing to my friend Carl, all there's left to do is to edit `details.yml` with names and addresses, taking care of preserving the already present data structure:
 

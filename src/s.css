@@ -37,5 +37,7 @@ a:link {
   border-width: 3px;
 }
 
+/* Reset link colors */
+a:link:not(.btn) {
   text-shadow: 0.03em 0 #FFF8E7, -0.03em 0 #FFF8E7, 0 0.03em #FFF8E7, 0 -0.03em #FFF8E7, 0.06em 0 #FFF8E7, -0.06em 0 #FFF8E7, 0.09em 0 #FFF8E7, -0.09em 0 #FFF8E7, 0.12em 0 #FFF8E7, -0.12em 0 #FFF8E7, 0.15em 0 #FFF8E7, -0.15em 0 #FFF8E7;
 }

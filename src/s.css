@@ -7,10 +7,6 @@
 @import "./_tufte.css";
 @import "./_syntax.css";
 
-body { background-color: #FFF8E7; }
-article { padding: 0; }
-
-.normal { font-style: normal; }
 
 :root {
   --black: #111;
@@ -30,16 +26,41 @@ body { background-color: var(--white); }
   margin-right: auto;
 }
 
-a:link {
+.h1 { font-size: 3.2rem }
+.h2 { font-size: 2.2rem }
+.h3 { font-size: 1.7rem }
+.h4 { font-size: 1.4rem }
+.h5 { font-size: 1rem }
+
+.normal { font-style: normal; }
+.italic { font-style: italic; }
 .icon {
   width: 1em;
   height: 1em;
   vertical-align: bottom;
 }
+
+.block { display: block; }
+
+.gray { color: var(--gray); }
+.blue { color: var(--blue); }
+
 .border-double {
   border-style: double;
   border-width: 3px;
 }
+
+pre, code { font-size: 1.1rem;}
+pre {
+  overflow-x: scroll;
+  padding: .5em 1em;
+  border-left: 3px double var(--lightgray);
+}
+
+article { padding: 0; }
+figure { margin: 0; }
+ul, ol { width: 70%; }
+/* ul { list-style: circle outside none; } */
 
 /* Reset link colors */
 a:link:not(.btn) {

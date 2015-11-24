@@ -11,7 +11,9 @@ I wanted a system that allowed me to produce perfectly typeset documents in an a
 
 The project [tex-boilerplates](http://mrzool.cc/tex-boilerplates/) is the result of my effort. At its core there's a simple system that provides you with a basic skeleton for painless and automated typesetting of three common types of documents: [letters](https://github.com/mrzool/letter-boilerplate), [invoices](https://github.com/mrzool/invoice-boilerplate) and [CVs/résumés](https://github.com/mrzool/cv-boilerplate).
 
-Let's look at the basic structure of a <span class="latex">T<sub>e</sub>X</span> boilerplate:
+For this article, I've picked [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) to walk you through a typical workflow. The two other boilerplates use a different template, predictably enough, but have the same structure and work in the very same way. They all live on Github and provide a `README` that explains in detail dependencies, installation and usage, so refer to that for more info on how to get started.
+
+Let's look at the basic structure of [the repository](https://gist.github.com/1b6ea1f800c33a4fb848):
 
 {% highlight bash %}
 ├── README.md
@@ -25,11 +27,9 @@ Here's what every file is about:
 
 1. `README.md`: Info on dependencies, installation, and usage.
 2. `details.yml`: A YAML file for content and metadata.
-3. `letter.md`: A markdown file only present in [letter-boilerplate](https://github.com/mrzool/letter-boilerplate),  for CVs and invoices the YAML file is enough.
+3. `letter.md`: A markdown file to write the actual letter.
 4. `template.tex`: A simple <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> template that deals with style, layout and typography.
 5. A makefile containing the Pandoc command that creates the PDF.
-
-For this article, I've picked [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) to walk you through a typical workflow. The two other boilerplates use a different `template.tex`, predictably enough, but have the same structure and work in the very same way. Each boilerplate lives on Github and provides a `README` that explains in detail dependencies, installation and usage, so refer to that for more info on how to get started.
 
 ## A typical workflow
 
@@ -164,7 +164,7 @@ That's quite a [transformation](/assets/typesetting-automation/output-letterhead
 
 ## Conclusion
 
-There's no excuse for bad typography. Just like clothes matter---try dressing up in a suit and notice the difference in how people treat you---good typography adds value to your documents and helps getting your message across. The system described in this article yields formidable results with very little hassle. Once you have Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> installed on your system, getting started with a new document is just a `git clone` away.
+There's no excuse for bad typography. Just like your clothes matter---try dressing up in a suit and notice the difference in how people treat you---good typography adds value to your documents and helps getting your message across. The system described in this article yields formidable results with very little hassle. Once you have Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> installed on your system, getting started with a new document is just a `git clone` away.
 
 Remember: the system described in this article is not only for formal letters. Producing great-looking [invoices](https://github.com/mrzool/invoice-boilerplate) and slick, professional [CVs](https://github.com/mrzool/cv-boilerplate) is just as easy. Make sure to check out the [website of the project](http://mrzool.cc/tex-boilerplates/) for a quick overview of what you can expect. Have fun!
 

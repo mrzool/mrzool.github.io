@@ -12,14 +12,17 @@ article { padding: 0; }
 
 .normal { font-style: normal; }
 
-.h1 { font-size: 4rem }
-.h2 { font-size: 2.1rem }
-.h3 { font-size: 1.7rem }
-.h4 { font-size: 1rem }
+:root {
+  --black: #111;
+  --white: #FFF8E7;
+  --gray: #424C55;
+  --lightgray: #A2A7A5;
+  --blue: #506FB3;
   --button-padding-y: .3em;
   --button-padding-x: .5em;
+}
 
-.block { display: block; }
+body { background-color: var(--white); }
 
 .container {
   max-width: 45em;

@@ -127,7 +127,7 @@ The last option, **`letterhead`**, is admittedly a bit of a hack. If uncommented
 
 ### Transforming our letter
 
-Now let's see how we can dramatically alter the look and feel of our letter just by changing a couple of options. I will change `mainfont` to `Gill Sans`, include a nice letterhead I've built with InDesign, and redefine my margins to accomodate the new layout:
+Now let's see how we can dramatically alter the look and feel of our letter just by changing a couple of options. I will change `mainfont` to `Gill Sans`, include a nice letterhead I've built with InDesign (and shamelessly copied from Matthew Butterick's [Letterhead Advices](http://practicaltypography.com/letterhead.html)), and redefine my margins to accomodate the new layout:
 
 {% highlight ruby %}
 # Settings

@@ -75,13 +75,30 @@ to:
 - 13597 Spandau
 {% endhighlight %}
 
-Then I save, close, and type `make` on my prompt. This will automatically run the following command and create a PDF in a couple of seconds:
+As a quick side note, this is the part of `template.tex` where I grab the data above:
+
+{% highlight latex %}
+\small
+\textsc{\textbf{$author$}}
+$for(from)$
+\textbullet{} \textsc{$from$}
+$endfor$
+
+\vspace{1em}
+
+\normalsize \sffamily
+$for(to)$
+$to$\\
+$endfor$
+{% endhighlight %}
+
+After saving `details.yml` with my data, all there's left to do is running `make` on my prompt. This will result in the following command being executed:
 
 {% highlight bash %}
 pandoc details.yml letter.md -o output.pdf --latex-engine=xelatex --template=template.tex
 {% endhighlight %}
 
-What's happening there? I'm leveraging the powerful conversion and templating abilities of [Pandoc](http://pandoc.org/) to do most of the work. The command above concatenates `details.yml` and `letter.md` and passes them as input to `pandoc`, which uses their content to populate `template.tex` on the fly and pipes the result to <span class="latex">X<sub>&#398;</sub>T<sub>e</sub>X</span>, that parses then the whole thing and finally outputs the PDF. That might seem complicated, but it's the computer, not me, that has to go through the whole process. I just have to run `make` in the terminal for the magic to happen automatically.
+What's happening there? I'm leveraging the powerful conversion and templating abilities of [Pandoc](http://pandoc.org/) to do most of the work. The command above concatenates `details.yml` and `letter.md` and passes them as input to `pandoc`, which uses their content to populate `template.tex` on the fly and pipes the result to <span class="latex">X<sub>&#398;</sub>T<sub>e</sub>X</span>, that parses then the whole thing and finally outputs a PDF. That might seem complicated, but it's the computer, not me, that has to go through the whole process. I just have to run `make` in the terminal for the magic to happen automatically.
 
 After that, I'm done. I have a PDF ready to be emailed, faxed or printed out.  If you're on OS X, you can now run `open output.pdf` in your terminal to inspect our newly created PDF. This will look pretty much like this:
 
@@ -115,19 +132,19 @@ Everything in there is pretty straightforward. The first three options allow us 
 - **`altfont`** sets the font for the recipient's address.
 - **`monofont`** sets the font for code blocks and such.
 
-The best parameter to use here is the *family name* of your chosen font. This is in most cases pretty intuitive (e.g. `Hoefler Text`, `Helvetica Neue`, `Adobe Garamond Pro` are all working options), but, in case of `file not found` issues, you can use utilities like `fc-list` on Linux or Font Book on OS X to inspect the metadata of your font of choice and find out the right definition to use.
+The best parameter to use here is the *family name* of your chosen font. This is in most cases pretty intuitive (e.g. `Hoefler Text`, `Helvetica Neue`, `Adobe Garamond Pro` are all working options), but, in case of `file not found` issues, you can use utilities like `fc-list` on Linux or Font Book on OS X to inspect the metadata of your font of choice and find the right definition to use.
 
-The **`language`** option is for setting the main language through the <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> package `polyglossia`. It's important to do this to load the proper hyphenation patterns, display the date in the right format (i.e. *March 3, 2015* becomes *3. März 2015* when `language` is set to `german`), adapt some typographical conventions and a number of other things. Read the introduction in the [package documentation](http://mirror.unicorncloud.org/CTAN/macros/latex/contrib/polyglossia/polyglossia.pdf) [PDF] for a good overview.
+The **`language`** option sets the main language through the <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> package `polyglossia`. That's important to load the proper hyphenation patterns, display the date in the right format (*March 3, 2015* becomes *3. März 2015* with `language` set to `german`), adapt some typographical conventions, and a number of other things. The [package documentation](http://mirror.unicorncloud.org/CTAN/macros/latex/contrib/polyglossia/polyglossia.pdf) [PDF] introduction offers a good overview.
 
-The **`fontsize`** option doesn't need any explanation. Its only quirk is that, due to <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> limitations, the only values allowed are `10pt`, `11pt` and `12pt`.
+The **`fontsize`** option shouldn't need any explanation. Its only quirk is that, due to <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> limitations, the only values allowed are `10pt`, `11pt` and `12pt`.
 
-The **`geometry`** option is more interesting. It takes a string that is used to set document-wide layout options through the `geometry` package. The boilerplate provides some defaults for the margins, but there are a lot more things that you can customize with this package. Check out [this page](https://www.sharelatex.com/learn/Page_size_and_margins) for a good overview and the [official package documentation](http://mirror.physik-pool.tu-berlin.de/tex-archive/macros/latex/contrib/geometry/geometry.pdf) [PDF] if you want to dig deeper.
+The **`geometry`** option takes a string that is used to set document-wide layout options through the `geometry` package. The boilerplate provides some defaults for the margins, but there are a lot more things that you can customize with this package. Check out [this page](https://www.sharelatex.com/learn/Page_size_and_margins) for a good overview and the [official package documentation](http://mirror.physik-pool.tu-berlin.de/tex-archive/macros/latex/contrib/geometry/geometry.pdf) [PDF] if you want to dig deeper.
 
-The last option, **`letterhead`**, is admittedly a bit of a hack. If uncommented and set to `true`, it activates the `wallpaper` package in the template. What this package does, it searches for a file named `letterhead.pdf` in the repo and prints it on the PDF output before compiling the document. This is useful if you have a personal or company letterhead and want to use it with the boilerplate.
+The last option, **`letterhead`**, is admittedly a bit of a hack. If uncommented and set to `true`, it activates the `wallpaper` package in the template. This package searches for a file named `letterhead.pdf` in the root directory and prints it on the PDF before compiling the rest of the document. This comes in handy if you have a personal or company letterhead and want to use it in your letter. More info on how this works below.
 
 ### Transforming our letter
 
-Now let's see how we can dramatically alter the look and feel of our letter just by changing a couple of options. I will change `mainfont` to `Gill Sans`, include a nice letterhead I've built with InDesign (and shamelessly copied from Matthew Butterick's [Letterhead Advices](http://practicaltypography.com/letterhead.html)), and redefine my margins to accomodate the new layout:
+Now let's see how we can dramatically alter the look and feel of our letter just by changing a couple of options. I will change `mainfont` to `Gill Sans`, include a nice letterhead I've built with InDesign (that I've shamelessly copied from Matthew Butterick's the example given in [Letterhead Advices](http://practicaltypography.com/letterhead.html)), and redefine my margins to accomodate the new layout:
 
 {% highlight ruby %}
 # Settings
@@ -140,7 +157,7 @@ geometry: a4paper, left=90mm, right=22mm, top=22mm, bottom=22mm
 letterhead: true
 {% endhighlight %}
 
-Now that I've activated `wallpaper` by setting `letterhead` to `true`, I need to import my letterhead file. Just like my signature, I keep that in my Dropbox as well:
+Now that I've activated the `wallpaper` package by setting `letterhead` to `true`, I need to import my letterhead file. Just like my signature, I keep that in my Dropbox as well:
 
 {% highlight bash %}
 cp ~/Dropbox/letterhead.pdf .
@@ -161,11 +178,11 @@ Now let's run `make && open output.pdf`. This is what we get:
 
 ![Output with letterhead](http://i.imgur.com/oxSIsPf.png)
 
-That's quite a [transformation](/assets/typesetting-automation/output-letterhead.pdf) [PDF]. Our custom letterhead gets printed by `wallpaper`, our body text lives now in a narrower column thanks to `geometry`, and Gill Sans gives our letter a fresher look.
+That's quite a [transformation](/assets/typesetting-automation/output-letterhead.pdf) [PDF]. Our custom letterhead gets printed by `wallpaper`, our body text lives now in a narrower column on the right thanks to `geometry`, and the beautiful sans-serif Gill Sans gives our letter a fresher look.
 
 ## Conclusion
 
-There's no excuse for bad typography. Just like your clothes matter---try dressing up in a suit and notice the difference in how people treat you---good typography adds value to your documents and helps getting your message across. The system described in this article yields formidable results with very little hassle. Once you have Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> installed on your system, getting started with a new document is just a `git clone` away.
+There's no excuse for bad typography. Just like your clothes matter---try to  your best suit once in a while if you don't believe me---good typography adds value to your documents and helps getting your message across. The system described in this article yields formidable results with very little hassle. Once you have Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> installed on your system, getting started with a new document is just a `git clone` away.
 
 Remember: the system described in this article is not only for formal letters. Producing great-looking [invoices](https://github.com/mrzool/invoice-boilerplate) and slick, professional [CVs](https://github.com/mrzool/cv-boilerplate) is just as easy. Make sure to check out the [website of the project](http://mrzool.cc/tex-boilerplates/) for a quick overview of what you can expect. Have fun!
 

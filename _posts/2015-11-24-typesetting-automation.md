@@ -78,6 +78,7 @@ to:
 For your reference, this is the part of `template.tex` where I grab the data above:
 
 {% highlight latex %}
+% Where I print my name and address
 \small
 \textsc{\textbf{$author$}}
 $for(from)$
@@ -86,10 +87,26 @@ $endfor$
 
 \vspace{1em}
 
+% Where I print my recipient's name and address
 \normalsize \sffamily
 $for(to)$
 $to$\\
 $endfor$
+
+\vspace{3em}
+
+% Where I print city and today's date
+\rmfamily
+\begin{flushright}
+$city$, \today
+\end{flushright}
+
+\vspace{1em}
+
+% The special variable $body$ expands to the
+% content of letters.md converted to TeX
+$body$
+
 {% endhighlight %}
 
 After saving `details.yml` with my data, all there's left to do is running `make` on my prompt. This will result in the following command being executed:

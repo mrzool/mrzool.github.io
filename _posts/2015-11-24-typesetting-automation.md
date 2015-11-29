@@ -149,7 +149,7 @@ Everything in there is pretty straightforward. The first three options allow us 
 - **`altfont`** sets the font for the recipient's address.
 - **`monofont`** sets the font for code blocks and such.
 
-The best parameter to use here is the *family name* of your chosen font. This is in most cases pretty intuitive (e.g. `Hoefler Text`, `Helvetica Neue`, `Adobe Garamond Pro` are all working options---as long as you have these fonts installed on your system), but, in case of `file not found` issues, you can use utilities like `fc-list` on Linux or Font Book on OS X to inspect the metadata of your font of choice and find the right definition to use.
+The best parameter to use here is the *family name* of your chosen font. This is in most cases pretty intuitive (e.g. `Hoefler Text`, `Helvetica Neue`, `Adobe Garamond Pro` are all working options---as long as you have these fonts installed on your system), but, in case of `file not found` issues, you can use utilities like Font Book on OS X or `fc-list` on Linux to inspect the metadata of your font of choice and find the right definition to use.
 
 The **`language`** option sets the main language through the <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> package `polyglossia`. That's important to load the proper hyphenation patterns, display the date in the right format (*March 3, 2015* becomes *3. März 2015* with `language` set to `german`), adapt some typographical conventions, and a number of other things. The [package documentation](http://mirror.unicorncloud.org/CTAN/macros/latex/contrib/polyglossia/polyglossia.pdf) [PDF] introduction offers a good overview.
 

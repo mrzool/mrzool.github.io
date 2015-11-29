@@ -75,7 +75,7 @@ to:
 - 13597 Spandau
 {% endhighlight %}
 
-As a quick side note, this is the part of `template.tex` where I grab the data above:
+For your reference, this is the part of `template.tex` where I grab the data above:
 
 {% highlight latex %}
 \small

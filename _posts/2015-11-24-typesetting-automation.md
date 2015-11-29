@@ -188,7 +188,7 @@ That's quite a [transformation](/assets/typesetting-automation/output-letterhead
 
 ## Conclusion
 
-There's no excuse for bad typography. Just like your clothes matter---try to  your best suit once in a while if you don't believe me---good typography adds value to your documents and helps getting your message across. The system described in this article yields formidable results with very little hassle. Once you have Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> installed on your system, getting started with a new document is just a `git clone` away.
+There's no excuse for bad typography. Just like your clothes and grooming matter a great deal to the outside world, good typography adds value to your documents and helps getting your message across. The system described in this article yields formidable results with very little hassle. Once you have Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> installed on your system, getting started with a new document is just a `git clone` away.
 
 Remember: the system described in this article is not only for formal letters. Producing great-looking [invoices](https://github.com/mrzool/invoice-boilerplate) and slick, professional [CVs](https://github.com/mrzool/cv-boilerplate) is just as easy. Make sure to check out the [website of the project](http://mrzool.cc/tex-boilerplates/) for a quick overview of what you can expect. Have fun!
 

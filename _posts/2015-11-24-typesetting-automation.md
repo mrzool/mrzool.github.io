@@ -100,7 +100,7 @@ pandoc details.yml letter.md -o output.pdf --latex-engine=xelatex --template=tem
 
 What's happening there? I'm leveraging the powerful conversion and templating abilities of [Pandoc](http://pandoc.org/) to do most of the work. The command above concatenates `details.yml` and `letter.md` and passes them as input to `pandoc`, which uses their content to populate `template.tex` on the fly and pipes the result to <span class="latex">X<sub>&#398;</sub>T<sub>e</sub>X</span>, that parses then the whole thing and finally outputs a PDF. That might seem complicated, but it's the computer, not me, that has to go through the whole process. I just have to run `make` in the terminal for the magic to happen automatically.
 
-After that, I'm done. I have a PDF ready to be emailed, faxed or printed out.  If you're on OS X, you can now run `open output.pdf` in your terminal to inspect our newly created PDF. This will look pretty much like this:
+After that, I'm done. I have a PDF ready to be emailed, faxed or printed out.  If you're on OS X, you can now run `open output.pdf` in your terminal to inspect our newly created PDF (on Linux, `xdg-open` or `gnome-open` will probably do the trick). This will look pretty much like this:
 
 {% comment %} <figure class="fullwidth"><img src="http://github.com/mrzool/letter-boilerplate/raw/master/preview.jpg" alt="The result" /></figure> {% endcomment %}
 ![PDF output](http://github.com/mrzool/letter-boilerplate/raw/master/preview.jpg)

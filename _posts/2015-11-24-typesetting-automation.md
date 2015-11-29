@@ -163,15 +163,21 @@ Now that I've activated the `wallpaper` package by setting `letterhead` to `true
 cp ~/Dropbox/letterhead.pdf .
 {% endhighlight %}
 
-Also, I will comment out the code that prints the sender address in `template.tex`, because our address is now visible in the letterhead and we don't need that bit anymore:
+I will also comment out the code that prints the sender address in `template.tex`, because our address is now visible in the letterhead and we don't need that bit anymore:
 
 {% highlight latex %}
-\begin{document}
 % \small
 % \textsc{\textbf{$author$}}
 % $for(from)$
 % \textbullet{} \textsc{$from$}
 % $endfor$
+
+% \vspace{1em}
+
+\sffamily
+$for(to)$
+$to$\\
+$endfor$
 {% endhighlight %}
 
 Now let's run `make && open output.pdf`. This is what we get:

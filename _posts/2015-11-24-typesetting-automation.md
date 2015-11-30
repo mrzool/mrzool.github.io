@@ -26,11 +26,11 @@ For this article, I've picked [letter-boilerplate](https://github.com/mrzool/let
 
 Here's what every file is about:
 
-1. `README.md`: Info on dependencies, installation, and usage.
-2. `details.yml`: A YAML file for content and metadata.
-3. `letter.md`: A markdown file to write the actual letter.
-4. `template.tex`: A simple <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> template that deals with style, layout and typography.
-5. A makefile containing the Pandoc command that creates the PDF.
+1. **`README.md`**: Info on dependencies, installation, and usage.
+2. **`details.yml`**: A YAML file for content and metadata.
+3. **`letter.md`**: A markdown file to write the actual letter.
+4. **`template.tex`**: A simple <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> template that deals with style, layout and typography.
+5. A **`makefile`** containing the Pandoc command that creates the PDF.
 
 ## A typical workflow
 

@@ -225,6 +225,6 @@ Also, here are some of my favorite resources for tips, reference, and inspiratio
 
 - Matthew Butterick's [Practical Typography](http://practicaltypography.com/)
 - The [@TeXtip](http://twitter/TeXtip) Twitter account.
-- The simplest and best designed [<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> documentation]() available on the Internet.
-- An [overview]() of the YAML syntax.
+- The simplest and best designed [<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> documentation](https://www.sharelatex.com/learn) available on the Internet.
+- An [overview](http://learnxinyminutes.com/docs/yaml/) of the YAML syntax.
 - The [<span class="latex">T<sub>e</sub>X</span> - <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> Stack Exchange](http://tex.stackexchange.com/).

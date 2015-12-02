@@ -217,7 +217,7 @@ Interested in knowing more about plain-text workflows and typesetting automation
 - [Why Microsoft Word Must Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html) by Charlie Stross
 - [Sustainable Authorship in Plain Text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff
 - [Store everything in text files](http://mnmlist.com/a-case-for-storing-all-your-info-in-text-files/) by Leo Babauta
-- [Why I do my résumé in LaTeX](http://www.toofishes.net/blog/why-i-do-my-resume-latex/) by Dan McGee
+- [Why I do my résumé in <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>](http://www.toofishes.net/blog/why-i-do-my-resume-latex/) by Dan McGee
 
 ### Further resources
 

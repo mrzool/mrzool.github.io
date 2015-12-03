@@ -225,7 +225,7 @@ Some great resources on the tools used in this article:
 
 - These [<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> docs](https://www.sharelatex.com/learn) cover most of the basics and are surprisingly kind to the beginner.
 - Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html) to learn more about how templates work.
-- Follow the [TeXtip](http://twitter/TeXtip) Twitter account.
+- Follow the [TeXtip](https://twitter.com/TeXtip) Twitter account.
 - The YAML syntax is quite simple but has its quirks. Check out this [overview](http://learnxinyminutes.com/docs/yaml/) to make sure you get everything right.
 - Make some new friends on the [<span class="latex">T<sub>e</sub>X</span>-<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> Stack Exchange](http://tex.stackexchange.com/).
 - Matthew Butterick's [Practical Typography](http://practicaltypography.com/): Read it all and thank me later.

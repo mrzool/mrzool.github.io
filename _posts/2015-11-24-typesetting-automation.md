@@ -39,7 +39,7 @@ Let's say I need to write a letter. This could be a job application letter, a le
 First, I clone the [letter-boilerplate](https://github.com/mrzool/letter-boilerplate)'s repository to my machine, move into it and get rid of the `.git` folder with this one-liner:
 
 {% highlight bash %}
-git clone git@github.com:mrzool/letter-boilerplate.git my-letter && my-letter && rm -rf .git/
+git clone https://github.com/mrzool/letter-boilerplate.git my-letter && my-letter && rm -rf .git/
 {% endhighlight %}
 
 Next, I copy a PDF scan of my signature (that I created using [this method](http://tex.stackexchange.com/questions/32911/adding-a-signature-on-an-online-job-application/32940#32940) and I conveniently keep in my Dropbox) and paste it in the current directory:

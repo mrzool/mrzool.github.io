@@ -16,7 +16,17 @@
       {{ page.subtitle | strip_html }}
     {% endif %}
     ">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/s.min.css">
+    {% if page.layout == 'post' %}
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="{{ site.url }}">
+      <meta name="twitter:creator" content="{{ site.author }}">
+      <meta name="twitter:title" content="{{ page.title }}">
+      <meta name="twitter:description" content="{{ page.subtitle }}">
+      {% if page.preview %}
+        <meta name="twitter:image" content="{{ page.preview }}">
+      {% endif %}
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/s.min.css">
   {% comment %} <link rel="stylesheet" href="{{ site.url }}/s.css"> {% endcomment %}
 </head>

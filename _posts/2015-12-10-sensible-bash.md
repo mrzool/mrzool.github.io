@@ -111,7 +111,7 @@ export documents="$HOME/Documents"
 export dropbox="$HOME/Dropbox"
 {% endhighlight %}
 
-Now `cd documents` will take you right into `~/Documents` from wherever you are when you issue the command. If you have [Bash Completion](http://bash-completion.alioth.debian.org/) installed and configured, tab completion will also expand your `cdable_var`, besides the target folders you've set in `CDPATH`.
+Now `cd documents` will take you right into `~/Documents` from wherever you are when you issue the command. If you have [Bash Completion](http://bash-completion.alioth.debian.org/) installed and configured, tab completion will also expand your `cdable_vars`, besides the target folders you've set in `CDPATH`.
 
 ## Conclusion
 

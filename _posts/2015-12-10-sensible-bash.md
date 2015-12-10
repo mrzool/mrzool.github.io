@@ -111,6 +111,8 @@ export documents="$HOME/Documents"
 export dropbox="$HOME/Dropbox"
 {% endhighlight %}
 
+Now `cd documents` will take you right into `~/Documents` from wherever you are when you issue the command. If you have [Bash Completion](http://bash-completion.alioth.debian.org/) installed and configured, tab completion will also expand your `cdable_var`, besides the target folders you've set in `CDPATH`.
+
 ## Conclusion
 
 As said at the beginning, I came to rely on this setup so much that it has become my new default, so I packaged it in a [repo on GitHub](https://github.com/mrzool/bash-sensible) that's meant to be something along the lines of Tim Pope's [sensible.vim](https://github.com/tpope/vim-sensible). If you think I've missed something important, you can open an issue, send a pull request or let me know on [Twitter](http://twitter.com/mrzool_).

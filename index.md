@@ -8,7 +8,7 @@ exclude: true
 
 You've reached the website of Mattia Tezzele, a web developer with background in sociology and economics.
 
-I make things with code. I'm interested in all things related to design, typography, information architecture, statistic, data visualization, effective story-telling, and human language.
+I make things with code. I'm interested in all things related to design, typography, information architecture, statistic, data visualization, and human language.
 
 I try to keep it simple.
 

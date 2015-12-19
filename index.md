@@ -8,7 +8,7 @@ exclude: true
 
 You've reached the website of Mattia Tezzele, web developer with background in sociology and economics.
 
-I make things with code. My interests cross over many things, mostly in the areas of frontend development, design, typography, information architecture, data visualization, writing, and human language. Besides that, I like Unix, Vim, Git, Bash, CSS, and open source software.
+I make things with code. My interests cross over many things, mostly in the areas of frontend development, typography, responsive web design, information architecture, writing, data visualization, and human language. Besides that, I like Unix, Vim, Git, Bash, CSS, and open source software.
 
 You can view some of my projects on [Github](http://github.com/mrzool), follow my sparsely updated [Twitter](http://twitter.com/mrzool_) feed, read interesting bits I collect on [Tumblr](http://zoolnotes.tumblr.com), see my photos on [VSCO Grid](https://mrzool.vsco.co/), and track my readings on [Goodreads](http://www.goodreads.com/mrzool) and [Instapaper](https://www.instapaper.com/p/__zool).
 

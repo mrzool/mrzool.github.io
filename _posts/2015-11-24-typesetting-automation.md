@@ -33,7 +33,7 @@ Here's what every file is about:
 4. **`template.tex`**: A simple <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> template that deals with style, layout and typography.
 5. A **`makefile`** containing the Pandoc command that creates the PDF.
 
-*Edit: I've recently [merged](https://github.com/mrzool/letter-boilerplate/commit/4390e501534270a10d6f38efda4fdf1cb1575004) `details.yml` into `letter.md` to make things simpler. Now, the YAML metadata block is embedded in the first few lines of `letter.md`. Everything else stayed the same, so read on.*
+*Edit: I've recently [merged](https://github.com/mrzool/letter-boilerplate/commit/4390e501534270a10d6f38efda4fdf1cb1575004) `details.yml` into `letter.md` to make things simpler. Now, the YAML metadata block is embedded in the first few lines of `letter.md` instead of living in a dedicated file. Everything else stayed the same, so read on.*
 
 ## A typical workflow
 

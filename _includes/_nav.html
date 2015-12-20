@@ -1,0 +1,9 @@
+<small class="block h5 mb2">
+  <a href="/">Home</a>
+  {% assign pages = site.pages | sort:"weight"  %}
+  {% for p in pages %}
+    {% unless p.exclude %}
+      &middot; <a href="{{ p.url }}">{{ p.title }}</a>
+    {% endunless %}
+  {% endfor %}
+</small>

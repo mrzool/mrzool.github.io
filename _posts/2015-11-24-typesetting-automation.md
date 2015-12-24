@@ -13,7 +13,7 @@ Unix programmers, administrators, and users develop a habit of thinking through 
 > <footer>Eric S. Raymond, <a href="http://www.catb.org/esr/writings/taoup/html/ch11s03.html">Evaluating Interface Designs</a> in <i>The Art of Unix Programming</i></footer>
 
 
-I wanted a system that allowed me to produce perfectly typeset documents in an automated fashion. Also, I wanted to be able to do this by using only plain text files, my text editor, and lean, open source CLI utilities. And also, I wanted a simple, smooth and portable workflow with minimal overhead (i.e. no complicated setup and as little dependencies as possible).
+The system I had in mind would produce perfectly typeset documents in an automated fashion using only plain text, a text editor, and lean, open source CLI utilities. Its workflow would be simple, repeatable and portable, with as little overhead as possible---that is, no complicated setup and dependencies reduced to a minimum.
 
 The project [tex-boilerplates](http://mrzool.cc/tex-boilerplates/) is the result of my effort. At its core there's a simple system that provides you with a basic skeleton for painless and automated typesetting of three common types of documents: [letters](https://github.com/mrzool/letter-boilerplate), [invoices](https://github.com/mrzool/invoice-boilerplate) and [CVs/résumés](https://github.com/mrzool/cv-boilerplate).
 

@@ -8,7 +8,12 @@ GistID: 60ebd0955e6e64b8205c
 
 <span class="newthought">I've become pretty obsessed</span> with typesetting automation lately. Being a freelancer, I need to write letters, contracts and invoices on a regular basis. I wasn't happy with the standard solution of using graphical (and proprietary) software like MS Word or InDesign to do this. I know this is the common choice for most people out there, but for someone used to work with incredibly fast and powerful text manipulation tools like Vim and the Unix shell, pointing-and-clicking and option-hunting in a bloated GUI environment weren't really cutting it.
 
-I wanted a system that allowed me to produce perfectly typeset documents in an automated fashion. Also, I wanted to be able to do this by using only plain text files, my text editor, and lean, open source CLI utilities. And also, I wanted a simple, smooth and portable workflow with minimal overhead (i.e. no complicated setup and as little dependencies as possible).
+> The ‘scriptability’ of an interface is the ease with which it can be manipulated by other programs. Scriptable programs are readily usable as components by other programs, reducing the need for costly custom coding and making it relatively easy to automate repetitive tasks. [...]  
+Unix programmers, administrators, and users develop a habit of thinking through the routine procedures they use, then packaging them so they no longer have to manually execute or even think about them any more. This habit depends on scriptable interfaces.  
+> <footer>Eric S. Raymond, <a href="http://www.catb.org/esr/writings/taoup/html/ch11s03.html">Evaluating Interface Designs</a> in <i>The Art of Unix Programming</i></footer>
+
+
+The system I had in mind would produce perfectly typeset documents in an automated fashion using only plain text, a text editor, and lean, open source CLI utilities. Its workflow would be simple, repeatable and portable, with as little overhead as possible---that is, no complicated setup and dependencies reduced to a minimum.
 
 The project [tex-boilerplates](http://mrzool.cc/tex-boilerplates/) is the result of my effort. At its core there's a simple system that provides you with a basic skeleton for painless and automated typesetting of three common types of documents: [letters](https://github.com/mrzool/letter-boilerplate), [invoices](https://github.com/mrzool/invoice-boilerplate) and [CVs/résumés](https://github.com/mrzool/cv-boilerplate).
 

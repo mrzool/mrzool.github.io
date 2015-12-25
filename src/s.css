@@ -46,6 +46,8 @@ blockquote footer {
   vertical-align: bottom;
 }
 
+.align-right { text-align: right; }
+
 .block { display: block; }
 
 .gray { color: var(--gray); }

@@ -14,6 +14,8 @@ I've recently started writing on technical things. Here are a few links to a cou
 
 {% include _posts.html %}
 
+An [RSS feed](/feed.xml) is available as well.
+
 ### Elsewhere
 
 You can view some of my projects on [Github](http://github.com/mrzool), follow my sparsely updated [Twitter](http://twitter.com/mrzool_) feed, read interesting bits I collect on [Tumblr](http://zoolnotes.tumblr.com), see my photos on [VSCO Grid](https://mrzool.vsco.co/), and track my readings on [Goodreads](http://www.goodreads.com/mrzool) and [Instapaper](https://www.instapaper.com/p/__zool).

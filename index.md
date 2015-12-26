@@ -10,7 +10,7 @@ You've reached the website of Mattia Tezzele, web developer with background in s
 
 I make things with code. My interests cross over many things, mostly in the areas of frontend development, typography, data visualization, information architecture, responsive design, and human language. Besides that, I like Unix, Vim, Git, Bash, web standards, and open source software.
 
-I've recently started writing on technical things. Here are a few articles:
+I've recently started writing on things that pique my interest. Here are a few articles I wrote:
 
 {% include _posts.html %}
 

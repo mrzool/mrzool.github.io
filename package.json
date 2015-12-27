@@ -16,7 +16,6 @@
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "browser-sync": "^2.9.6",
-    "gravitons": "^1.0.0",
     "node-minify": "^1.2.1",
     "parallelshell": "^2.0.0",
     "postcss": "^5.0.8",
@@ -37,6 +36,7 @@
     "server": "browser-sync start --files '_site/css/s.css, _site/**/*.html' --server _site"
   },
   "dependencies": {
+    "gravitons": "^1.0.0",
     "basscss-btn": "^1.0.1",
     "basscss-btn-outline": "^1.0.0",
     "basscss-defaults": "^2.1.1"

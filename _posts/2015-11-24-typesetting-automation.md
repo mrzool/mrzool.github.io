@@ -229,7 +229,7 @@ Interested in knowing more about plain-text workflows and typesetting automation
 
 ### Further resources
 
-Some great resources on the tools used in this article:
+Some great resources on the tools and technologies mentioned in this article:
 
 - These [<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> docs](https://www.sharelatex.com/learn) cover most of the basics and are surprisingly kind to the beginner.
 - Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html) to learn more about how templates work.

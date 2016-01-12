@@ -8,7 +8,7 @@ exclude: true
 
 You've reached the website of Mattia Tezzele, web developer with background in sociology and economics.
 
-My interests cross over into frontend development, responsive design, typography, data visualization, information architecture, and human language. Besides that, I like Unix, Vim, Git, web standards, and open source software.
+My interests cross over into many things, mostly in the areas of frontend development, responsive design, typography, data visualization, information architecture, and human language. Besides that, I like Unix, Vim, Git, web standards, and open source software.
 
 ### Writing
 

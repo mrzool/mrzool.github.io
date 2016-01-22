@@ -20,7 +20,7 @@ Subscribe to the [RSS feed](/feed.xml) to be notified of new posts.
 
 ### Elsewhere
 
-You can view my code on [Github](http://github.com/mrzool), follow my sparsely updated [Twitter](http://twitter.com/mrzool_) feed, verify my identity at [Keybase](https://keybase.io/zool), read interesting bits I collect on my [Tumblr](http://zoolnotes.tumblr.com), see my photos on [VSCO Grid](https://mrzool.vsco.co/), and track my readings on [Goodreads](http://www.goodreads.com/mrzool) and [Instapaper](https://www.instapaper.com/p/__zool).
+You can view my code on [Github](http://github.com/mrzool), follow my sparsely updated [Twitter](http://twitter.com/mrzool_) feed, verify my identity at [Keybase](https://keybase.io/zool), read interesting bits and more casual writing on my [Tumblr](http://zoolnotes.tumblr.com), see my photos on [VSCO Grid](https://mrzool.vsco.co/), and track my readings on [Goodreads](http://www.goodreads.com/mrzool) and [Instapaper](https://www.instapaper.com/p/__zool).
 
 I'm currently freelancing in Berlin and I'm available for projects. Send me an [email](mailto:info@mrzool.cc) if you want to say hi. [[PGP](https://keybase.io/zool/key.asc)]
 

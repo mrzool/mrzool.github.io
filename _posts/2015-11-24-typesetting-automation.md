@@ -22,13 +22,13 @@ They all live on Github and provide a `README` that explains in detail dependenc
 
 For this article, I've picked [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) to walk you through a typical workflow. Let's look at the basic structure of the repository:
 
-{% highlight bash %}
+```bash
 ├── README.md
 ├── letter.md
 ├── details.yml
 ├── template.tex
 └── makefile
-{% endhighlight %}
+```
 
 Here's what every file is about:
 
@@ -46,15 +46,15 @@ Let's say I need to write a letter. This could be a job application letter, a le
 
 First, I clone the [letter-boilerplate](https://github.com/mrzool/letter-boilerplate)'s repository to my machine, move into it and get rid of the `.git` folder with this one-liner:
 
-{% highlight bash %}
+```bash
 git clone https://github.com/mrzool/letter-boilerplate.git my-letter && my-letter && rm -rf .git/
-{% endhighlight %}
+```
 
 Next, I copy a PDF scan of my signature (that I created using [this method](http://tex.stackexchange.com/questions/32911/adding-a-signature-on-an-online-job-application/32940#32940) and I conveniently keep in my Dropbox) and paste it in the current directory:
 
-{% highlight bash %}
+```bash
 cp ~/Dropbox/signature.pdf .
-{% endhighlight %}
+```
 
 That's it. I'm all set. Now I can open `letter.md` in Vim and write my letter in markdown (let's pretend that it's 1867 and I'm Friedrich Nietzsche writing to his pen pal Carl Freiherr von Gersdorff):
 
@@ -69,7 +69,7 @@ That's it. I'm all set. Now I can open `letter.md` in Vim and write my letter in
 
 When I'm done writing to my friend Carl, all there's left to do is to edit `details.yml` with names and addresses, taking care of preserving the already present data structure:
 
-{% highlight ruby %}
+```yaml
 # Letter's details
 author: F. Nietzsche
 city: Naumburg
@@ -81,11 +81,11 @@ to:
 - Stresow-Kaserne I
 - Grenadierstraße 13–16
 - 13597 Spandau
-{% endhighlight %}
+```
 
 For your reference, this is the part of `template.tex` where I grab the data above:
 
-{% highlight latex %}
+```latex
 % Where I print my name and address
 \small
 \textsc{\textbf{$author$}}
@@ -114,14 +114,13 @@ $city$, \today
 % The special variable $body$ expands to the
 % content of letters.md converted to TeX
 $body$
-
-{% endhighlight %}
+```
 
 After saving `details.yml` with my data, all there's left to do is running `make` on my prompt. This will result in the following command being executed:
 
-{% highlight bash %}
+```bash
 pandoc details.yml letter.md -o output.pdf --latex-engine=xelatex --template=template.tex
-{% endhighlight %}
+```
 
 What's happening there? I'm leveraging the powerful conversion and templating abilities of [Pandoc](http://pandoc.org/) to do most of the work. The command above concatenates `details.yml` and `letter.md` and passes them as input to `pandoc`, which uses their content to populate `template.tex` on the fly and pipes the result to <span class="latex">X<sub>&#398;</sub>T<sub>e</sub>X</span>, that parses then the whole thing and finally outputs a PDF. That might seem complicated, but it's the computer, not me, that has to go through the whole process. I just have to run `make` in the terminal for the magic to happen automatically.
 
@@ -140,7 +139,7 @@ Now we're done with the creation of the document. Optionally, we can go further 
 
 Some basic options are available at the bottom of `details.yml`. Let's see what they do:
 
-{% highlight ruby %}
+```yaml
 # Settings
 mainfont: Hoefler Text
 altfont: Helvetica Neue
@@ -149,7 +148,7 @@ lang: english
 fontsize: 10pt
 geometry: a4paper, left=35mm, right=35mm, top=50mm, bottom=25mm
 # letterhead: true
-{% endhighlight %}
+```
 
 Everything in there is pretty straightforward. The first three options allow us to choose the typefaces for our document.
 
@@ -171,7 +170,7 @@ The last option, **`letterhead`**, is admittedly a bit of a hack. If uncommented
 
 Now let's see how we can dramatically alter the look and feel of our letter just by changing a couple of options. I will change `mainfont` to `Gill Sans`, include a nice letterhead I've built with InDesign (that I've shamelessly copied from the example given in Matthew Butterick's [Letterhead Advices](http://practicaltypography.com/letterhead.html)), and redefine my margins to accomodate the new layout:
 
-{% highlight ruby %}
+```yaml
 # Settings
 mainfont: Gill Sans
 altfont: Helvetica Neue
@@ -180,17 +179,17 @@ lang: english
 fontsize: 10pt
 geometry: a4paper, left=90mm, right=22mm, top=22mm, bottom=22mm
 letterhead: true
-{% endhighlight %}
+```
 
 Now that I've activated the `wallpaper` package by setting `letterhead` to `true`, I need to import my letterhead file. Just like my signature, I keep that in my Dropbox as well:
 
-{% highlight bash %}
+```bash
 cp ~/Dropbox/letterhead.pdf .
-{% endhighlight %}
+```
 
 I will also comment out the code that prints the sender address in `template.tex`, because our address is now visible in the letterhead and we don't need that bit anymore:
 
-{% highlight latex %}
+```latex
 % \small
 % \textsc{\textbf{$author$}}
 % $for(from)$
@@ -203,7 +202,7 @@ I will also comment out the code that prints the sender address in `template.tex
 $for(to)$
 $to$\\
 $endfor$
-{% endhighlight %}
+```
 
 Now let's run `make && open output.pdf`. This is what we get:
 

@@ -11,9 +11,9 @@ Every option listed in this article is [packaged in a repo on GitHub](https://gi
 
 A couple of caveats before jumping in: since changes to Bash configuration require you to reload your config file to become effective, you might want to save you some typing by setting up an alias that does that:
 
-{% highlight bash %}
+```bash
 alias refresh='source ~/.bashrc'
-{% endhighlight %}
+```
 
 Also, make sure you have the [Bash Completion](http://bash-completion.alioth.debian.org/) package installed and properly configured on your system, as some of the options described here will not work properly without it.
 

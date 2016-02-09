@@ -23,11 +23,11 @@ Also, make sure you have the [Bash Completion](http://bash-completion.alioth.deb
 
 The capabilities provided by Readline are so symbiotic to Bash that most users consider them native Bash features (this is what I meant above with *quasi-native* Bash options). They're not, but we can set them from our `bashrc` anyway using the built-in Bash command `bind`. Here are my favorites, each improving a different aspect of tab completion:
 
-{% highlight bash %}
+```bash
 bind "set completion-ignore-case on"
 bind "set completion-map-case on"
 bind "set show-all-if-ambiguous on"
-{% endhighlight %}
+```
 
 The option **`completion-ignore-case`** tells Readline to perform filename completion in a case-insensitive fashion. This is almost always what you want, and it comes in handy particularly on OS X, where system folders are capitalized by default: I no longer need to press `<Shift>` when I want to `cd` into `Documents`, typing `cd do<Tab>` will be enough.
 
@@ -41,7 +41,7 @@ There are tons of other cool Readline runtime behaviors you can activate, like [
 
 Most of the options below are taken from the article [Better Bash History](http://blog.sanctum.geek.nz/better-bash-history/) by Tom Ryder. They enable history behaviors that make sense and ease the job when it comes to searching or parsing the archive. Each line is briefly explained by a comment, refer to the [original post](http://blog.sanctum.geek.nz/better-bash-history/) if you want to dig deeper.
 
-{% highlight bash %}
+```bash
 # Append to the history file, don't overwrite it
 shopt -s histappend
 
@@ -63,17 +63,17 @@ export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history"
 
 # Useful timestamp format
 HISTTIMEFORMAT='%F %T '
-{% endhighlight %}
+```
 
 ### Better, faster directory navigation I
 
 Here are three lovely options that will considerably speed up the way you navigate through the file system:
 
-{% highlight bash %}
+```bash
 shopt -s autocd
 shopt -s dirspell
 shopt -s cdspell
-{% endhighlight %}
+```
 
 The option **`autocd`** will spare you the hassle of typing `cd` every time you need to navigate into a directory. You just need to type the name of your target: Bash will understand what you want and prepend `cd` for you. This also works for the common shortcut `..` to go to the parent directory. Sadly, it doesn't work for `-` to go back to the previous working directory, but you can get around that by setting up an alias using this [clever trick](http://askubuntu.com/questions/146031/bash-alias-alias-name-should-be-a-simple-dash-not-working).
 
@@ -83,9 +83,9 @@ In addition, **`dirspell`** and **`cdspell`** will get Bash to autocorrect minor
 
 By default, `cd` will look in the current directory for possible targets you might want to move into. This behavior is defined by the environment variable **`CDPATH`**, that thus looks like `CDPATH="."` by default. You can add more paths to this variable by separating them with a colon. This is how my `CDPATH` looks:
 
-{% highlight bash %}
+```bash
 CDPATH=".:~/repos"
-{% endhighlight %}
+```
 
 Simply enough, I've added the directory where I keep all my projects (`~/repos`) to the list of possible `cd` targets. Now, whenever I want to jump to a particular project, I just have to type its name's first letters at my prompt. As soon as I press `<Tab>`, the project's name I'm looking for will pop up in the suggestions and I'll be able to jump into it right away, regardless of my current directory. No more typing long and complex paths at the prompt.
 
@@ -97,19 +97,19 @@ Let's now look at another native option, `cdable_vars`, that has a similar effec
 
 In case you were using this [nifty hack](http://jeroenjanssens.com/2013/08/16/quickly-navigate-your-filesystem-from-the-command-line.html) to bookmark your favorite directories to be able to jump into them from everywhere---like I did until not so long ago---I have good news for you: You can stop using it right away. This ability is already baked into Bash and can be enabled through the native option `cdable_vars`:
 
-{% highlight bash %}
+```bash
 shopt -s cdable_vars
-{% endhighlight %}
+```
 
 With this option set, we can then define and export variables containing paths to our most important directories and `cd` into them from our prompt, thus enabling a simple, effective and hack-free bookmarking system:
 
-{% highlight bash %}
+```bash
 # Don't use ~ to define your home here, it won't work.
 export dotfiles="$HOME/dotfiles"
 export repos="$HOME/repos"
 export documents="$HOME/Documents"
 export dropbox="$HOME/Dropbox"
-{% endhighlight %}
+```
 
 Now `cd documents` will take you right into `~/Documents` from wherever you are when you issue the command. If you have [Bash Completion](http://bash-completion.alioth.debian.org/) installed and configured, tab completion will also expand your `cdable_vars`, besides the target folders you've set in `CDPATH`.
 

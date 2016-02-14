@@ -18,4 +18,4 @@ kramdown:
   syntax_highlighter: rouge
 #   parse_block_html: true
 gems:
-    - jekyll-feed
+  - jekyll-feed

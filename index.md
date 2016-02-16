@@ -19,7 +19,7 @@ I occasionally publish long-form technical articles on this website:
 
 Subscribe to the [RSS feed](/feed.xml) to be notified of new posts.
 
-I also maintain a more frequently updated [microblog](http://notes.mrzool.cc) where I collect interesting bits of knowledge I come across in my readings---mostly on programming, linguistics, design and music.
+I also maintain a more frequently updated [microblog](http://notes.mrzool.cc) where I collect the interesting bits I come across in my readings---mostly on programming, linguistics, design and music.
 
 ### Elsewhere
 

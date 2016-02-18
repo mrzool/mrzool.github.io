@@ -1,0 +1,11 @@
+<script> 
+var userTime = new Date().getHours(); 
+if ( userTime < 12 )  {  document.write("<h1>Good morning.</h1>"); } 
+else if ( userTime >= 12 && userTime <= 17 ) { document.write("<h1>Good afternoon.</h1>"); } 
+else if ( userTime > 17 && userTime <= 24 ) { document.write("<h1>Good evening.</h1>"); } 
+else { document.write("Hello there."); } 
+</script> 
+
+<noscript>
+  <h1>Hello there.</h1>
+</noscript>

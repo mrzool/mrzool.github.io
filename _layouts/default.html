@@ -3,7 +3,9 @@
   {% include _head.html %}
   <body class="container">
     <main class="pt4 px2 mb4">
+      {% include _greeting.html %}
       {{ content }}
+      {% include _bye.html %}
     </main>
     <hr class="ml2 mr2" style="border-color: white">
     {% include _footer.html %}

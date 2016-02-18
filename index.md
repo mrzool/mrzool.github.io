@@ -3,9 +3,7 @@ layout: default
 title: Home
 ---
 
-# Hello from Berlin.
-
-You've reached the small website of Mattia Tezzele, developer with background in social sciences and a fascination for design, language, textual interfaces and information architecture.
+You've reached the small website of Mattia Tezzele, developer with background in social sciences based in Berlin.
 
 ### Projects
 

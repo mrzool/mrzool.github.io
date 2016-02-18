@@ -5,7 +5,7 @@ title: Home
 
 I'm Mattia---developer and audiophile based in Berlin.
 
-My interests include---in no particular order---design, language, information architecture, typography, and the web. I also have a thing for textual interfaces and enjoy fiddling with Unix, Vim, and other fine software.
+My interests include---in no particular order---design, typography, language, social sciences, and the web. I also have a thing for textual interfaces and enjoy fiddling with Unix, Vim, and other fine software.
 
 ### Projects
 
@@ -19,7 +19,7 @@ I occasionally publish long-form technical articles on this website:
 
 Subscribe to the [RSS feed](/feed.xml) to be notified of new posts.
 
-I also maintain a more frequently updated [microblog](http://notes.mrzool.cc) where I collect interesting bits about programming, linguistics, abstract music, and pretty much everything that catches my interest.
+I also maintain a more frequently updated [microblog](http://notes.mrzool.cc) where I collect interesting bits about technology, programming, linguistics, music, and pretty much everything that catches my interest.
 
 ### Elsewhere
 

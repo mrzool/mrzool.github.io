@@ -3,9 +3,7 @@ layout: default
 title: Home
 ---
 
-I'm Mattia---developer and audiophile based in Berlin.
-
-My interests include---in no particular order---design, typography, language, social sciences, and the web. I also have a thing for textual interfaces and enjoy fiddling with Unix, Vim, and other fine software.
+You've reached the small website of Mattia Tezzele---developer with background in social sciences based in Berlin.
 
 ### Projects
 

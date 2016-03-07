@@ -21,6 +21,6 @@ I also maintain a more frequently updated [microblog](http://notes.mrzool.cc) wh
 
 ### Elsewhere
 
-You can follow my sparsely updated [Twitter](http://twitter.com/mrzool_) feed, verify my identity at [Keybase](https://keybase.io/zool), see my photos on [VSCO Grid](https://mrzool.vsco.co/), and track my readings on [Goodreads](http://www.goodreads.com/mrzool) and [Instapaper](https://www.instapaper.com/p/__zool).
+You can follow me on [Twitter](http://twitter.com/mrzool_), verify my identity at [Keybase](https://keybase.io/zool), see my photos on [VSCO Grid](https://mrzool.vsco.co/), and track my readings on [Goodreads](http://www.goodreads.com/mrzool) and [Instapaper](https://www.instapaper.com/p/__zool).
 
-You can get in touch with me at [{{site.email}}](mailto:{{site.email}}). [[PGP](https://keybase.io/zool/key.asc)]
+To get in touch with me, send me an email at [{{site.email}}](mailto:{{site.email}}). [[PGP](https://keybase.io/zool/key.asc)]

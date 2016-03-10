@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-You've reached the small website of Mattia Tezzele---developer with background in social sciences based in Berlin.
+You've reached the small website of Mattia Tezzele---developer with background in social sciences based in Prenzlauer Berg, Berlin.
 
 ### Projects
 

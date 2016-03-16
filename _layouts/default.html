@@ -3,9 +3,13 @@
   {% include _head.html %}
   <body class="container">
     <main class="pt4 px2 mb4">
-      {% include _greeting.html %}
+      {% if page.title == "Home" %}
+        {% include _greeting.html %}
+      {% endif %}
       {{ content }}
-      {% include _bye.html %}
+      {% if page.title == "Home" %}
+        {% include _bye.html %}
+      {% endif %}
     </main>
     <hr class="ml2 mr2" style="border-color: white">
     {% include _footer.html %}

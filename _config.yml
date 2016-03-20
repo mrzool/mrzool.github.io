@@ -3,8 +3,8 @@ description: "MT's homepage"
 author: "mrzool"
 email: 'info@mrzool.cc'
 email2: 'mattia.tezzele@gmail.com'
-url: "http://mrzool.cc"
-# url: "http://localhost:3000"
+# url: "http://mrzool.cc"
+url: "http://localhost:3000"
 future: true
 exclude: [README.md, package.json, index.js, Rakefile, node_modules, src]
 permalink: /writing/:title/

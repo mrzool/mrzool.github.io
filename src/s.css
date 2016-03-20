@@ -45,6 +45,7 @@ blockquote footer {
   height: 1em;
   vertical-align: bottom;
 }
+.caps { text-transform: uppercase; }
 
 .align-right { text-align: right; }
 

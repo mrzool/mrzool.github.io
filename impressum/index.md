@@ -5,6 +5,8 @@ title: Impressum
 
 # {{page.title}}
 
+This page is required by law in Germany.
+
 Angaben nach § 5 Abs. 1 Nr 1-2 TMG:
 
 | **Name**          | Mattia Tezzele    |

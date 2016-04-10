@@ -23,4 +23,4 @@ I'm also the maintainer of [Conversational Remorse](http://notes.mrzool.cc), a m
 
 You can follow me on [Twitter](http://twitter.com/mrzool_), verify my identity at [Keybase](https://keybase.io/zool), see my photos on [VSCO Grid](https://mrzool.vsco.co/), and track my readings on [Goodreads](http://www.goodreads.com/mrzool) and [Instapaper](https://www.instapaper.com/p/__zool).
 
-To get in touch with me, send an email at [{{site.email}}](mailto:{{site.email}}) [[PGP](https://keybase.io/zool/key.asc)]
+To get in touch with me, send an email at [`{{site.email}}`](mailto:{{site.email}}) [[PGP](https://keybase.io/zool/key.asc)]

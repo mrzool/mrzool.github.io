@@ -133,7 +133,7 @@ This is a [high-quality output](/assets/typesetting-automation/output.pdf) [PDF]
 
 {% comment %} On a side note, I've used a special command in `template.tex` to fake the date for demostration purposes. In the real world, the date gets generated automatically with `\today`. {% endcomment %}
 
-Now we're done with the creation of the document. Optionally, we can go further and tweak the document's look and feel easily by editing the built-in settings. 
+Now we're done with the creation of the document. Optionally, we can go further and tweak the document's look and feel by editing the built-in settings.
 
 ## Playing with the settings
 
@@ -218,7 +218,7 @@ Remember: all this is not limited to formal letters. Producing great-looking [in
 
 ### Recommended readings
 
-Interested in knowing more about plain-text workflows and typesetting automation with Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>? Make sure to save this small selection of articles in your Instapaper:
+Interested in knowing more about plain-text workflows and typesetting automation with Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>? Make sure to save this small selection of articles to your Instapaper:
 
 - [The Beauty of <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>](http://nitens.org/taraborelli/latex) by Dario Taraborelli
 - [Why Microsoft Word Must Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html) by Charlie Stross
@@ -228,11 +228,11 @@ Interested in knowing more about plain-text workflows and typesetting automation
 
 ### Further resources
 
-Some resources on the tools and technologies mentioned here:
+Some resources on the tools and technologies mentioned in this article:
 
 - These [<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> docs](https://www.sharelatex.com/learn) cover most of the basics and are surprisingly kind to the beginner.
 - Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html) to learn more about how templates work.
-- Follow the [TeXtip](https://twitter.com/TeXtip) Twitter account.
 - The YAML syntax is quite simple but has its quirks. Check out this [overview](http://learnxinyminutes.com/docs/yaml/) to make sure you get everything right.
+- Follow the [TeXtip](https://twitter.com/TeXtip) Twitter account.
 - Make some new friends on the [<span class="latex">T<sub>e</sub>X</span>-<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> Stack Exchange](http://tex.stackexchange.com/).
-- Matthew Butterick's [Practical Typography](http://practicaltypography.com/): Read it all and thank me later.
+- Matthew Butterick's [Practical Typography](http://practicaltypography.com/) is a required reading for anyone dealing with document production of any kind.

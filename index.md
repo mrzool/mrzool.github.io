@@ -17,7 +17,7 @@ I occasionally publish long-form technical articles on this website:
 
 Subscribe to the [RSS feed](/feed.xml) to be notified of new posts.
 
-I'm also the maintainer of [Conversational Remorse](http://notes.mrzool.cc), a more frequently updated microblog where I collect interesting bits about technology, design, music, and other good things.
+I also maintain [Conversational Remorse](http://notes.mrzool.cc), a more frequently updated microblog where I collect interesting bits about technology, design, music, and other good things.
 
 ### Elsewhere
 

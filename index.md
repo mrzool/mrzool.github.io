@@ -5,6 +5,10 @@ title: Home
 
 You've reached the small website of Mattia Tezzele---developer with background in social sciences based in Prenzlauer Berg, Berlin.
 
+### About
+
+I care about free software, web standards, digital humanities, UI/UX design, data visualization, typography, history of computing, and human language. I also have a thing for textual interfaces and enjoy working with Unix, Vim, and other fine software.
+
 ### Projects
 
 You can view the full list of my open-source projects on my [GitHub profile](http://github.com/mrzool).

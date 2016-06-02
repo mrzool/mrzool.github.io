@@ -27,9 +27,9 @@ body { background-color: var(--white); }
 }
 
 p { width: 90%; }
-blockquote p { width: 80%; }
+blockquote p { width: 90%; }
 blockquote footer {
-  width: 80%;
+  width: 90%;
 }
 
 .h1 { font-size: 3.2rem }

@@ -1101,7 +1101,7 @@ pre {
 
 article { padding: 0; }
 figure { margin: 0; }
-ul, ol { width: 70%; }
+ul, ol { width: 85%; }
 /* ul { list-style-type: '-'; } */
 /* ul { list-style: circle outside none; } */
 li { padding: 0.2rem 0; }

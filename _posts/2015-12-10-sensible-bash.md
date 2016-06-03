@@ -21,7 +21,7 @@ Also, make sure you have the [Bash Completion](http://bash-completion.alioth.deb
 
 [Readline](https://cnswww.cns.cwru.edu/php/chet/readline/rltop.html) is the GNU library that provides an unified interface for advanced line editing to CLI programs like Bash. As command-line user, you use it all the time. Tab completion? Powered by Readline. Emacs-like key bindings like `C-w` to delete back one word? Powered by Readline. Incremental history search? Powered by Readline.
 
-The capabilities provided by Readline are so symbiotic to Bash that most users consider them native Bash features (this is what I meant above with *quasi-native* Bash options). They're not, but we can set them from our `bashrc` anyway using the built-in Bash command `bind`. Here are my favorites, each improving a different aspect of tab completion:
+The capabilities provided by Readline are so symbiotic to Bash that most users consider them native Bash features (this is what I meant above with *quasi-native* Bash options). They're not, but we can still set them from our `bashrc` by using the built-in Bash command `bind`. Here are my favorites, each improving a different aspect of tab completion:
 
 ```bash
 bind "set completion-ignore-case on"

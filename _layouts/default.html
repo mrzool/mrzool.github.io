@@ -3,13 +3,7 @@
   {% include _head.html %}
   <body class="container">
     <main class="pt4 px2 mb4">
-      {% if page.title == "Home" %}
-        {% include _greeting.html %}
-      {% endif %}
       {{ content }}
-      {% if page.title == "Home" %}
-        {% include _bye.html %}
-      {% endif %}
     </main>
     {% unless page.title == 404 %}
       <hr class="ml2 mr2" style="border-color: white">

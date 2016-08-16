@@ -1,30 +1,33 @@
 ---
-layout: default
-title: Home
+layout: home
+title: "Mattia Tezzele"
+subtitle: "Design / Development"
+phone: "+49 1522 1580015" 
+email: "info@mrzool.cc"
+place: "Berlin"
+
+opensource:
+- name: "TeX boilerplates"
+  url: "http://mrzool.cc/tex-boilerplates"
+  description: "Plain-text document production system"
+- name: "Bash sensible"
+  url: "http://github.com/mrzool/bash-sensible"
+  description: "An attempt at saner Bash defaults"
+- name: "Dotfiles"
+  url: "http://github.com/mrzool/dotfiles"
+  description: "Config files for my *nix systems"
+
+elsewhere:
+- name: "Tumblr"
+  url: "http://notes.mrzool.cc"
+- name: "GitHub"
+  url: "http://github.com/mrzool"
+- name: "Twitter"
+  url: "http://twitter.com/mrzool_"
+- name: "Keybase"
+  url: "https://keybase.io/zool"
+- name: "Goodreads"
+  url: "http://www.goodreads.com/mrzool" 
+- name: "Instapaper"
+  url: "https://www.instapaper.com/p/__zool"
 ---
-
-You've reached the small website of Mattia Tezzele---developer with background in social sciences based in Prenzlauer Berg, Berlin.
-
-### About
-
-I care about free software, web standards, digital humanities, UI/UX design, data visualization, typography, history of computing, and human language. I also have a thing for textual interfaces and enjoy working with Unix, Vim, and other fine software.
-
-### Projects
-
-You can view the full list of my open-source projects on my [GitHub profile](http://github.com/mrzool).
-
-### Writing
-
-I occasionally publish long-form technical articles on this website:
-
-{% include _posts.html %}
-
-Subscribe to the [RSS feed](/feed.xml) to be notified of new posts.
-
-I also maintain [Conversational Remorse](http://notes.mrzool.cc), a more frequently updated microblog where I collect interesting bits about technology, design, music, and other good things.
-
-### Elsewhere
-
-You can follow me on [Twitter](http://twitter.com/mrzool_), verify my identity at [Keybase](https://keybase.io/zool), see my photos on [VSCO Grid](https://mrzool.vsco.co/), and track my readings on [Goodreads](http://www.goodreads.com/mrzool) and [Instapaper](https://www.instapaper.com/p/__zool).
-
-To get in touch with me, send an email at [`{{site.email}}`](mailto:{{site.email}}) [[PGP](https://keybase.io/zool/key.asc)]

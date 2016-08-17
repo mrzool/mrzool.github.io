@@ -6,9 +6,7 @@ body {
   background-color: var(--amethyst); 
 }
 
-body.post {
-  background-color: var(--white);
-}
+body.post { background-color: var(--white); }
 
 a { color: var(--rum); }
 

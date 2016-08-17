@@ -5,7 +5,7 @@
 
     <main class="px3 py3 mb4 max-width-3">
 
-      <div class="cf mxn2">
+      <div class="clearfix mxn2">
 
         <div class="sm-col sm-col-6 px2 py2">
           <div class="amethyst bg-gray px2 py3" style="max-width: 240px">
@@ -41,7 +41,7 @@
 
         <div class="sm-col sm-col-6 px2 py2">
             <h3 class="normal mt1">Elsewhere</h3>
-            <div class="cf">
+            <div class="clearfix">
               {% for account in page.elsewhere %}
                 <div class="col col-5 py1"><a href="{{ account.url }}">{{ account.name }}</a></div>
               {% endfor %}

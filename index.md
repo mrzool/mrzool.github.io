@@ -18,10 +18,10 @@ opensource:
   description: "Config files for my *nix systems"
 
 elsewhere:
-- name: "Tumblr"
-  url: "http://notes.mrzool.cc"
 - name: "GitHub"
   url: "http://github.com/mrzool"
+- name: "Tumblr"
+  url: "http://notes.mrzool.cc"
 - name: "Twitter"
   url: "http://twitter.com/mrzool_"
 - name: "Keybase"

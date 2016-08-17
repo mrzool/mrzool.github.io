@@ -811,28 +811,26 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
 .align-right { text-align: right; }
 .center { text-align: center; }
-.bg-gray { background-color: #4f504d; }
-.amethyst { color: #a399b6; }
-
 body { 
   color: #4f504d;
   background-color: #a399b6; 
 }
 
-body.post {
-  background-color: #FFFFFF;
-}
+body.post { background-color: #FFFFFF; }
 
-a { color: #FFF29A; }
+a { color: #FCFDF4; }
 
-a:visited { color: #FFF29A; }
-a:hover { color: #FBFDE8; }
+a:visited { color: #FCFDF4; }
+a:hover { color: #FFF29A; }
 
-body.post a {
-  color: #0074D9;
-}
+body.post a { color: #0074D9; }
+body.post a:visited { color: #0074D9; }
+body.post a:hover { color: #7FDBFF; }
 
 pre { background-color: #fdf6e3; }
+
+.bg-gray { background-color: #4f504d; }
+.amethyst { color: #a399b6; }
 .latex {
   letter-spacing: .01em;
 }

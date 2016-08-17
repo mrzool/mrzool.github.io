@@ -1,6 +1,3 @@
-.bg-gray { background-color: var(--gray); }
-.amethyst { color: var(--amethyst); }
-
 body { 
   color: var(--gray);
   background-color: var(--amethyst); 
@@ -18,6 +15,9 @@ body.post a:visited { color: var(--blue); }
 body.post a:hover { color: var(--aqua); }
 
 pre { background-color: var(--oldlace); }
+
+.bg-gray { background-color: var(--gray); }
+.amethyst { color: var(--amethyst); }
 
 :root {
   --white: #FFFFFF;

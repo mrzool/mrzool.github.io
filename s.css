@@ -829,6 +829,8 @@ body.post a:hover { color: #7FDBFF; }
 
 pre { background-color: #fdf6e3; }
 
+blockquote { color: #7D7E7A; }
+
 .bg-gray { background-color: #4f504d; }
 .amethyst { color: #a399b6; }
 .latex {

@@ -16,6 +16,8 @@ body.post a:hover { color: var(--aqua); }
 
 pre { background-color: var(--oldlace); }
 
+blockquote { color: var(--lightgray); }
+
 .bg-gray { background-color: var(--gray); }
 .amethyst { color: var(--amethyst); }
 
@@ -26,6 +28,7 @@ pre { background-color: var(--oldlace); }
   --amethyst: #a399b6;
   --rum: #FCFDF4;
   --gray: #4f504d;
+  --lightgray: #7D7E7A;
   --oldlace: #fdf6e3;
   --blue: #0074D9;
   --yellow: #FFF29A;

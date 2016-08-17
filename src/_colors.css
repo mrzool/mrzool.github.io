@@ -10,25 +10,25 @@ body.post {
   background-color: var(--white);
 }
 
-a { color: var(--yellow); }
+a { color: var(--rum); }
 
-a:visited { color: var(--yellow); }
-a:hover { color: var(--lightyellow); }
+a:visited { color: var(--rum); }
+a:hover { color: var(--yellow); }
 
 body.post a {
   color: var(--blue);
 }
 
-pre { background-color: var(--lightgray); }
+pre { background-color: var(--oldlace); }
 
 :root {
   --white: #FFFFFF;
   --black: #464646;
   --red: #b699ac;
   --amethyst: #a399b6;
+  --rum: #FCFDF4;
   --gray: #4f504d;
-  --lightgray: #fdf6e3;
+  --oldlace: #fdf6e3;
   --blue: #0074D9;
   --yellow: #FFF29A;
-  --lightyellow: #FBFDE8;
 }

@@ -3,43 +3,43 @@
   {% include _head.html %}
   <body>
 
-    <main class="px3 py3 mb4 max-width-3">
+    <main class="px3 py3 mb4 max-width-2">
 
       <div class="clearfix mxn2">
 
-        <div class="sm-col sm-col-6 px2 py2">
-          <div class="amethyst bg-gray px2 py3" style="max-width: 240px">
-            <h1 class="h3 normal">{{ page.title }}</h1>
-            <h2 class="h4 normal">{{ page.subtitle }}</h2>
-            <p>{{ page.phone }}</p>
-            <p>{{ page.email }}</p>
-            <p>{{ page.place }}</p>
-          </div>
+        <div class="max-width-1 px2 py2 mb4 amethyst bg-gray">
+          <h1 class="h3 normal">{{ page.title }}</h1>
+          <h2 class="h4 normal">{{ page.subtitle }}</h2>
+          <p>{{ page.phone }}</p>
+          <p>{{ page.email }}</p>
+          <p>{{ page.place }}</p>
         </div>
 
-        <div class="sm-col sm-col-6 px2 py2">
+        <div class="px2 py2">
           <h3 class="normal mt1">Open source</h3>
-          <dl>
+          <div class="clearfix">
             {% for project in page.opensource %}
-              <dt class="mb1"><a href="{{ project.url }}">{{ project.name }}</a></dt>
-              <dd class="h5 italic m0 mb2">{{ project.description }}</dd>
+              <div class="sm-col sm-col-6">
+                <a href="{{ project.url }}">{{ project.name }}</a>
+                <p class="h5 italic m0 mb2">{{ project.description }}</p>
+              </div>
             {% endfor %}
-          </dl>
-          <p class="h6 mt3 gray">See more on <a href="http://github.com/mrzool">GitHub</a></p>
+          </div>
+          <p class="h6 mt1 gray">See more on <a href="http://github.com/mrzool">GitHub</a></p>
         </div>
 
 
-        <div class="sm-col sm-col-6 px2 py2">
+        <div class="px2 py2">
             <h3 class="normal mt1">Writing</h3>
             <ul>
               {% for post in site.posts %}
-                <li class="mb2"><a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></li>
+                <li class="mb1"><a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></li>
               {% endfor %}
-              <p class="h6 mt3 gray">An <a href="/feed.xml">RSS feed</a> is available</p>
+              <p class="h6 mt2 gray">An <a href="/feed.xml">RSS feed</a> is available</p>
             </ul>
         </div>
 
-        <div class="sm-col sm-col-6 px2 py2">
+        <div class="px2 py2">
             <h3 class="normal mt1">Elsewhere</h3>
             <div class="clearfix">
               {% for account in page.elsewhere %}

@@ -1,0 +1,34 @@
+.bg-gray { background-color: var(--gray); }
+.amethyst { color: var(--amethyst); }
+
+body { 
+  color: var(--gray);
+  background-color: var(--amethyst); 
+}
+
+body.post {
+  background-color: var(--white);
+}
+
+a { color: var(--yellow); }
+
+a:visited { color: var(--yellow); }
+a:hover { color: var(--lightyellow); }
+
+body.post a {
+  color: var(--blue);
+}
+
+pre { background-color: var(--lightgray); }
+
+:root {
+  --white: #FFFFFF;
+  --black: #464646;
+  --red: #b699ac;
+  --amethyst: #a399b6;
+  --gray: #4f504d;
+  --lightgray: #fdf6e3;
+  --blue: #0074D9;
+  --yellow: #FFF29A;
+  --lightyellow: #FBFDE8;
+}

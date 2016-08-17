@@ -425,3 +425,25 @@ td,
 th {
   padding: 0;
 }
+
+/* Fluidity */
+
+img, canvas, iframe, video, svg, select, textarea {
+  max-width: 100%; 
+}
+
+/* Default overrides */
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li { padding: 0.2rem 0; }
+
+a { text-decoration: none; }
+
+pre {
+  overflow-x: scroll;
+  padding: .5em 1em;
+}

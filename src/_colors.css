@@ -15,9 +15,9 @@ a { color: var(--rum); }
 a:visited { color: var(--rum); }
 a:hover { color: var(--yellow); }
 
-body.post a {
-  color: var(--blue);
-}
+body.post a { color: var(--blue); }
+body.post a:visited { color: var(--blue); }
+body.post a:hover { color: var(--aqua); }
 
 pre { background-color: var(--oldlace); }
 
@@ -31,4 +31,5 @@ pre { background-color: var(--oldlace); }
   --oldlace: #fdf6e3;
   --blue: #0074D9;
   --yellow: #FFF29A;
+  --aqua: #7FDBFF;
 }

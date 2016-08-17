@@ -31,14 +31,8 @@
     "start": "parallelshell -v 'npm run build:css' 'npm run build:html' 'npm run server'",
     "build:css": "watch 'node css.js' src/",
     "build:html": "bundle exec jekyll build --watch --incremental",
-    "minify:css": "uncss --htmlroot . _site/**/**/*.html | cssnano > s.min.css",
+    "minify:css": "uncss --htmlroot _site/ _site/**/**/*.html | cssnano > s.min.css",
     "clean": "rm -rf _site",
-    "server": "browser-sync start --files '_site/css/s.css, _site/**/*.html' --server _site"
-  },
-  "dependencies": {
-    "gravitons": "^1.0.0",
-    "basscss-btn": "^1.0.1",
-    "basscss-btn-outline": "^1.0.0",
-    "basscss-defaults": "^2.1.1"
+    "server": "browser-sync start --no-notify --files '_site/css/s.css, _site/**/*.html' --server _site"
   }
 }

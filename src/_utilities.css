@@ -1,0 +1,11 @@
+.normal { 
+  font-style: normal; 
+  font-weight: normal;
+}
+
+.italic { font-style: italic; }
+.caps { text-transform: uppercase; }
+
+.align-right { text-align: right; }
+.center { text-align: center; }
+

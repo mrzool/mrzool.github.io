@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sensible Bash
-subtitle: Small & opinionated selection of basic Bash configurations for an improved command-line user experience
+subtitle: Small & opinionated selection of basic Bash configurations for a better command-line user experience
 GistID: 086e8495641804e5ed3a
 ---
 

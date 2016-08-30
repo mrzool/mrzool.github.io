@@ -1,12 +1,16 @@
-body { 
+body.home { 
   color: var(--gray);
   background-color: var(--amethyst); 
 }
 
 body.post { background-color: var(--white); }
 
-a { color: var(--rum); }
+header {
+  color: var(--amethyst);
+  background-color: var(--gray);
+}
 
+a { color: var(--rum); }
 a:visited { color: var(--rum); }
 a:hover { color: var(--yellow); }
 
@@ -17,9 +21,6 @@ body.post a:hover { color: var(--aqua); }
 pre { background-color: var(--oldlace); }
 
 blockquote { color: var(--lightgray); }
-
-.bg-gray { background-color: var(--gray); }
-.amethyst { color: var(--amethyst); }
 
 :root {
   --white: #FFFFFF;

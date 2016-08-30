@@ -2,17 +2,18 @@
 <html lang="en">
   {% include _head.html %}
   <body class="post">
-    <main class="px3 py3 mt4 mb4 max-width-2 mx-auto">
+    <main class="px3 py3 mt2 mb4 max-width-2 mx-auto">
+      <a class="border-none block mb4" href="/">&larr; Back</a>
       <article>
-        <h1 class="mb1 normal"> {{ page.title }} </h1>
-        <time class="h5 inline-block mt1 mr2 normal"> {{ page.date | date: "%B %e, %Y" }} by <a href="/" title="Homepage">{{ site.author }}</a> </time>
+        <h1 class="mb4 normal border px2 py3"> {{ page.title }} </h1>
+        {% comment %} <time class="h5 inline-block mt1 mr2 normal"> {{ page.date | date: "%B %e, %Y" }} by <a href="/" title="Homepage">{{ site.author }}</a> </time> {% endcomment %}
         {% comment %} <a class="btn btn-outline h6 border normal blue" href="https://twitter.com/intent/tweet?text={{ page.title }}&url=http://mrzool.cc{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"> {% endcomment %}
         {% comment %}   <span>Tweet</span> {% endcomment %}
         {% comment %} </a> {% endcomment %}
-        <h3 class="h4 italic mt3 mb3 normal"> {{ page.subtitle }} </h3>
+        <h3 class="h4 italic mt3 mb4 normal align-right"> {{ page.subtitle }} </h3>
         {{ content }}
       </article>
-      <hr class="mt4 mb3">
+      <hr class="mt4 mb4">
       <p class="h5 italic">
         Thanks for reading so far!
         For comments, suggestions, questions and corrections you can always reach me on

@@ -42,3 +42,5 @@
 
 body.home a { border-bottom: solid var(--black) 2px; }
 body.home a:hover { border-bottom: solid var(--gray) 2px; }
+
+pre { border-left: 3px solid var(--gray); }

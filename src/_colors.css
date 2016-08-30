@@ -13,7 +13,7 @@ body.post a { color: var(--blue); }
 body.post a:visited { color: var(--blue); }
 body.post a:hover { color: var(--gray); }
 
-pre { background-color: var(--oldlace); }
+pre { background-color: var(--white); }
 
 blockquote { color: var(--lightgray); }
 

@@ -1,37 +1,28 @@
 body.home { 
-  color: var(--gray);
-  background-color: var(--amethyst); 
+  color: var(--black);
+  background-color: var(--iceberg);
 }
 
 body.post { background-color: var(--white); }
 
-header {
-  color: var(--amethyst);
-  background-color: var(--gray);
-}
-
-a { color: var(--rum); }
-a:visited { color: var(--rum); }
-a:hover { color: var(--yellow); }
+a { color: var(--black); }
+a:visited { color: var(--black); }
+a:hover { color: var(--gray); }
 
 body.post a { color: var(--blue); }
 body.post a:visited { color: var(--blue); }
-body.post a:hover { color: var(--aqua); }
+body.post a:hover { color: var(--gray); }
 
 pre { background-color: var(--oldlace); }
 
 blockquote { color: var(--lightgray); }
 
 :root {
+  --black: #1a110f;
   --white: #FFFFFF;
-  --black: #464646;
-  --red: #b699ac;
-  --amethyst: #a399b6;
-  --rum: #FCFDF4;
-  --gray: #4f504d;
+  --iceberg: #e4f2f7;
   --lightgray: #7D7E7A;
   --oldlace: #fdf6e3;
   --blue: #0074D9;
-  --yellow: #FFF29A;
-  --aqua: #7FDBFF;
+  --gray: #aab1b4;
 }

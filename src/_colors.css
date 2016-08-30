@@ -1,19 +1,11 @@
-body.home { 
+body {
   color: var(--black);
   background-color: var(--iceberg);
 }
 
-body.post { background-color: var(--white); }
-
 a { color: var(--black); }
 a:visited { color: var(--black); }
 a:hover { color: var(--gray); }
-
-body.post a { color: var(--blue); }
-body.post a:visited { color: var(--blue); }
-body.post a:hover { color: var(--gray); }
-
-pre { background-color: var(--white); }
 
 blockquote { color: var(--lightgray); }
 
@@ -22,7 +14,6 @@ blockquote { color: var(--lightgray); }
   --white: #FFFFFF;
   --iceberg: #e4f2f7;
   --lightgray: #7D7E7A;
-  --oldlace: #fdf6e3;
   --blue: #0074D9;
   --gray: #aab1b4;
 }

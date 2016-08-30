@@ -811,28 +811,24 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
 .align-right { text-align: right; }
 .center { text-align: center; }
-body { 
-  color: #4f504d;
-  background-color: #a399b6; 
+body.home { 
+  color: #1a110f;
+  background-color: #e4f2f7;
 }
 
 body.post { background-color: #FFFFFF; }
 
-a { color: #FCFDF4; }
-
-a:visited { color: #FCFDF4; }
-a:hover { color: #FFF29A; }
+a { color: #1a110f; }
+a:visited { color: #1a110f; }
+a:hover { color: #aab1b4; }
 
 body.post a { color: #0074D9; }
 body.post a:visited { color: #0074D9; }
-body.post a:hover { color: #7FDBFF; }
+body.post a:hover { color: #aab1b4; }
 
 pre { background-color: #fdf6e3; }
 
 blockquote { color: #7D7E7A; }
-
-.bg-gray { background-color: #4f504d; }
-.amethyst { color: #a399b6; }
 .latex {
   letter-spacing: .01em;
 }
@@ -940,3 +936,42 @@ green     #859900  operators, other keywords
 .highlight .vg { color: #268bd2 } /* Name.Variable.Global */
 .highlight .vi { color: #268bd2 } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+.border {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.border-top {
+  border-top-style: solid;
+  border-top-width: 2px;
+}
+
+.border-right {
+  border-right-style: solid;
+  border-right-width: 2px;
+}
+
+.border-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.border-left {
+  border-left-style: solid;
+  border-left-width: 2px;
+}
+
+.border-none { border: 0 }
+
+.rounded { border-radius: 3px }
+.circle  { border-radius: 50% }
+
+.rounded-top    { border-radius: 3px 3px 0 0 }
+.rounded-right  { border-radius: 0 3px 3px 0 }
+.rounded-bottom { border-radius: 0 0 3px 3px }
+.rounded-left   { border-radius: 3px 0 0 3px }
+
+.not-rounded { border-radius: 0 }
+
+body.home a { border-bottom: solid #1a110f 2px; }
+body.home a:hover { border-bottom: solid #aab1b4 2px; }

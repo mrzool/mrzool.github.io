@@ -458,6 +458,7 @@ h6, .h6 { font-size: .75rem; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
+pre { line-height: normal; }
 pre, code { font-size: .875rem;  }
 .m0  { margin: 0 }
 .mt0 { margin-top: 0 }

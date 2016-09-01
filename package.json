@@ -33,6 +33,6 @@
     "build:html": "bundle exec jekyll build --watch --incremental",
     "minify:css": "uncss --htmlroot _site/ _site/**/**/*.html | cssnano > s.min.css",
     "clean": "rm -rf _site",
-    "server": "browser-sync start --no-notify --no-open --files '_site/css/s.css, _site/**/*.html' --server _site"
+    "server": "browser-sync start --no-open --files '_site/css/s.css, _site/**/*.html' --server _site"
   }
 }

@@ -5,7 +5,6 @@
 
     <main class="px3 py3 mb4 max-width-4">
 
-      <div class="clearfix mxn2">
 
         <header class="max-width-1 px2 py2 mb4 border">
           <h1 class="h3 normal">{{ page.title }}</h1>
@@ -15,7 +14,9 @@
           <p>{{ page.place }}</p>
         </header>
 
-        <div class="md-col md-col-4 px2 py2">
+      <div class="clearfix mxn2">
+
+        <div class="sm-col sm-col-6 md-col-4 px2 py2">
           <h3 class="normal mt1">Open source</h3>
           {% for project in page.opensource %}
             <div>
@@ -27,7 +28,7 @@
         </div>
 
 
-        <div class="md-col md-col-4 px2 py2">
+        <div class="sm-col sm-col-6 md-col-4 px2 py2">
             <h3 class="normal mt1">Technical writing</h3>
             <ul>
               {% for post in site.posts %}
@@ -37,9 +38,9 @@
             <p class="h6 mt2 gray">Subscribe to the <a href="/feed.xml">RSS feed</a>
         </div>
 
-        <div class="md-col md-col-4 px2 py2">
+        <div class="sm-col sm-col-12 md-col-4 px2 py2">
           <h3 class="normal mt1">Elsewhere</h3>
-          <div class="clearfix">
+          <div class="clearfix max-width-1">
             {% for account in page.elsewhere %}
               <div class="col col-5 py1"><a href="{{ account.url }}">{{ account.name }}</a></div>
             {% endfor %}
@@ -47,10 +48,6 @@
         </div>
 
       </div>
-
-      <div class="clearfix mxn2">
-      </div>
-
 
     </main>
 

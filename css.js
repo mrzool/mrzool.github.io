@@ -16,7 +16,7 @@ var output = postcss([autoprefixer])
   .use(customMedia())
   .process(css, {
     from: "./src/s.css",
-    to: "./s.css"
+    to: "./css/s.css"
   })
   .css
 

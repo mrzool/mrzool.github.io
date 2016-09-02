@@ -20,7 +20,7 @@ var output = postcss([autoprefixer])
   })
   .css
 
-fs.writeFile("s.css", output, 'utf-8')
+fs.writeFile("css/s.css", output, 'utf-8')
 
 // Using Sqwish for CSS
 // new compressor.minify({

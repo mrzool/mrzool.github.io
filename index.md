@@ -10,12 +10,12 @@ opensource:
 - name: "TeX boilerplates"
   url: "http://mrzool.cc/tex-boilerplates"
   description: "Plain-text document production system"
+- name: "Polyglot Jekyll"
+  url: "http://github.com/mrzool/polyglot-jekyll"
+  description: "Plugin-free, multi-language Jekyll websites"
 - name: "Bash sensible"
   url: "http://github.com/mrzool/bash-sensible"
   description: "An attempt at saner Bash defaults"
-- name: "Dotfiles"
-  url: "http://github.com/mrzool/dotfiles"
-  description: "Config files for my *nix systems"
 
 elsewhere:
 - name: "GitHub"

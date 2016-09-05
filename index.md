@@ -11,7 +11,7 @@ opensource:
   url: "http://mrzool.cc/tex-boilerplates"
   description: "Plain-text document production system"
 - name: "Polyglot Jekyll"
-  url: "http://github.com/mrzool/polyglot-jekyll"
+  url: "http://mrzool.cc/polyglot-jekyll"
   description: "Plugin-free, multi-language Jekyll websites"
 - name: "Bash sensible"
   url: "http://github.com/mrzool/bash-sensible"

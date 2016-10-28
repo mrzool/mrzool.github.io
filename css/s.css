@@ -816,7 +816,7 @@ pre, code { font-size: .875rem;  }
 .center { text-align: center; }
 body {
   color: #1a110f;
-  background-color: #e4f2f7;
+  background-color: #FFFFFF;
 }
 
 a { color: #1a110f; }
@@ -956,7 +956,7 @@ blockquote { color: #7D7E7A; }
 
 .not-rounded { border-radius: 0 }
 
-a { border-bottom: solid #1a110f 2px; }
-a:hover { border-bottom: solid #aab1b4 2px; }
+a { border-bottom: solid #1a110f 1px; }
+a:hover { border-bottom: solid #aab1b4 1px; }
 
 pre { border-left: 3px solid #aab1b4; }

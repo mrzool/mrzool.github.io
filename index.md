@@ -29,5 +29,5 @@ elsewhere:
 - name: "Goodreads"
   url: "http://www.goodreads.com/mrzool" 
 - name: "Instapaper"
-  url: "https://www.instapaper.com/p/__zool"
+  url: "https://www.instapaper.com/p/mrzool"
 ---

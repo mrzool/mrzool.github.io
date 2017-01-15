@@ -231,7 +231,7 @@ Interested in knowing more about plain-text workflows and typesetting automation
 Some resources on the tools and technologies mentioned in this article:
 
 - These [<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> docs](https://www.sharelatex.com/learn) cover most of the basics and are surprisingly kind to the beginner.
-- Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html) to learn more about how templates work.
+- Refer to [pandoc's documentation](http://pandoc.org/MANUAL.html#templates) to learn more about how templates work.
 - The YAML syntax is quite simple but has its quirks. Check out this [overview](http://learnxinyminutes.com/docs/yaml/) to make sure you get everything right.
 - Follow the [TeXtip](https://twitter.com/TeXtip) Twitter account.
 - Make some new friends on the [<span class="latex">T<sub>e</sub>X</span>-<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> Stack Exchange](http://tex.stackexchange.com/).

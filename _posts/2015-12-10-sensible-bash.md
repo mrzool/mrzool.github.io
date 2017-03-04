@@ -33,9 +33,9 @@ The option **`completion-ignore-case`** tells Readline to perform filename compl
 
 With **`completion-map-case`**, filename matching during completion will treat hyphens and underscores as equivalent. Since in most keyboard layouts typing an underscore usually requires pressing `<Shift>`, that's another keystroke saved. This option requires `completion-ignore-case` to be enabled.
 
-Lastly, **`show-all-of-ambiguous`** will get Readline to display all possible matches for an ambiguous pattern at the first `<Tab>` press instead of at the second. This is another small UX improvement you will get used to in no time.
+Lastly, **`show-all-if-ambiguous`** will get Readline to display all possible matches for an ambiguous pattern at the first `<Tab>` press instead of at the second. This is another small UX improvement you will get used to in no time.
 
-There are tons of other cool Readline runtime behaviors you can activate, like [vi-like key bindings](http://blog.sanctum.geek.nz/vi-mode-in-bash/) or some clever [history-search tweaks](https://coderwall.com/p/oqtj8w/the-single-most-useful-thing-in-bash). As your configuration grows, consider using a dedicated `initrc`, Readline's [default configuration file](http://cnswww.cns.cwru.edu/php/chet/readline/readline.html#SEC9), instead of cluttering your `bashrc` with too many `bind` statements. This is [mine](https://github.com/mrzool/dotfiles/blob/master/inputrc).
+There are tons of other cool Readline runtime behaviors you can activate, like [vi-like key bindings](http://blog.sanctum.geek.nz/vi-mode-in-bash/) or some clever [history-search tweaks](https://coderwall.com/p/oqtj8w/the-single-most-useful-thing-in-bash). As your configuration grows, consider using a dedicated `inputrc`, Readline's [default configuration file](http://cnswww.cns.cwru.edu/php/chet/readline/readline.html#SEC9), instead of cluttering your `bashrc` with too many `bind` statements. This is [mine](https://github.com/mrzool/dotfiles/blob/master/readline/.inputrc).
 
 ### Better History
 

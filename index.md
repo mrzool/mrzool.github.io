@@ -23,7 +23,7 @@ elsewhere:
 - name: "Tumblr"
   url: "http://notes.mrzool.cc"
 - name: "Twitter"
-  url: "http://twitter.com/mrzool_"
+  url: "https://mobile.twitter.com/mrzool_"
 - name: "Keybase"
   url: "https://keybase.io/zool"
 - name: "Goodreads"

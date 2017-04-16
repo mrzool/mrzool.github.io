@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: typesetting_automation
 title: Typesetting automation
 subtitle: A plain-text workflow for painless production of personal documents & offline correspondence&mdash;featuring Pandoc, <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>, and a simple makefile
 preview: "http://github.com/mrzool/letter-boilerplate/raw/master/preview.jpg"

@@ -14,7 +14,7 @@ opensource:
   url: "http://mrzool.cc/polyglot-jekyll"
   description: "Plugin-free, multi-language Jekyll websites"
 - name: "Bash sensible"
-  url: "http://github.com/mrzool/bash-sensible"
+  url: "http://mrzool.cc/bash-sensible"
   description: "An attempt at saner Bash defaults"
 
 elsewhere:
@@ -23,7 +23,7 @@ elsewhere:
 - name: "Tumblr"
   url: "http://notes.mrzool.cc"
 - name: "Twitter"
-  url: "http://twitter.com/mrzool_"
+  url: "https://mobile.twitter.com/mrzool_"
 - name: "Keybase"
   url: "https://keybase.io/zool"
 - name: "Goodreads"

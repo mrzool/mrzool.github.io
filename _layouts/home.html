@@ -31,7 +31,7 @@
             <h3 class="normal mt1">Technical writing</h3>
             <ul>
               {% for post in site.posts %}
-                <li class="mb1"><a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></li>
+                <li class="mb1"><a href="{{ post.url }}" title="{{ post.subtitle | strip_html }}">{{ post.title }}</a></li>
               {% endfor %}
             </ul>
             <p class="h6 mt2 gray">Subscribe to the <a href="/feed.xml">RSS feed</a>

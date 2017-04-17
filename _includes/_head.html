@@ -30,9 +30,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% comment %} <link rel="stylesheet" href="/css/s.min.css"> {% endcomment %}
     {% comment %} <link rel="stylesheet" href="/css/s.css"> {% endcomment %}
-    {% if page.layout == "typesetting_automation" %}
-      {% include _type-aut-styles.html %}
-    {% else %}
-      {% include _base-styles.html %}
-    {% endif %}
+    <style>
+      {% if page.layout == "tufte" %}
+        {% include_relative custom_css/tufte.css %}
+      {% else %}
+        {% include _s.css %}
+      {% endif %}
+    </style>
 </head>

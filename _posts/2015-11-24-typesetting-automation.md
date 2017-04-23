@@ -69,7 +69,7 @@ That's it. I'm all set. Now I can open `letter.md` in Vim and write my letter in
 
 When I'm done writing to my friend Carl, all there's left to do is to edit `details.yml` with names and addresses, taking care of preserving the already present data structure:
 
-```yaml
+```ruby
 # Letter's details
 author: F. Nietzsche
 city: Naumburg
@@ -139,7 +139,7 @@ Now we're done with the creation of the document. Optionally, we can go further 
 
 Some basic options are available at the bottom of `details.yml`. Let's see what they do:
 
-```yaml
+```ruby
 # Settings
 mainfont: Hoefler Text
 altfont: Helvetica Neue
@@ -170,7 +170,7 @@ The last option, **`letterhead`**, is admittedly a bit of a hack. If uncommented
 
 Now let's see how we can dramatically alter the look and feel of our letter just by changing a couple of options. I will change `mainfont` to `Gill Sans`, include a nice letterhead I've built with InDesign (that I've shamelessly copied from the example given in Matthew Butterick's [Letterhead Advices](http://practicaltypography.com/letterhead.html)), and redefine my margins to accomodate the new layout:
 
-```yaml
+```ruby
 # Settings
 mainfont: Gill Sans
 altfont: Helvetica Neue

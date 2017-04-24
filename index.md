@@ -10,7 +10,7 @@ opensource:
 - name: "TeX boilerplates"
   url: "http://mrzool.cc/tex-boilerplates"
   description: "Plain-text document production system"
-  - name: "Bash sensible"
+- name: "Bash sensible"
   url: "https://github.com/mrzool/bash-sensible"
   description: "An attempt at saner Bash defaults"
 - name: "Polyglot Jekyll"

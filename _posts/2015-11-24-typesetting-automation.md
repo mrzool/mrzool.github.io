@@ -127,9 +127,9 @@ What's happening there? I'm leveraging the powerful conversion and templating ab
 After that, I'm done. I have a PDF ready to be emailed, faxed or printed out.  If you're on OS X, you can now run `open output.pdf` in your terminal to inspect our newly created PDF (on Linux, `xdg-open` or `gnome-open` will probably do the trick). This will look pretty much like this:
 
 {% comment %} <figure class="fullwidth"><img src="http://github.com/mrzool/letter-boilerplate/raw/master/preview.jpg" alt="The result" /></figure> {% endcomment %}
-![The PDF output](http://github.com/mrzool/letter-boilerplate/raw/master/preview.jpg)
+![The PDF output](/assets/typesetting-automation/preview-default.pdf)
 
-This is a [high-quality output](/assets/typesetting-automation/output.pdf) [PDF] produced by the most advanced typesetting system available, trusted by thousands of scientists, academics and publishers around the world to typeset advanced mathematical notation with elegance and precision, so you can be sure it can handle the modest needs of basic document production. No fiddling with layout and styling in MS Word or LibreOffice was involved in order to produce this output, nor was painful debugging of <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> code. And I've never had to leave the terminal.
+This is a [high-quality output](/assets/typesetting-automation/output-default.pdf) [PDF] produced by the most advanced typesetting system available, trusted by thousands of scientists, academics and publishers around the world to typeset advanced mathematical notation with elegance and precision, so you can be sure it can handle the modest needs of basic document production. No fiddling with layout and styling in MS Word or LibreOffice was involved in order to produce this output, nor was painful debugging of <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> code. And I've never had to leave the terminal.
 
 {% comment %} On a side note, I've used a special command in `template.tex` to fake the date for demostration purposes. In the real world, the date gets generated automatically with `\today`. {% endcomment %}
 
@@ -206,7 +206,7 @@ $endfor$
 
 Now let's run `make && open output.pdf`. This is what we get:
 
-![PDF output with letterhead](http://i.imgur.com/oxSIsPf.png)
+![PDF output with letterhead](/assets/typesetting-automation/preview-letterhead.png)
 
 That's quite a [transformation](/assets/typesetting-automation/output-letterhead.pdf) [PDF]. Our custom letterhead gets printed by `wallpaper`, our body text lives now in a narrower column on the right thanks to `geometry`, and the beautiful sans-serif Gill Sans gives our letter a fresher look.
 

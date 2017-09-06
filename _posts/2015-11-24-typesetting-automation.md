@@ -56,7 +56,7 @@ Next, I copy a PDF scan of my signature (that I created using [this method](http
 cp ~/Dropbox/signature.pdf .
 ```
 
-After this, I'm all set. Now I can open `letter.md` in Vim and write my letter in markdown (let's pretend that it's 1867 and I'm Friedrich Nietzsche writing to his pen pal Carl Freiherr von Gersdorff):
+After this, I'm all set. Now I can open `letter.md` in Vim and write my letter in Markdown (let's pretend that it's 1867 and I'm Friedrich Nietzsche writing to his pen pal Carl Freiherr von Gersdorff):
 
     Dear Friend,
 
@@ -129,11 +129,11 @@ After that, I'm done. I have a PDF ready to be emailed, faxed or printed out.  I
 {% comment %} <figure class="fullwidth"><img src="http://github.com/mrzool/letter-boilerplate/raw/master/preview.jpg" alt="The result" /></figure> {% endcomment %}
 ![The PDF output](/assets/typesetting-automation/preview-default.jpg)
 
-This is a [high-quality output](/assets/typesetting-automation/output-default.pdf) [PDF] produced by the most advanced typesetting system available, trusted by thousands of scientists, academics and publishers around the world to typeset advanced mathematical notation with elegance and precision, so you can be sure it can handle the modest needs of basic document production. No fiddling with layout and styling in MS Word or LibreOffice was involved in order to produce this output, nor was painful debugging of <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> code. And I've never had to leave the terminal.
+This is a [high-quality output](/assets/typesetting-automation/output-default.pdf) [PDF] produced by the most advanced typesetting system available, trusted by thousands of scientists, academics and publishers around the world to typeset advanced mathematical notation with elegance and precision, so you can be sure it can handle the modest needs of basic document production. No fiddling with layout and styling in MS Word or LibreOffice was involved in order to produce this output, nor was painful debugging of <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> code. And I have never had to leave the terminal.
 
 {% comment %} On a side note, I've used a special command in `template.tex` to fake the date for demostration purposes. In the real world, the date gets generated automatically with `\today`. {% endcomment %}
 
-Now we're done with the creation of the document. Optionally, we can thake a further step and tweak the document's look and feel by editing the built-in settings.
+Now we are done with the creation of the document. Optionally, we can thake a further step and tweak the document's look and feel by editing the built-in settings.
 
 ## Playing with the settings
 

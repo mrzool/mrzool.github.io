@@ -31,8 +31,9 @@
     {% comment %} <link rel="stylesheet" href="/css/s.min.css"> {% endcomment %}
     {% comment %} <link rel="stylesheet" href="/css/s.css"> {% endcomment %}
     <style>
-      {% if page.layout == "tufte" %}
-        {% include_relative custom_css/tufte.css %}
+      {% if page.custom-css %}
+        {% comment %} {% assign css_path = "custom_css/" | append page.custom_css %} {% endcomment %}
+        {% include_relative {{ page.custom-css }} %}
       {% else %}
         {% include _s.css %}
       {% endif %}

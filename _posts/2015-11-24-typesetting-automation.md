@@ -7,21 +7,21 @@ custom-css: custom_css/tufte.css
 GistID: 60ebd0955e6e64b8205c
 ---
 
-<span class="newthought">I've become pretty obsessed</span> with typesetting automation lately. Being a freelancer, I need to write letters, contracts and invoices on a regular basis. I wasn't happy with the standard solution of using graphical (and proprietary) software like MS Word or InDesign to do this. I know this is the common choice for most people out there, but for someone used to work with incredibly fast and powerful text manipulation tools like Vim and the Unix shell, pointing-and-clicking and option-hunting in a bloated GUI environment weren't really cutting it.
+<span class="newthought">I have become pretty obsessed</span> with typesetting automation lately. As a freelancer, I need to write letters, contracts and invoices on a regular basis. I wasn't happy with the standard solution of using graphical (and proprietary) software like MS Word or InDesign to do this. I know this is the common choice for most people out there, but for someone used to work with incredibly fast and powerful text manipulation tools like Vim and the Unix shell, pointing-and-clicking and hunting for buttons in a bloated GUI environment wasn't really cutting it.
 
 > The ‘scriptability’ of an interface is the ease with which it can be manipulated by other programs. Scriptable programs are readily usable as components by other programs, reducing the need for costly custom coding and making it relatively easy to automate repetitive tasks. [...]  
 Unix programmers, administrators, and users develop a habit of thinking through the routine procedures they use, then packaging them so they no longer have to manually execute or even think about them any more. This habit depends on scriptable interfaces.  
 > <footer>Eric S. Raymond, <a href="http://www.catb.org/esr/writings/taoup/html/ch11s03.html">Evaluating Interface Designs</a> in <i>The Art of Unix Programming</i></footer>
 
 
-The system I had in mind would produce perfectly typeset documents in an automated fashion using only plain text, a text editor, and lean, open source CLI utilities. Its workflow would be simple, repeatable and portable, with as little overhead as possible---that is, no complicated setup and dependencies reduced to a minimum.
+The system I had in mind would produce perfectly typeset documents in an automated fashion using only plain text, a text editor, and lean, open-source CLI utilities. Its workflow would be simple, repeatable and portable, with as little overhead as possible---that is, no complicated setup and dependencies reduced to a minimum.
 
-The project [tex-boilerplates](http://mrzool.cc/tex-boilerplates/) is the result of my effort. At its core there's a simple system that provides you with a basic skeleton for painless and automated typesetting of three common types of documents: [letters](https://github.com/mrzool/letter-boilerplate), [invoices](https://github.com/mrzool/invoice-boilerplate) and [CVs/résumés](https://github.com/mrzool/cv-boilerplate).
+The project [tex-boilerplates](http://mrzool.cc/tex-boilerplates/) is the result of my effort. It's a simple system that provides you with a basic skeleton for painless and automated typesetting of three common types of documents: [letters](https://github.com/mrzool/letter-boilerplate), [invoices](https://github.com/mrzool/invoice-boilerplate) and [CVs/résumés](https://github.com/mrzool/cv-boilerplate).
 
 The three boilerplates have the same structure and work in a very similar way.
-They all live on Github and provide a `README` that explains in detail dependencies, installation and usage, so refer to that to learn about the individual differences.
+They are all available on GitHub and provide a `README` that explains in detail dependencies, installation and usage. You can refer to it to learn about the individual differences in each of the boilerplates.
 
-For this article, I've picked [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) to walk you through a typical workflow. Let's look at the basic structure of the repository:
+For this article, I have picked [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) to walk you through a typical workflow. Let's look at the basic structure of the repository:
 
 ```bash
 ├── README.md
@@ -39,7 +39,7 @@ Here's what every file is about:
 4. **`template.tex`**: A simple <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> template that deals with style, layout and typography.
 5. A **`makefile`** containing the Pandoc command that creates the PDF.
 
-*Edit: I've recently [merged](https://github.com/mrzool/letter-boilerplate/commit/4390e501534270a10d6f38efda4fdf1cb1575004) `details.yml` into `letter.md` to make things simpler. Now, the YAML metadata block is embedded in the first few lines of `letter.md` instead of living in a dedicated file. Everything else stayed the same, so read on.*
+*Edit: I've recently [merged](https://github.com/mrzool/letter-boilerplate/commit/4390e501534270a10d6f38efda4fdf1cb1575004) `details.yml` into `letter.md`. Now, the YAML metadata block is embedded as frontmatter at the beginning of `letter.md` instead of living in a dedicated file. Everything else stayed the same.*
 
 ## A typical workflow
 
@@ -57,7 +57,7 @@ Next, I copy a PDF scan of my signature (that I created using [this method](http
 cp ~/Dropbox/signature.pdf .
 ```
 
-That's it. I'm all set. Now I can open `letter.md` in Vim and write my letter in markdown (let's pretend that it's 1867 and I'm Friedrich Nietzsche writing to his pen pal Carl Freiherr von Gersdorff):
+After this, I'm all set. Now I can open `letter.md` in Vim and write my letter in Markdown (let's pretend that it's 1867 and I'm Friedrich Nietzsche writing to his pen pal Carl Freiherr von Gersdorff):
 
     Dear Friend,
 
@@ -68,7 +68,7 @@ That's it. I'm all set. Now I can open `letter.md` in Vim and write my letter in
 
     Your devoted friend,
 
-When I'm done writing to my friend Carl, all there's left to do is to edit `details.yml` with names and addresses, taking care of preserving the already present data structure:
+When I'm done writing to my friend Carl, all there's left to do is editing `details.yml` with names and addresses, taking care of preserving the already present data structure:
 
 ```ruby
 # Letter's details
@@ -130,11 +130,11 @@ After that, I'm done. I have a PDF ready to be emailed, faxed or printed out.  I
 {% comment %} <figure class="fullwidth"><img src="http://github.com/mrzool/letter-boilerplate/raw/master/preview.jpg" alt="The result" /></figure> {% endcomment %}
 ![The PDF output](/assets/typesetting-automation/preview-default.jpg)
 
-This is a [high-quality output](/assets/typesetting-automation/output-default.pdf) [PDF] produced by the most advanced typesetting system available, trusted by thousands of scientists, academics and publishers around the world to typeset advanced mathematical notation with elegance and precision, so you can be sure it can handle the modest needs of basic document production. No fiddling with layout and styling in MS Word or LibreOffice was involved in order to produce this output, nor was painful debugging of <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> code. And I've never had to leave the terminal.
+This is a [high-quality output](/assets/typesetting-automation/output-default.pdf) [PDF] produced by the most advanced typesetting system available, trusted by thousands of scientists, academics and publishers around the world to typeset advanced mathematical notation with elegance and precision, so you can be sure it can handle the modest needs of basic document production. No fiddling with layout and styling in MS Word or LibreOffice was involved in order to produce this output, nor was painful debugging of <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> code. And I have never had to leave the terminal.
 
 {% comment %} On a side note, I've used a special command in `template.tex` to fake the date for demostration purposes. In the real world, the date gets generated automatically with `\today`. {% endcomment %}
 
-Now we're done with the creation of the document. Optionally, we can go further and tweak the document's look and feel by editing the built-in settings.
+Now we are done with the creation of the document. Optionally, we can thake a further step and tweak the document's look and feel by editing the built-in settings.
 
 ## Playing with the settings
 
@@ -151,7 +151,7 @@ geometry: a4paper, left=35mm, right=35mm, top=50mm, bottom=25mm
 # letterhead: true
 ```
 
-Everything in there is pretty straightforward. The first three options allow us to choose the typefaces for our document.
+Everything in there is pretty straightforward. The first three options allow you to choose the typefaces for your document.
 
 - **`mainfont`** sets the font for everything.
 - **`altfont`** sets the font for the recipient's address.
@@ -169,7 +169,7 @@ The last option, **`letterhead`**, is admittedly a bit of a hack. If uncommented
 
 ### Transforming our letter
 
-Now let's see how we can dramatically alter the look and feel of our letter just by changing a couple of options. I will change `mainfont` to `Gill Sans`, include a nice letterhead I've built with InDesign (that I've shamelessly copied from the example given in Matthew Butterick's [Letterhead Advices](http://practicaltypography.com/letterhead.html)), and redefine my margins to accomodate the new layout:
+Now let's see how we can dramatically alter the look and feel of our letter just by changing a couple of options. I will change `mainfont` to `Gill Sans`, include a nice letterhead I have built with InDesign (that I have shamelessly copied from the example given in Matthew Butterick's [Letterhead Advices](http://practicaltypography.com/letterhead.html)), and redefine my margins to accomodate the new layout:
 
 ```ruby
 # Settings
@@ -182,13 +182,13 @@ geometry: a4paper, left=90mm, right=22mm, top=22mm, bottom=22mm
 letterhead: true
 ```
 
-Now that I've activated the `wallpaper` package by setting `letterhead` to `true`, I need to import my letterhead file. Just like my signature, I keep that in my Dropbox as well:
+Now that I have activated the `wallpaper` package by setting `letterhead` to `true`, I need to import my letterhead file. Just like my signature, I keep that in my Dropbox as well:
 
 ```bash
 cp ~/Dropbox/letterhead.pdf .
 ```
 
-I will also comment out the code that prints the sender address in `template.tex`, because our address is now visible in the letterhead and we don't need that bit anymore:
+I will also comment out the code that prints the sender address in `template.tex`, because our address is now visible in the letterhead and we do not need that bit anymore:
 
 ```latex
 % \small
@@ -209,11 +209,11 @@ Now let's run `make && open output.pdf`. This is what we get:
 
 ![PDF output with letterhead](/assets/typesetting-automation/preview-letterhead.png)
 
-That's quite a [transformation](/assets/typesetting-automation/output-letterhead.pdf) [PDF]. Our custom letterhead gets printed by `wallpaper`, our body text lives now in a narrower column on the right thanks to `geometry`, and the beautiful sans-serif Gill Sans gives our letter a fresher look.
+That is quite a [transformation](/assets/typesetting-automation/output-letterhead.pdf) [PDF]. Our custom letterhead gets printed by `wallpaper`, our body text lives now in a narrower column on the right thanks to `geometry`, and the beautiful sans-serif Gill Sans gives our letter a fresher look.
 
 ## Conclusion
 
-There's no excuse for bad typography. Just like proper dress and grooming make you look sharp when interacting with others, good typography adds value to your documents and helps getting your message across. The system described in this article yields formidable results with very little hassle. Once you have Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> installed on your system, getting started with a new document is just a `git clone` away.
+There is no excuse for bad typography. Just like proper dress and grooming make you look sharp when interacting with others, good typography adds value to your documents and helps getting your message across. The system described in this article yields formidable results with very little hassle. Once you have Pandoc and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> installed on your system, getting started with a new document is just a `git clone` away.
 
 Remember: all this is not limited to formal letters. Producing great-looking [invoices](https://github.com/mrzool/invoice-boilerplate) and slick, professional [CVs](https://github.com/mrzool/cv-boilerplate) is just as easy. Make sure to check out the [website of the project](http://mrzool.cc/tex-boilerplates/) for a quick overview of what you can expect, and refer to the `README`s on Github for more detailed instructions. Have fun!
 

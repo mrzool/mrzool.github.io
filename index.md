@@ -27,7 +27,7 @@ elsewhere:
 - name: "Keybase"
   url: "https://keybase.io/zool"
 - name: "Pinboard"
-  url: "https://pinboard.in/u:zool/profile/public/"
+  url: "https://pinboard.in/u:zool/"
 - name: "Letterboxd"
   url: "https://letterboxd.com/zool_/"
 - name: "Goodreads"

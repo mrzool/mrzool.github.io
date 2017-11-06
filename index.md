@@ -6,7 +6,7 @@ phone: "+49 1522 1580015"
 email: "info@mrzool.cc"
 place: "Berlin"
 
-opensource:
+projects:
 - name: "TeX boilerplates"
   url: "http://mrzool.cc/tex-boilerplates"
   description: "Plain-text document production system"

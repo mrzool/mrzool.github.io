@@ -2,6 +2,7 @@
 layout: post
 title: Sensible Bash
 subtitle: Small & opinionated selection of basic Bash configurations for a better command-line user experience
+writing: true
 GistID: 086e8495641804e5ed3a
 ---
 

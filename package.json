@@ -14,13 +14,13 @@
     "email": "info@mrzool.cc"
   },
   "devDependencies": {
-    "autoprefixer": "^6.0.3",
-    "browser-sync": "^2.9.6",
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.24.4",
     "node-minify": "^1.2.1",
     "parallelshell": "^2.0.0",
-    "postcss": "^5.0.8",
+    "postcss": "^5.2.18",
     "postcss-browser-reporter": "^0.4.0",
-    "postcss-conditionals": "^2.0.0",
+    "postcss-conditionals": "^2.1.0",
     "postcss-css-variables": "^0.5.0",
     "postcss-custom-media": "^5.0.0",
     "postcss-import": "^7.0.0",

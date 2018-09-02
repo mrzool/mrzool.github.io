@@ -198,7 +198,7 @@ permalink: /add-draft.html
 				type: "PUT",
 				data: JSON.stringify({
 					content: btoa(unescape(encodeURIComponent(p_body))),
-					message: 'posted via web',
+					message: 'add note: ' + title,
 					branch: '{{ site.github.branch }}'
 				}),
 				beforeSend: function(xhr) { 

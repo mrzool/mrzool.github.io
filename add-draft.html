@@ -206,7 +206,7 @@ permalink: /add-draft.html
 				},
 				success: function(data) {
 					posted_ok = true ;
-					$('#container1').html('<h2>Successfully posted to {{ site.title }}</h2') ;
+          $('#container1').html('<h2>Successfully posted to {{ site.title }}</h2>') ;
 				},
 				error: function(request, status, error) {
 					responseText = jQuery.parseJSON( request.responseText );

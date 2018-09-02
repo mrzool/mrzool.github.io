@@ -2,7 +2,6 @@
 layout: home
 title: "Mattia Tezzele"
 subtitle: "Design / Development"
-phone: "+49 1522 1580015" 
 email: "info@mrzool.cc"
 place: "Berlin"
 

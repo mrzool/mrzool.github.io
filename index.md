@@ -2,7 +2,6 @@
 layout: home
 title: "Mattia Tezzele"
 subtitle: "Design / Development"
-phone: "+49 1522 1580015" 
 email: "info@mrzool.cc"
 place: "Berlin"
 
@@ -28,8 +27,8 @@ elsewhere:
   url: "https://keybase.io/zool"
 - name: "Pinboard"
   url: "https://pinboard.in/u:zool/"
-- name: "Letterboxd"
-  url: "https://letterboxd.com/zool_/"
+# - name: "Letterboxd"
+#  url: "https://letterboxd.com/zool_/"
 - name: "Goodreads"
   url: "http://www.goodreads.com/mrzool" 
 - name: "Instapaper"

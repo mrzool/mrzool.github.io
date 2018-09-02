@@ -6,41 +6,104 @@ permalink: /add-draft.html
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
 	<title>Save Draft</title>
+  <style>
+
+    .error { color:red}
+    .login { color:blue }
+    #logout { float:right; }
+    .alert { margin-left:20px;color:#333;background:#ced;float:left;padding:3px;padding-top:1px;width:300px;border:1px solid #acc; }
+    #title { float:left ;padding-top:2px; }
+
+    body {
+      color:#333;
+      font-family:helvetica;
+      font-size:12px;
+      margin-left:20px;
+    }
+    .container {
+      padding-left: 1em;
+      padding-right: 1em;
+      max-width: 40em;
+    }
+    input { 
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    input.btn {
+      width: 5em;
+    }
+
+    textarea { 
+      vertical-align: top; 
+      width: 100%;
+      font-family: monospace;
+      font-size: 1.1em;
+    }
+
+    form label { 
+      display: inline-block; 
+      margin-right: 10px; 
+    }
+
+    li { 
+      list-style-type: none; 
+      margin: 0; 
+      padding: 0; 
+      display: block;
+    } 
+
+    section,footer,header { display: block; }
+    fieldset { border: none; }
+    legend { display: none; }
+
+    a { text-decoration:none; }
+
+    a.navlink { text-decoration:none; }
+
+    .count { color:#aaa }
+    .when { color:#999}
+
+    a.bookmark_title { font-size:120%;}
+    .disabled { color:#bbb }
+
+
+  </style>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="container" id="container1" >
-		<h5>Create new post at {{ site.title }}</h5>
+		<h3>Add new note</h3>
 		{% if site.github.repo == none %}
-			<div class="alert alert-danger" role="alert"><code>github.repo</code> is not set.</div>
+			<div class="alert" role="alert"><code>github.repo</code> is not set.</div>
 		{% endif %}
 		{% if site.github.branch == none %}
-			<div class="alert alert-danger" role="alert"><code>github.branch</code> is not set.</div>
+			<div class="alert" role="alert"><code>github.branch</code> is not set.</div>
 		{% endif %}
 		<div id="messages"></div>
 		<form id="theform" method="get">
 			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Post Title" id="p_title" name="title">
+        <label for="username" class="sr-only">URL</label>
+				<span><input type="text" class="form-control" id="p_link" name="link"></span>
 			</div>
 			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Post Link" id="p_link" name="link">
+        <label for="username" class="sr-only">Title</label>
+				<input type="text" class="form-control" id="p_title" name="title">
 			</div>
 			<div class="form-group">
-				<textarea class="form-control" rows="10" id="p_body" placeholder="Type your post here." name="body"></textarea>
+        <label for="username" class="sr-only">Text</label>
+				<textarea class="form-control" rows="10" id="p_body" name="body"></textarea>
 			</div>
-			<div class="form-inline">
+			<div class="form-inline" style="margin-top: 2em">
 				<div class="form-group">
-					<label for="username" class="sr-only">Username</label>
-					<input type="text" class="form-control" id="username" placeholder="GitHub username">
+					<label for="username" class="sr-only">GitHub username</label>
+					<input type="text" class="form-control" id="username">
 				</div>
 				<div class="form-group">
-					<label for="password" class="sr-only">password</label>
-					<input type="password" class="form-control" id="password" placeholder="GitHub password">
+					<label for="password" class="sr-only">GitHub password</label>
+					<input type="password" class="form-control" id="password">
 				</div>
 				<input type="button" class="btn btn-default" id="go" value="Post" /> 
 				<a class="btn btn-link" data-toggle="collapse" href="#submitform" aria-expanded="false" aria-controls="submitform">Remember username/password</a>
@@ -48,14 +111,11 @@ permalink: /add-draft.html
 			<div class="collapse" id="submitform">
 				<br>
 				<div class="well">
-					<p>Because of the way this form works (the form data is not sumbitted, as forms usually do), your browser may not ask you to remember the username/password. 
-					<br>If you'd like to save them to your password manager, fill them in and click this button.
-					<br>This will not create a new post!</p>
-					<input type="submit" class="btn btn-default" value="Trick browser to save username/password">
+					<input type="submit" class="btn btn-default" value="save username/password">
 				</div>
 			</div>
 		</form>
-		<p>Drag this link to your bookmarks, to post from any webpage: <a href="javascript:(function(){
+		<p><a href="javascript:(function(){
 		var title = document.getElementsByTagName('title')[0].innerHTML;
 		title = encodeURIComponent(title) ;
 		var selection = '';
@@ -66,7 +126,7 @@ permalink: /add-draft.html
 		}
 		selection = encodeURIComponent(selection);
 		new_window=window.open('{{ "/add-draft.html" | prepend: site.baseurl | prepend: site.url }}?title='+title+'&amp;selection='+selection+'&amp;url='+encodeURIComponent(document.location.href),'JekyllPopup','resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=640,height=600,location=0');
-		})();">post to GitHub</a></p>
+		})();">Bookmarklet link</a></p>
 	</div>
 	<script>
 		function get_query(){
@@ -138,7 +198,7 @@ permalink: /add-draft.html
 				type: "PUT",
 				data: JSON.stringify({
 					content: btoa(unescape(encodeURIComponent(p_body))),
-					message: 'posted via web',
+					message: 'add note: ' + title,
 					branch: '{{ site.github.branch }}'
 				}),
 				beforeSend: function(xhr) { 
@@ -146,7 +206,7 @@ permalink: /add-draft.html
 				},
 				success: function(data) {
 					posted_ok = true ;
-					$('#container1').html('<h2>Successfully posted to {{ site.title }}</h2') ;
+          $('#container1').html('<h2>Successfully committed to {{ site.github.repo }}</h2>') ;
 				},
 				error: function(request, status, error) {
 					responseText = jQuery.parseJSON( request.responseText );

@@ -10,9 +10,10 @@ future: true
 exclude: [README.md, package.json, index.js, Rakefile, node_modules, src]
 permalink: /writing/:title/
 repository: mrzool/mrzool.github.io
-github:
-  repo: mrzool/mrzool.github.io
-  branch: master
+# github:
+#   repo: mrzool/mrzool.github.io
+#   branch: master
+github: [metadata]
 github_username: mrzool
 twitter_username: mrzool_
 # markdown: kramdown

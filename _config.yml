@@ -23,5 +23,5 @@ twitter_username: mrzool_
 #   parse_block_html: true
 gems:
   - jekyll-feed
-plugins_dir:
+plugins:
   - jekyll-sitemap

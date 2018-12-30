@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Mattia Tezzele"
-subtitle: "Design / Development"
+subtitle: "comprehensivist"
 email: "info@mrzool.cc"
 place: "Berlin"
 

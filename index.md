@@ -19,8 +19,8 @@ projects:
 elsewhere:
 - name: "GitHub"
   url: "http://github.com/mrzool"
-- name: "Tumblr"
-  url: "http://notes.mrzool.cc"
+# - name: "Tumblr"
+#  url: "http://notes.mrzool.cc"
 - name: "Twitter"
   url: "https://mobile.twitter.com/mrzool_"
 - name: "Keybase"

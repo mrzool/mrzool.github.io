@@ -10,13 +10,7 @@
   </title>
   <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="mrzool.cc RSS feed">
   <meta name="author" content="{{site.author}}">
-  <meta name="description" content="
-    {% if page.layout == 'default' %}
-      {{ site.name }} &vert; {{ site.place }}
-    {% else %}
-      {{ page.subtitle | strip_html }}
-    {% endif %}
-    ">
+  <meta name="description" content="{{ site.name }} &vert; Berlin">
     {% if page.layout == 'post' %}
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:site" content="{{ site.twitter_username }}">

@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <title>
     {% if page.layout == 'default' %}
-      {{ site.name }} &middot; Developer &middot; Berlin
+      {{ site.name }} &middot; Berlin
     {% else %}
       {{ page.title }} &middot; {{ page.subtitle | strip_html }}
     {% endif %}
@@ -11,11 +11,11 @@
   <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="mrzool.cc RSS feed">
   <meta name="author" content="{{site.author}}">
   <meta name="description" content="
-    {% if page.layout == 'default' %}
-    {{ site.description }}
-    {% else %}
-      {{ page.subtitle | strip_html }}
-    {% endif %}
+    {% comment %} {% if page.layout == 'default' %} {% endcomment %}
+      {{ site.name }} &vert; {{ site.place }}
+    {% comment %} {% else %} {% endcomment %}
+      {% comment %} {{ page.subtitle | strip_html }} {% endcomment %}
+    {% comment %} {% endif %} {% endcomment %}
     ">
     {% if page.layout == 'post' %}
       <meta name="twitter:card" content="summary_large_image">

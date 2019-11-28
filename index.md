@@ -28,7 +28,7 @@ elsewhere:
 - name: "Pinboard"
   url: "https://pinboard.in/u:zool/"
 - name: "Letterboxd"
-  url: "https://letterboxd.com/zool_/"
+  url: "https://letterboxd.com/mrzool/"
 - name: "Goodreads"
   url: "http://www.goodreads.com/mrzool" 
 - name: "Instapaper"

@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Mattia Tezzele"
-subtitle: "design / development"
+# subtitle: "design / development"
 email: "info@mrzool.cc"
 place: "Berlin"
 

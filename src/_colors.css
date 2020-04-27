@@ -9,6 +9,17 @@ a:hover { color: var(--gray); }
 
 blockquote { color: var(--lightgray); }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--white);
+    background-color: var(--black);
+  }
+
+  a { color: var(--white); }
+  a:visited { color: var(--white); }
+  a:hover { color: var(--gray); }
+}
+
 :root {
   --black: #1a110f;
   --white: #FFFFFF;

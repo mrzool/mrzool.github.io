@@ -40,8 +40,3 @@
   --border-width: 2px;
   --border-radius: 3px;
 }
-
-a { border-bottom: solid var(--black) 1px; }
-a:hover { border-bottom: solid var(--gray) 1px; }
-
-pre { border-left: 3px solid var(--gray); }

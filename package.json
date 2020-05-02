@@ -29,11 +29,11 @@
   },
   "scripts": {
     "prestart": "npm run clean",
-    "start": "parallelshell -v 'npm run build:css' 'npm run build:html' 'npm run server'",
-    "build:css": "watch 'node css.js' src/",
+    "start": "./node_modules/.bin/npm-run-all -p build:* server",
+    "build:css": "./node_modules/.bin/watch -f 'src/*.css' -r './node_modules/.bin/postcss src/s.css --use postcss-import autoprefixer postcss-conditionals postcss-custom-media -o css/s.css'",
     "build:html": "bundle exec jekyll build --watch --incremental",
     "minify:css": "uncss -H _site/ -C _site/css/ _site/**/*.html | cssnano > css/s.min.css",
     "clean": "rm -rf _site",
-    "server": "browser-sync start --no-open --files '_site/css/s.css, _site/**/*.html' --server _site"
+    "server": "./node_modules/.bin/browser-sync start --no-open --files '_site/css/s.css, _site/**/*.html' --server _site"
   }
 }

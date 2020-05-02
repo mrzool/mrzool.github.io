@@ -6,6 +6,7 @@ body {
 a { color: var(--black); }
 a:visited { color: var(--black); }
 a:hover { color: var(--gray); }
+a { border-bottom: solid var(--black) 1px; }
 
 blockquote { color: var(--lightgray); }
 

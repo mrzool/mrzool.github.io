@@ -20,7 +20,6 @@ twitter_username: mrzool_
 #   input: GFM
 #   syntax_highlighter: rouge
 #   parse_block_html: true
-gems:
-  - jekyll-feed
 plugins:
   - jekyll-sitemap
+  - jekyll-feed

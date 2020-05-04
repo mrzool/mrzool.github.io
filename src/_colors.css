@@ -13,11 +13,11 @@ blockquote { color: var(--lightgray); }
 @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--black);
-    color: var(--olive);
+    color: var(--lightgray);
   }
-  a { color: var(--olive); }
-  a { border-bottom: solid var(--olive) 1px; }
-  a:visited { color: var(--olive); }
+  a { color: var(--lightgray); }
+  a { border-bottom: solid var(--lightgray) 1px; }
+  a:visited { color: var(--lightgray); }
   a:hover { color: var(--gray); }
   a:hover { border-bottom: solid var(--gray) 1px; }
 }
@@ -31,5 +31,4 @@ pre { border-left: 3px solid var(--gray); }
   --lightgray: #7D7E7A;
   --blue: #0074D9;
   --gray: #aab1b4;
-  --olive: #3D9970;
 }

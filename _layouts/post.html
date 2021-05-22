@@ -6,10 +6,6 @@
       <a class="border-none block mb4" href="/">&larr; Back</a>
       <article>
         <h1 class="mb4 normal border px2 py3"> {{ page.title }} </h1>
-        {% comment %} <time class="h5 inline-block mt1 mr2 normal"> {{ page.date | date: "%B %e, %Y" }} by <a href="/" title="Homepage">{{ site.author }}</a> </time> {% endcomment %}
-        {% comment %} <a class="btn btn-outline h6 border normal blue" href="https://twitter.com/intent/tweet?text={{ page.title }}&url=http://mrzool.cc{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"> {% endcomment %}
-        {% comment %}   <span>Tweet</span> {% endcomment %}
-        {% comment %} </a> {% endcomment %}
         <h3 class="h4 italic mt3 mb4 normal align-right"> {{ page.subtitle }} </h3>
         {{ content }}
       </article>

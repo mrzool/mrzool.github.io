@@ -14,18 +14,18 @@
     "email": "info@mrzool.cc"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "browser-sync": "^2.24.4",
-    "cli-watch": "^1.0.3",
-    "node-minify": "^3.6.0",
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.27.10",
+    "cli-watch": "^1.0.7",
+    "node-minify": "^1.2.1",
     "npm-run-all": "^4.1.5",
-    "postcss": "0.18.0",
-    "postcss-browser-reporter": "^0.6.0",
+    "postcss": "^7.0.36",
+    "postcss-browser-reporter": "^0.4.0",
     "postcss-cli": "^7.1.1",
     "postcss-conditionals": "^2.1.0",
-    "postcss-css-variables": "^0.18.0",
-    "postcss-custom-media": "^8.0.2",
-    "postcss-import": "^14.1.0"
+    "postcss-css-variables": "^0.5.0",
+    "postcss-custom-media": "^5.0.0",
+    "postcss-import": "^7.0.0"
   },
   "scripts": {
     "prestart": "npm run clean",

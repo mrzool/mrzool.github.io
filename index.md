@@ -31,6 +31,8 @@ elsewhere:
   url: "https://letterboxd.com/mrzool/"
 - name: "Goodreads"
   url: "http://www.goodreads.com/mrzool" 
-- name: "Instapaper"
-  url: "https://www.instapaper.com/p/mrzool"
+# - name: "Instapaper"
+#   url: "https://www.instapaper.com/p/mrzool"
+- name: "Steam"
+  url: "https://steamcommunity.com/id/mrzool_/"
 ---

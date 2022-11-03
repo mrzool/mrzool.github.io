@@ -34,5 +34,5 @@ elsewhere:
 # - name: "Instapaper"
 #   url: "https://www.instapaper.com/p/mrzool"
 - name: "Steam"
-  url: "https://steamcommunity.com/id/mrzool_/"
+  url: "https://steamcommunity.com/id/medit4tive/"
 ---

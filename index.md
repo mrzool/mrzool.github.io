@@ -35,6 +35,4 @@ elsewhere:
   url: "http://www.goodreads.com/mrzool" 
 # - name: "Instapaper"
 #   url: "https://www.instapaper.com/p/mrzool"
-- name: "Steam"
-  url: "https://steamcommunity.com/id/medit4tive/"
 ---

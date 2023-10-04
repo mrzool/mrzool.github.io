@@ -32,9 +32,9 @@ elsewhere:
 - name: "Hacker News"
   url: "https://news.ycombinator.com/user?id=mrzool"
 - name: "Goodreads"
-  url: "http://www.goodreads.com/mrzool" 
-- name: "Mastodon"
-  url: "https://mastodon.online/@mrzool" 
+  url: "http://www.goodreads.com/mrzool"
+- name: "StackExchange"
+  url: "https://stackexchange.com/users/3697302/mrzool"
 # - name: "Instapaper"
 #   url: "https://www.instapaper.com/p/mrzool"
 ---

@@ -5,47 +5,20 @@
 
     <main class="px3 py3 mb4 max-width-4">
 
-        <header class="max-width-1 px2 py2 mb4 border">
-          <h1 class="h3 normal">{{ page.title }}</h1>
-          {% comment %} <h2 class="h4 normal"><i>{{ page.subtitle }}</i></h2> {% endcomment %}
-          <p>{{ page.email }}</p>
-          <p>{{ page.place }}</p>
-        </header>
+      <header class="max-width-1 px2 py2 mb4 border">
+        <h1 class="h3 normal">{{ page.title }}</h1>
+        {% comment %} <h2 class="h4 normal"><i>{{ page.subtitle }}</i></h2> {% endcomment %}
+        <p>{{ page.email }}</p>
+        <p>{{ page.place }}</p>
+      </header>
 
-      <div class="clearfix mxn2">
-
-        <div class="sm-col sm-col-6 md-col-4 px2 py2">
-          <h3 class="normal mt1">Projects</h3>
-          {% for project in page.projects %}
-            <div>
-              <a href="{{ project.url }}">{{ project.name }}</a>
-              <p class="h5 italic m0 mb2">{{ project.description }}</p>
-            </div>
+      <div class="px2 py2">
+        <h3 class="normal mt1">Elsewhere</h3>
+        <div class="clearfix max-width-1">
+          {% for account in page.elsewhere %}
+            <div class="col col-5 py1"><a href="{{ account.url }}" rel="me">{{ account.name }}</a></div>
           {% endfor %}
-          <p class="h6 mt1 gray">See more on <a href="http://github.com/mrzool">GitHub</a></p>
         </div>
-
-        <div class="sm-col sm-col-6 md-col-4 px2 py2">
-            <h3 class="normal mt1">Writing</h3>
-            <ul>
-              {% for post in site.posts %}
-                {% if post.writing %}
-                  <li class="mb1"><a href="{{ post.url }}" title="{{ post.subtitle | strip_html }}">{{ post.title }}</a></li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-            <p class="h6 mt2 gray">Subscribe to the <a href="/feed.xml">RSS feed</a>
-        </div>
-
-        <div class="sm-col sm-col-12 md-col-4 px2 py2">
-          <h3 class="normal mt1">Elsewhere</h3>
-          <div class="clearfix max-width-1">
-            {% for account in page.elsewhere %}
-              <div class="col col-5 py1"><a href="{{ account.url }}" rel="me">{{ account.name }}</a></div>
-            {% endfor %}
-          </div>
-        </div>
-
       </div>
 
     </main>

@@ -12,14 +12,14 @@
         <p>{{ page.place }}</p>
       </header>
 
-      <div class="px2 py2">
+      <main>
         <h3 class="normal mt1">Elsewhere</h3>
         <div class="clearfix max-width-1">
           {% for account in page.elsewhere %}
             <div class="col col-5 py1"><a href="{{ account.url }}" rel="me">{{ account.name }}</a></div>
           {% endfor %}
         </div>
-      </div>
+      </main>
 
     </main>
 

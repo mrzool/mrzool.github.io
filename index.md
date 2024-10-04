@@ -31,6 +31,8 @@ elsewhere:
   url: "https://news.ycombinator.com/user?id=mrzool"
 - name: "Steam"
   url: "https://steamcommunity.com/id/medit4tive/"
+- name: "Are.na"
+  url: "https://www.are.na/mt-tetzel"
 # - name: "StackExchange"
 #  url: "https://stackexchange.com/users/3697302/mrzool"
 # - name: "Instapaper"

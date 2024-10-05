@@ -32,7 +32,7 @@ elsewhere:
 - name: "Steam"
   url: "https://steamcommunity.com/id/medit4tive/"
 - name: "Are.na"
-  url: "https://www.are.na/mt-tetzel"
+  url: "https://www.are.na/medit4tive"
 # - name: "StackExchange"
 #  url: "https://stackexchange.com/users/3697302/mrzool"
 # - name: "Instapaper"

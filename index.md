@@ -22,7 +22,7 @@ elsewhere:
 - name: "GitHub"
   url: "http://github.com/mrzool"
 - name: "Are.na"
-  url: "https://www.are.na/medit4tive"
+  url: "https://www.are.na/mrzool"
 - name: "Letterboxd"
   url: "https://letterboxd.com/mrzool/"
 - name: "Mastodon"
